@@ -8,12 +8,12 @@
 
 ---
 
-## 先看结论：它现在能用到什么程度
+## 目前启动器能用到什么程度
 
 - 一个 66 个 jar 的整包（性能 mod、QoL、内容 mod 混着放）能正常启动、进存档、存盘、退出码 0。
 - 缺 refmap 的 Fabric mod（YACL 这类）靠内置的 companion 自动补 refmap，不用改 jar。
 - BetterEnd / BetterNether 的斧头去皮（bclib 那套）能用。
-- 有 6 个 mod 在 1.21.1 上就是装不上，原因都查清了：见 [docs/limits.md](docs/limits.md)。
+- 有 6 个 mod 在 1.21.1 上加载失败，原因都查清了：见 [docs/limits.md](docs/limits.md)。
 
 ## 三步开始
 
@@ -33,7 +33,7 @@ python superloader.py launch
 
 游戏会一直跑到你退出；退出后自动生成报告。
 
-**模组放哪？** `你的目录\instances\1.21.1\mods\`。把 jar 直接丢进去就行，不用管加载器——Fabric 的、NeoForge 的、两个都支持的，都能放。
+**模组放在？** `你的目录\instances\1.21.1\mods\`。把 jar 直接丢进去就行，不用管加载器——Fabric 的、NeoForge 的、两个都支持的，都能放。
 
 ## 崩了怎么办
 
