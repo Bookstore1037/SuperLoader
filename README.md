@@ -136,6 +136,6 @@ settings.json           你的本地配置（已 gitignore）
 ## 给维护者
 
 - **换 MC / NeoForge 版本**：改 `core/paths.py` 的 `MC_VERSION` / `NF_VERSION`，`superloader.py` 的 `MOD_SLUGS` 走 Modrinth 最新匹配所以不用改；companion 的 `neo_version` 在它自己的 `gradle.properties` 里。
-- **companion 怎么构建**：独立 Gradle 项目（NeoForge MDK + JDK 21），`gradlew.bat build --offline`，产物手动复制进实例 `mods/`。它不在本仓库里。
+- **companion 怎么构建**：独立仓库 [SuperLoader-Companion](https://github.com/Bookstore1037/SuperLoader-Companion)（NeoForge MDK + JDK 21），`gradlew.bat build --offline`，产物手动复制进实例 `mods/`。
 - **历史**：项目决策与踩坑记录在 [docs/handoff-archive.md](docs/handoff-archive.md)（2026-11 归档，含 39 条决策、每个 L2 案例的字节码证据）。
 - **评测台**：`tools/compat_sweep.py` 可以单 mod 隔离跑并出 `compat.json`；日常用不到，只在归因时需要。
