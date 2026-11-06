@@ -1,0 +1,18 @@
+# runtime data — regenerated locally, never committed
+.cache/
+logs/
+__pycache__/
+*.pyc
+*.pyo
+
+# machine-specific config (copy settings.example.json to settings.json)
+settings.json
+
+# captured crash artifacts (large, and only needed while filing reports)
+compat/issues/logs/
+compat/issues/uploads/
+
+# build leftovers
+build/
+dist/
+*.egg-info/

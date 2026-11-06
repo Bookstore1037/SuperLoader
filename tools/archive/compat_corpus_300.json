@@ -1,0 +1,4609 @@
+[
+ {
+  "slug": "fabric-api",
+  "title": "Fabric API",
+  "downloads": 295694437,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.116.17+1.21.1",
+  "categories": [
+   "fabric",
+   "library"
+  ]
+ },
+ {
+  "slug": "sodium",
+  "title": "Sodium",
+  "downloads": 258929242,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "mc1.21.1-0.8.13-fabric",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "optimization",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "iris",
+  "title": "Iris Shaders",
+  "downloads": 200167674,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.8.14-beta.1+1.21.1-fabric",
+  "categories": [
+   "decoration",
+   "fabric",
+   "neoforge",
+   "optimization",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "entityculling",
+  "title": "Entity Culling",
+  "downloads": 194418668,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.11.3",
+  "categories": [
+   "babric",
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "cloth-config",
+  "title": "Cloth Config API",
+  "downloads": 189907387,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "15.0.140+fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "ferrite-core",
+  "title": "FerriteCore",
+  "downloads": 170975335,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "7.0.3-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "modmenu",
+  "title": "Mod Menu",
+  "downloads": 164976763,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "11.0.5",
+  "categories": [
+   "fabric",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "lithium",
+  "title": "Lithium",
+  "downloads": 146630441,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "mc1.21.1-0.15.4-fabric",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "optimization",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "immediatelyfast",
+  "title": "ImmediatelyFast",
+  "downloads": 141299404,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.6.15+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "yacl",
+  "title": "YetAnotherConfigLib (YACL)",
+  "downloads": 138638186,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.8.2+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "management",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "fabric-language-kotlin",
+  "title": "Fabric Language Kotlin",
+  "downloads": 134987064,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.14.2+kotlin.2.4.21",
+  "categories": [
+   "fabric",
+   "library"
+  ]
+ },
+ {
+  "slug": "xaeros-minimap",
+  "title": "Xaero's Minimap",
+  "downloads": 123728848,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-26.6.0",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "transportation",
+   "utility"
+  ]
+ },
+ {
+  "slug": "entitytexturefeatures",
+  "title": "[ETF] Entity Texture Features",
+  "downloads": 113970930,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "7.2.7-fabric-1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "architectury-api",
+  "title": "Architectury API",
+  "downloads": 110641122,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "13.0.11+fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "sodium-extra",
+  "title": "Sodium Extra",
+  "downloads": 109152189,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "mc1.21.1-0.9.5+fabric",
+  "categories": [
+   "cursed",
+   "fabric",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "xaeros-world-map",
+  "title": "Xaero's World Map",
+  "downloads": 108612624,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-1.47.0",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "transportation",
+   "utility"
+  ]
+ },
+ {
+  "slug": "entity-model-features",
+  "title": "[EMF] Entity Model Features",
+  "downloads": 108269456,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.3.12-fabric-1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "mobs",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "veinminer",
+  "title": "VeinMiner",
+  "downloads": 106689786,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.11.2",
+  "categories": [
+   "bukkit",
+   "cursed",
+   "datapack",
+   "equipment",
+   "fabric",
+   "folia",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "paper",
+   "purpur",
+   "quilt",
+   "spigot",
+   "technology",
+   "utility"
+  ]
+ },
+ {
+  "slug": "appleskin",
+  "title": "AppleSkin",
+  "downloads": 101313977,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.6+mc1.21",
+  "categories": [
+   "fabric",
+   "food",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "not-enough-animations",
+  "title": "Not Enough Animations",
+  "downloads": 96719382,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.12.7",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "reeses-sodium-options",
+  "title": "Reese's Sodium Options",
+  "downloads": 90489316,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "mc1.21.1-2.2.4+fabric",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "jei",
+  "title": "Just Enough Items (JEI)",
+  "downloads": 88142721,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "19.70.0.469",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "3dskinlayers",
+  "title": "3D Skin Layers",
+  "downloads": 87122650,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.11.4",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "modernfix",
+  "title": "ModernFix",
+  "downloads": 85767791,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "5.25.1+mc1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "continuity",
+  "title": "Continuity",
+  "downloads": 81670590,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.0+1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "geckolib",
+  "title": "Geckolib",
+  "downloads": 79023185,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.9.3",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "simple-voice-chat",
+  "title": "Simple Voice Chat",
+  "downloads": 78920474,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-2.6.27",
+  "categories": [
+   "adventure",
+   "bukkit",
+   "bungeecord",
+   "fabric",
+   "folia",
+   "forge",
+   "neoforge",
+   "paper",
+   "purpur",
+   "quilt",
+   "social",
+   "spigot",
+   "utility",
+   "velocity",
+   "waterfall"
+  ]
+ },
+ {
+  "slug": "veinminer-client",
+  "title": "VeinMiner Hotkey",
+  "downloads": 78499577,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.11.2",
+  "categories": [
+   "equipment",
+   "fabric",
+   "game-mechanics",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "placeholder-api",
+  "title": "Text Placeholder API",
+  "downloads": 77903506,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "2.4.2+1.21",
+  "categories": [
+   "fabric",
+   "library",
+   "management",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "moreculling",
+  "title": "More Culling",
+  "downloads": 76023707,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.0.11",
+  "categories": [
+   "fabric",
+   "library",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "jade",
+  "title": "Jade 🔍",
+  "downloads": 75616317,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "15.10.6+fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "zoomify",
+  "title": "Zoomify (Zoom)",
+  "downloads": 74414182,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "2.15.2+1.21.1",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "dynamic-fps",
+  "title": "Dynamic FPS",
+  "downloads": 73747151,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.11.4",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "forge-config-api-port",
+  "title": "Forge Config API Port",
+  "downloads": 73240861,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.6-1.21.1-Fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "collective",
+  "title": "Collective",
+  "downloads": 72746542,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-8.76-fabric+forge+neo",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "fancymenu",
+  "title": "FancyMenu",
+  "downloads": 71850591,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.9.14-1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "puzzles-lib",
+  "title": "Puzzles Lib",
+  "downloads": 68316643,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.66",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "konkrete",
+  "title": "Konkrete",
+  "downloads": 67250575,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.9.9-1.21-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "mouse-tweaks",
+  "title": "Mouse Tweaks",
+  "downloads": 66262579,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-2.26-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "modloader",
+   "neoforge",
+   "storage",
+   "utility"
+  ]
+ },
+ {
+  "slug": "balm",
+  "title": "Balm",
+  "downloads": 65865326,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.0.67+fabric-1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "lambdynamiclights",
+  "title": "LambDynamicLights - Dynamic Lights",
+  "downloads": 65705849,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.8.11+1.21.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "no-chat-reports",
+  "title": "No Chat Reports",
+  "downloads": 63584530,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "Fabric-1.21.1-v2.9.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "quilt",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "sound-physics-remastered",
+  "title": "Sound Physics Remastered",
+  "downloads": 58073156,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-1.5.2",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "creativecore",
+  "title": "CreativeCore",
+  "downloads": 57087993,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.13.48",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "melody",
+  "title": "Melody",
+  "downloads": 54452088,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.0.10-1.21-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "chat-heads",
+  "title": "Chat Heads",
+  "downloads": 54233250,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.15.7",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "social"
+  ]
+ },
+ {
+  "slug": "owo-lib",
+  "title": "oωo (owo-lib)",
+  "downloads": 52294226,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.13.0-alpha.15+1.21",
+  "categories": [
+   "fabric",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "bookshelf-lib",
+  "title": "Bookshelf",
+  "downloads": 50141195,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.81",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "essential",
+  "title": "Essential Mod",
+  "downloads": 50105869,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.5.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "badoptimizations",
+  "title": "BadOptimizations",
+  "downloads": 49462178,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.4.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization"
+  ]
+ },
+ {
+  "slug": "indium",
+  "title": "Indium",
+  "downloads": 46379007,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.0.35+mc1.21",
+  "categories": [
+   "fabric",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "krypton",
+  "title": "Krypton",
+  "downloads": 46229628,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.2.8",
+  "categories": [
+   "fabric",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "fzzy-config",
+  "title": "Fzzy Config",
+  "downloads": 45839035,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.7.7+1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "library",
+   "management",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "language-reload",
+  "title": "Language Reload",
+  "downloads": 45183642,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.7.6+1.21.1",
+  "categories": [
+   "fabric",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "moonlight",
+  "title": "Moonlight Lib",
+  "downloads": 44477108,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-3.7.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "clumps",
+  "title": "Clumps",
+  "downloads": 44158904,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "19.0.0.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "storage",
+   "utility"
+  ]
+ },
+ {
+  "slug": "terrablender",
+  "title": "TerraBlender",
+  "downloads": 44130968,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.1.0.8",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "searchables",
+  "title": "Searchables",
+  "downloads": 43783936,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.0.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "controlling",
+  "title": "Controlling",
+  "downloads": 43568449,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "19.0.5",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "inventory-profiles-next",
+  "title": "Inventory Profiles Next",
+  "downloads": 43219206,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-2.2.6",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "storage",
+   "utility"
+  ]
+ },
+ {
+  "slug": "c2me-fabric",
+  "title": "Concurrent Chunk Management Engine (Fabric)",
+  "downloads": 42874259,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.4.0-alpha.0.30+1.21.1",
+  "categories": [
+   "fabric",
+   "optimization"
+  ]
+ },
+ {
+  "slug": "shulkerboxtooltip",
+  "title": "Shulker Box Tooltip",
+  "downloads": 42465750,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "5.1.9+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "storage",
+   "utility"
+  ]
+ },
+ {
+  "slug": "presence-footsteps",
+  "title": "Presence Footsteps",
+  "downloads": 42277682,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.11.2+1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "liteloader",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "ambientsounds",
+  "title": "AmbientSounds",
+  "downloads": 42262134,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "6.3.11",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "enchantment-descriptions",
+  "title": "Enchantment Descriptions",
+  "downloads": 40965850,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.11",
+  "categories": [
+   "fabric",
+   "forge",
+   "magic",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "malilib",
+  "title": "MaLiLib",
+  "downloads": 40373141,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.21.10",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "liteloader",
+   "ornithe",
+   "rift",
+   "utility"
+  ]
+ },
+ {
+  "slug": "debugify",
+  "title": "Debugify",
+  "downloads": 40207856,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.21.1+1.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "biomes-o-plenty",
+  "title": "Biomes O' Plenty",
+  "downloads": 39856341,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.0.14",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "distanthorizons",
+  "title": "Distant Horizons",
+  "downloads": 39117992,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.3.3-1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "iceberg",
+  "title": "Iceberg",
+  "downloads": 38837585,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "resourceful-lib",
+  "title": "Resourceful Lib",
+  "downloads": 38229302,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.12",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "patchouli",
+  "title": "Patchouli",
+  "downloads": 37782742,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-93-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "cobblemon",
+  "title": "Cobblemon",
+  "downloads": 37576862,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.8.4F",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "mobs",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "yungs-api",
+  "title": "YUNG's API",
+  "downloads": 37516437,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-5.1.9",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "libipn",
+  "title": "libIPN",
+  "downloads": 37462330,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-6.6.3",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "betterf3",
+  "title": "BetterF3",
+  "downloads": 37195871,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "11.0.3",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "supermartijn642s-config-lib",
+  "title": "SuperMartijn642's Config Lib",
+  "downloads": 34878103,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.1.8-fabric-mc1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "cherished-worlds",
+  "title": "Cherished Worlds",
+  "downloads": 34821496,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "10.1.1+1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "modelfix",
+  "title": "Model Gap Fix",
+  "downloads": 34277673,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-1.6",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "coroutil",
+  "title": "CoroUtil",
+  "downloads": 33071391,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-1.3.8",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "packet-fixer",
+  "title": "Packet Fixer",
+  "downloads": 32127059,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.3.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "midnightlib",
+  "title": "MidnightLib",
+  "downloads": 31763558,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.10.0+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "emi",
+  "title": "EMI",
+  "downloads": 31657113,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.1.24+1.21.1+fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "visuality",
+  "title": "Visuality",
+  "downloads": 31557982,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.7.7+1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "morechathistory",
+  "title": "More Chat History",
+  "downloads": 30839328,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.3.1",
+  "categories": [
+   "fabric",
+   "quilt",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "euphoria-patches",
+  "title": "Euphoria Patches",
+  "downloads": 30675975,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.10.5-r5.9.3-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "technology",
+   "utility"
+  ]
+ },
+ {
+  "slug": "cubes-without-borders",
+  "title": "Cubes Without Borders",
+  "downloads": 30249569,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "5.0.0+1.21.0.fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "supplementaries",
+  "title": "Supplementaries",
+  "downloads": 29898370,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-4.0.2",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "storage",
+   "utility"
+  ]
+ },
+ {
+  "slug": "rrls",
+  "title": "Remove Reloading Screen",
+  "downloads": 29333023,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "5.0.11+mc1.21.1-fabric",
+  "categories": [
+   "cursed",
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "playeranimator",
+  "title": "playerAnimator",
+  "downloads": 29072819,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.0.4+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "litematica",
+  "title": "Litematica",
+  "downloads": 28990071,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.19.61",
+  "categories": [
+   "fabric",
+   "forge",
+   "liteloader",
+   "ornithe",
+   "rift",
+   "utility"
+  ]
+ },
+ {
+  "slug": "fallingleaves",
+  "title": "Falling Leaves",
+  "downloads": 28633523,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.17.1+1.21.1",
+  "categories": [
+   "decoration",
+   "fabric"
+  ]
+ },
+ {
+  "slug": "carry-on",
+  "title": "Carry On",
+  "downloads": 28607251,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.2.6",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "storage",
+   "transportation",
+   "utility"
+  ]
+ },
+ {
+  "slug": "waystones",
+  "title": "Waystones",
+  "downloads": 28505698,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.46+fabric-1.21.1",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "magic",
+   "neoforge",
+   "social",
+   "transportation",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "optigui",
+  "title": "OptiGUI",
+  "downloads": 28386639,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "2.3.0-beta.9+1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "better-advancements",
+  "title": "Better Advancements",
+  "downloads": 28354668,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.4.3.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "handcrafted",
+  "title": "Handcrafted",
+  "downloads": 28275819,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.0.3",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "natures-compass",
+  "title": "Nature's Compass",
+  "downloads": 28122657,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-2.6.0-fabric",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "technology",
+   "utility",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "puzzle",
+  "title": "Puzzle",
+  "downloads": 28071358,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.3.0+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "rei",
+  "title": "Roughly Enough Items (REI)",
+  "downloads": 27867856,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "16.0.799+fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "rift"
+  ]
+ },
+ {
+  "slug": "visual-workbench",
+  "title": "Visual Workbench",
+  "downloads": 27736209,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "resourceful-config",
+  "title": "Resourceful Config",
+  "downloads": 27563521,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.11",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "e4mc",
+  "title": "e4mc",
+  "downloads": 27537002,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "6.2.3-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "polymorph",
+  "title": "Polymorph",
+  "downloads": 27091717,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.2.0+1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "fast-ip-ping",
+  "title": "Fast IP Ping",
+  "downloads": 26507048,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v1.0.12-mc1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization"
+  ]
+ },
+ {
+  "slug": "cit-resewn",
+  "title": "CIT Resewn",
+  "downloads": 26428610,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.2.2+1.21",
+  "categories": [
+   "fabric",
+   "utility"
+  ]
+ },
+ {
+  "slug": "lithostitched",
+  "title": "Lithostitched",
+  "downloads": 26398224,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.8.1-fabric-21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "utility",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "netherportalfix",
+  "title": "NetherPortalFix",
+  "downloads": 26300255,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.3+fabric-1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "ebe",
+  "title": "Enhanced Block Entities",
+  "downloads": 26219635,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.10.2+1.21",
+  "categories": [
+   "fabric",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "controlify",
+  "title": "Controlify (Controller support)",
+  "downloads": 26203300,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.1+lts",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "lmd",
+  "title": "Let Me Despawn",
+  "downloads": 26182798,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.26.11.1",
+  "categories": [
+   "bukkit",
+   "fabric",
+   "folia",
+   "forge",
+   "neoforge",
+   "optimization",
+   "paper",
+   "purpur",
+   "quilt",
+   "spigot"
+  ]
+ },
+ {
+  "slug": "sodium-shadowy-path-blocks",
+  "title": "Sodium Shadowy Path Blocks (SSPB)",
+  "downloads": 26075601,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.1.0-fabric",
+  "categories": [
+   "decoration",
+   "fabric",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "better-mount-hud",
+  "title": "Better Mount HUD",
+  "downloads": 26027931,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.2.4",
+  "categories": [
+   "fabric",
+   "utility"
+  ]
+ },
+ {
+  "slug": "glitchcore",
+  "title": "GlitchCore",
+  "downloads": 25967163,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.1.0.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "trinkets",
+  "title": "Trinkets",
+  "downloads": 25698725,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "3.10.0",
+  "categories": [
+   "equipment",
+   "fabric",
+   "library",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "fastquit",
+  "title": "FastQuit",
+  "downloads": 25654196,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "3.0.0+1.20.6",
+  "categories": [
+   "fabric",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "customskinloader",
+  "title": "CustomSkinLoader",
+  "downloads": 25527141,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "15.1-Universal",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "terralith",
+  "title": "Terralith",
+  "downloads": 25388894,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.6.2",
+  "categories": [
+   "datapack",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "capes",
+  "title": "Capes",
+  "downloads": 25354870,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.5.4+1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "athena-ctm",
+  "title": "Athena",
+  "downloads": 25340313,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.0.6",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "yosbr",
+  "title": "Your Options Shall Be Respected (YOSBR)",
+  "downloads": 25168648,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.1.2",
+  "categories": [
+   "fabric",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "chatanimation",
+  "title": "Chat Animation [Smooth Chat]",
+  "downloads": 25161265,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.5+fabric-1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "physicsmod",
+  "title": "Physics Mod",
+  "downloads": 24986497,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.33",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "spark",
+  "title": "spark",
+  "downloads": 24960029,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.10.109-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "comforts",
+  "title": "Comforts",
+  "downloads": 24824596,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "9.0.5+1.21.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "lootr",
+  "title": "Lootr",
+  "downloads": 24695103,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-1.11.38.127",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "open-parties-and-claims",
+  "title": "Open Parties and Claims",
+  "downloads": 24569089,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-0.33.0",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yungs-better-nether-fortresses",
+  "title": "YUNG's Better Nether Fortresses",
+  "downloads": 24476904,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-3.1.5",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "chipped",
+  "title": "Chipped",
+  "downloads": 24453978,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.0.2",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "rhino",
+  "title": "Rhino",
+  "downloads": 24304929,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2101.2.7-build.85+Rhino-1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "freecam",
+  "title": "Freecam",
+  "downloads": 24106368,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.0+mc1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "drippy-loading-screen",
+  "title": "Drippy Loading Screen",
+  "downloads": 23990228,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.1.5-1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "attributefix",
+  "title": "AttributeFix",
+  "downloads": 23754839,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.3",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "kiwi",
+  "title": "Kiwi 🥝",
+  "downloads": 23685443,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "15.8.8+fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "yungs-better-dungeons",
+  "title": "YUNG's Better Dungeons",
+  "downloads": 23646051,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-5.1.4",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "modern-ui",
+  "title": "Modern UI",
+  "downloads": 23534958,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.13.0.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yungs-better-ocean-monuments",
+  "title": "YUNG's Better Ocean Monuments",
+  "downloads": 23466679,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-4.1.2",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "almanac",
+  "title": "Almanac",
+  "downloads": 23446038,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.26.11.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "particle-rain",
+  "title": "Particle Rain",
+  "downloads": 23445176,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v4.0.2+1.21.1-fabric",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "better-third-person",
+  "title": "Better Third Person",
+  "downloads": 22958125,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.9.0",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "dungeons-and-taverns",
+  "title": "Dungeons and Taverns",
+  "downloads": 22612869,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v4.4.4+mod",
+  "categories": [
+   "adventure",
+   "datapack",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "mobs",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "dynamiccrosshair",
+  "title": "Dynamic Crosshair",
+  "downloads": 22598862,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "9.11+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "crash-assistant",
+  "title": "Crash Assistant",
+  "downloads": 22596578,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.11.12",
+  "categories": [
+   "fabric",
+   "forge",
+   "legacy-fabric",
+   "management",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "mru",
+  "title": "MRU",
+  "downloads": 22411643,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.0.41+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "bobby",
+  "title": "Bobby",
+  "downloads": 22341003,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "5.2.4.1+mc1.21",
+  "categories": [
+   "fabric"
+  ]
+ },
+ {
+  "slug": "travelersbackpack",
+  "title": "Traveler's Backpack",
+  "downloads": 22309814,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-10.1.40",
+  "categories": [
+   "adventure",
+   "decoration",
+   "equipment",
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "storage"
+  ]
+ },
+ {
+  "slug": "animatica",
+  "title": "Animatica",
+  "downloads": 21999807,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.6.1+1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yungs-better-mineshafts",
+  "title": "YUNG's Better Mineshafts",
+  "downloads": 21839926,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-5.1.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "sodium-options-api",
+  "title": "Sodium Options API",
+  "downloads": 21761937,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-1.0.10",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "toms-storage",
+  "title": "Tom's Simple Storage Mod",
+  "downloads": 21635538,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-2.4.2-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "storage"
+  ]
+ },
+ {
+  "slug": "yungs-better-jungle-temples",
+  "title": "YUNG's Better Jungle Temples",
+  "downloads": 21603252,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-3.1.2",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "yungs-better-end-island",
+  "title": "YUNG's Better End Island",
+  "downloads": 21179934,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-3.1.2",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "better-stats",
+  "title": "Better Statistics Screen",
+  "downloads": 20980110,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.13.9+fabric-1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "amendments",
+  "title": "Amendments",
+  "downloads": 20784553,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-2.2.7",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "chunky",
+  "title": "Chunky",
+  "downloads": 20781036,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.4.23",
+  "categories": [
+   "bukkit",
+   "fabric",
+   "folia",
+   "forge",
+   "neoforge",
+   "optimization",
+   "paper",
+   "spigot",
+   "sponge",
+   "utility",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "mixintrace",
+  "title": "MixinTrace",
+  "downloads": 20758371,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.1.1+1.17",
+  "categories": [
+   "fabric",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "enhancedvisuals",
+  "title": "EnhancedVisuals",
+  "downloads": 20682115,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.8.34",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "yeetus-experimentus",
+  "title": "Yeetus Experimentus",
+  "downloads": 20654600,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "87.0.0",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "sodium-dynamic-lights",
+  "title": "Sodium Dynamic Lights",
+  "downloads": 20616234,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-1.0.10",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "sound",
+  "title": "Sounds",
+  "downloads": 20524455,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.4.22+lts+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "fabrishot",
+  "title": "Fabrishot",
+  "downloads": 20203589,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.14.1",
+  "categories": [
+   "fabric",
+   "utility"
+  ]
+ },
+ {
+  "slug": "polytone",
+  "title": "Polytone",
+  "downloads": 20195423,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-5.3.4",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "chloride",
+  "title": "(Sodium) Chloride",
+  "downloads": 19816414,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.8.1-FABRIC-1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "replaymod",
+  "title": "ReplayMod",
+  "downloads": 19729159,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.21-2.6.28",
+  "categories": [
+   "fabric",
+   "forge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "supermartijn642s-core-lib",
+  "title": "SuperMartijn642's Core Lib",
+  "downloads": 19728300,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.1.26-fabric-mc1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "cristel-lib",
+  "title": "Cristel Lib",
+  "downloads": 19721025,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-3.1.7",
+  "categories": [
+   "cursed",
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "default-options",
+  "title": "Default Options",
+  "downloads": 19680181,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.8+fabric-1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yungs-better-strongholds",
+  "title": "YUNG's Better Strongholds",
+  "downloads": 19656930,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-5.1.3",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "wavey-capes",
+  "title": "Wavey Capes",
+  "downloads": 19613766,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.11.3",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "servercore",
+  "title": "ServerCore",
+  "downloads": 19581545,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.5.19+1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "cut-through",
+  "title": "Cut Through",
+  "downloads": 19526361,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.0-1.21.1-Fabric",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "particle-core",
+  "title": "Particle Core",
+  "downloads": 19320106,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.3.3+1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "management",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "towns-and-towers",
+  "title": "Towns and Towers",
+  "downloads": 19220972,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.13.11",
+  "categories": [
+   "adventure",
+   "datapack",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "prism-lib",
+  "title": "Prism",
+  "downloads": 19201298,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.0.11",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "bettergrassify",
+  "title": "BetterGrassify",
+  "downloads": 19175565,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.8.7+fabric.1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "paginatedadvancements",
+  "title": "Paginated Advancements & Custom Frames",
+  "downloads": 19083152,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "2.5.1",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yungs-better-witch-huts",
+  "title": "YUNG's Better Witch Huts",
+  "downloads": 18922153,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-4.1.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "advancement-plaques",
+  "title": "Advancement Plaques",
+  "downloads": 18748513,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.6.8",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "main-menu-credits",
+  "title": "Main Menu Credits",
+  "downloads": 18736324,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.2.0",
+  "categories": [
+   "fabric",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "veinminer-enchantment",
+  "title": "VeinMiner Enchantment",
+  "downloads": 18483600,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.11.2",
+  "categories": [
+   "datapack",
+   "equipment",
+   "fabric",
+   "folia",
+   "game-mechanics",
+   "neoforge",
+   "paper",
+   "purpur",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "vmp-fabric",
+  "title": "Very Many Players (Fabric)",
+  "downloads": 18467592,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.2.0+beta.7.172+1.21.1",
+  "categories": [
+   "fabric",
+   "optimization"
+  ]
+ },
+ {
+  "slug": "i18nupdatemod",
+  "title": "I18nUpdateMod",
+  "downloads": 18371413,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.7.0",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "tcdcommons",
+  "title": "TCDCommons API",
+  "downloads": 18214614,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.12.7+fabric-1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "item-highlighter",
+  "title": "Item Highlighter",
+  "downloads": 18180759,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.1.11",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "easy-anvils",
+  "title": "Easy Anvils",
+  "downloads": 18046317,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.0-1.21.1-Fabric",
+  "categories": [
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "invmove",
+  "title": "InvMove",
+  "downloads": 18044750,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.9.3+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "transportation",
+   "utility"
+  ]
+ },
+ {
+  "slug": "tectonic",
+  "title": "Tectonic",
+  "downloads": 18043120,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.28-fabric-21.1",
+  "categories": [
+   "adventure",
+   "datapack",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "shatterbyte-lib",
+  "title": "ShatterLib | OctoLib",
+  "downloads": 17875836,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.6.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "better-combat",
+  "title": "Better Combat",
+  "downloads": 17802760,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.4.0+1.21.1-fabric",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "yungs-better-desert-temples",
+  "title": "YUNG's Better Desert Temples",
+  "downloads": 17754432,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-4.1.5",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "libjf",
+  "title": "LibJF",
+  "downloads": 17739099,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.17.5",
+  "categories": [
+   "fabric",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "tooltipfix",
+  "title": "ToolTipFix",
+  "downloads": 17456576,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.1.1-1.20",
+  "categories": [
+   "fabric",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "farmers-delight-refabricated",
+  "title": "Farmer's Delight Refabricated",
+  "downloads": 17430264,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.21.1-3.3.6",
+  "categories": [
+   "decoration",
+   "equipment",
+   "fabric",
+   "food"
+  ]
+ },
+ {
+  "slug": "pick-up-notifier",
+  "title": "Pick Up Notifier",
+  "downloads": 17031005,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.1-1.21.1-Fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yes-steve-model",
+  "title": "Yes Steve Model",
+  "downloads": 17015390,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.6.5-fabric+mc1.21.1",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "scalablelux",
+  "title": "ScalableLux",
+  "downloads": 16997597,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.3.0-alpha.0.7+1.21.1",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "optimization"
+  ]
+ },
+ {
+  "slug": "cicada",
+  "title": "CICADA",
+  "downloads": 16962332,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.14.3+1.21-1.21.1",
+  "categories": [
+   "fabric",
+   "library"
+  ]
+ },
+ {
+  "slug": "another-furniture",
+  "title": "Another Furniture",
+  "downloads": 16939894,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.0.2",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "notenoughcrashes",
+  "title": "Not Enough Crashes",
+  "downloads": 16737805,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.4.9+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "deeperdarker",
+  "title": "Deeper and Darker",
+  "downloads": 16708327,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.3-plus-b-fabric+1.21",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "mobs",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "globalpacks",
+  "title": "Global Packs",
+  "downloads": 16697585,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.0.6",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yungs-bridges",
+  "title": "YUNG's Bridges",
+  "downloads": 16667216,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-5.1.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "fusion-connected-textures",
+  "title": "Fusion (Connected Textures)",
+  "downloads": 16663483,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.16-fabric-mc1.21",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "justenoughcharacters",
+  "title": "JustEnoughCharacters",
+  "downloads": 16482505,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.5.30",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "what-are-they-up-to",
+  "title": "What Are They Up To (Watut)",
+  "downloads": 16337644,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.0-1.2.7",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "skyboxify",
+  "title": "Skyboxify",
+  "downloads": 16330098,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.4",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "utility"
+  ]
+ },
+ {
+  "slug": "ixeris",
+  "title": "Ixeris",
+  "downloads": 16287370,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.6.11+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "betterend",
+  "title": "BetterEnd",
+  "downloads": 16271197,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "21.0.11",
+  "categories": [
+   "decoration",
+   "equipment",
+   "fabric",
+   "food",
+   "mobs",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "cardinal-components-api",
+  "title": "Cardinal Components API",
+  "downloads": 16255729,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "6.1.3",
+  "categories": [
+   "fabric",
+   "library",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "bisect-mod",
+  "title": "BisectHosting Server Integration Menu",
+  "downloads": 16052122,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.5.4",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "jamlib",
+  "title": "JamLib",
+  "downloads": 16045858,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.6+1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "corgilib",
+  "title": "CorgiLib",
+  "downloads": 16013073,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-5.0.0.10-Fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "eating-animation",
+  "title": "Eating Animation",
+  "downloads": 15927134,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.9.72",
+  "categories": [
+   "fabric",
+   "food"
+  ]
+ },
+ {
+  "slug": "immersive-aircraft",
+  "title": "Immersive Aircraft",
+  "downloads": 15869283,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.7.0+1.21.1",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "technology",
+   "transportation",
+   "utility"
+  ]
+ },
+ {
+  "slug": "journeymap",
+  "title": "JourneyMap",
+  "downloads": 15852491,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-6.0.9+fabric",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "paper",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "accessories",
+  "title": "Accessories",
+  "downloads": 15640212,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.1.0-beta.54+1.21.1",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "durability-tooltip",
+  "title": "Durability Tooltip",
+  "downloads": 15539176,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.2.0-fabric-mc1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "txnilib",
+  "title": "TxniLib",
+  "downloads": 15424134,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-1.0.24",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "ukulib",
+  "title": "ukulib",
+  "downloads": 15392583,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.4.1+1.21",
+  "categories": [
+   "fabric",
+   "library",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "exposure",
+  "title": "Exposure",
+  "downloads": 15233256,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.9.19",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "minigame",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "first-person-model",
+  "title": "First-person Model",
+  "downloads": 15223439,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.7.3",
+  "categories": [
+   "decoration",
+   "equipment",
+   "fabric",
+   "forge",
+   "neoforge",
+   "social"
+  ]
+ },
+ {
+  "slug": "repurposed-structures-fabric",
+  "title": "Repurposed Structures - Fabric",
+  "downloads": 15176193,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "7.5.22+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "imblocker-original",
+  "title": "IMBlocker",
+  "downloads": 15022201,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "5.6.2.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "ping-wheel",
+  "title": "Ping Wheel",
+  "downloads": 15013597,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.12.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "gamma-utils",
+  "title": "Gamma Utils (Fullbright)",
+  "downloads": 14984502,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "2.1.3",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "particular",
+  "title": "Particular ✨",
+  "downloads": 14949740,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.1.2+1.21",
+  "categories": [
+   "decoration",
+   "fabric"
+  ]
+ },
+ {
+  "slug": "nuit",
+  "title": "Nuit",
+  "downloads": 14929278,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "mc1.21.1-1.0.0-beta.6+fabric",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "elytra-slot",
+  "title": "Elytra Slot",
+  "downloads": 14926419,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "9.0.1+1.21.1",
+  "categories": [
+   "equipment",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "transportation"
+  ]
+ },
+ {
+  "slug": "easy-magic",
+  "title": "Easy Magic",
+  "downloads": 14812986,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.4-1.21.1-Fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "necronomicon",
+  "title": "Necronomicon API",
+  "downloads": 14809586,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.6.0+1.21",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "boat-item-view",
+  "title": "Boat Item View",
+  "downloads": 14764891,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-1.21.1-0.0.6-fabric",
+  "categories": [
+   "adventure",
+   "decoration",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "management",
+   "neoforge",
+   "optimization",
+   "transportation",
+   "utility"
+  ]
+ },
+ {
+  "slug": "prickle",
+  "title": "Prickle",
+  "downloads": 14750691,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.11",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "quilt",
+   "storage",
+   "utility"
+  ]
+ },
+ {
+  "slug": "axiom",
+  "title": "Axiom",
+  "downloads": 14671249,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "6.1.5",
+  "categories": [
+   "fabric",
+   "management",
+   "utility"
+  ]
+ },
+ {
+  "slug": "artifacts",
+  "title": "Artifacts",
+  "downloads": 14632367,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "13.2.4",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "better-ping-display-fabric",
+  "title": "Better Ping Display [Fabric]",
+  "downloads": 14520785,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.21.1-1.1.1",
+  "categories": [
+   "fabric",
+   "utility"
+  ]
+ },
+ {
+  "slug": "bad-wither-no-cookie",
+  "title": "Bad Wither No Cookie - Reloaded",
+  "downloads": 14492344,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.20.4",
+  "categories": [
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "resourcify",
+  "title": "Resourcify",
+  "downloads": 14258284,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.8.7",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "craftpresence",
+  "title": "CraftPresence",
+  "downloads": 14232725,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.7.1+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "modloader",
+   "neoforge",
+   "quilt",
+   "rift",
+   "utility"
+  ]
+ },
+ {
+  "slug": "make_bubbles_pop",
+  "title": "Make Bubbles Pop",
+  "downloads": 14181637,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "0.3.0-fabric",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "sophisticated-core-unofficial-fabric-port",
+  "title": "Sophisticated Core (Unofficial Fabric port)",
+  "downloads": 14146633,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.21.1-1.2.9.21.168",
+  "categories": [
+   "fabric",
+   "library"
+  ]
+ },
+ {
+  "slug": "dynamictrees",
+  "title": "Dynamic Trees",
+  "downloads": 14143851,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.7.2-BETA",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "quilt",
+   "utility",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "betternether",
+  "title": "BetterNether",
+  "downloads": 13968279,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "21.0.11",
+  "categories": [
+   "decoration",
+   "equipment",
+   "fabric",
+   "food",
+   "mobs",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "leaves-be-gone",
+  "title": "Leaves Be Gone",
+  "downloads": 13805029,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.1-1.21.1-Fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "mmmmmmmmmmmm",
+  "title": "MmmMmmMmmMmm",
+  "downloads": 13778141,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-2.1.2",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "smooth-scroll",
+  "title": "Smooth Scrolling",
+  "downloads": 13733761,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "2.2.1",
+  "categories": [
+   "cursed",
+   "decoration",
+   "fabric",
+   "quilt",
+   "social"
+  ]
+ },
+ {
+  "slug": "rightclickharvest",
+  "title": "RightClickHarvest",
+  "downloads": 13584994,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.6.1+1.21.1",
+  "categories": [
+   "fabric",
+   "food",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "yungs-extras",
+  "title": "YUNG's Extras",
+  "downloads": 13546757,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-5.1.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "subtle-effects",
+  "title": "Subtle Effects",
+  "downloads": 13482384,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.15.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "flashback",
+  "title": "Flashback",
+  "downloads": 13446234,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.39.10",
+  "categories": [
+   "fabric",
+   "utility"
+  ]
+ },
+ {
+  "slug": "fallingtree",
+  "title": "FallingTree",
+  "downloads": 13419077,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-1.21.1.11",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "cobblemon-mega-showdown",
+  "title": "Cobblemon: Mega Showdown",
+  "downloads": 13328714,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.3+1.8.4+1.21.1-release",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "game-mechanics",
+   "mobs",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "smarter-farmers-farmers-replant",
+  "title": "Smarter Farmers (farmers replant)",
+  "downloads": 13312591,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21-2.2.4",
+  "categories": [
+   "fabric",
+   "food",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "bclib",
+  "title": "BCLib",
+  "downloads": 13262640,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "21.0.13",
+  "categories": [
+   "fabric",
+   "library"
+  ]
+ },
+ {
+  "slug": "sodium-extras",
+  "title": "Sodium Extras",
+  "downloads": 13219214,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-1.21.1-1.0.8",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "shoulder-surfing-reloaded",
+  "title": "Shoulder Surfing Reloaded",
+  "downloads": 13186134,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-5.3.0+fabric",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "emiffect",
+  "title": "EMIffect",
+  "downloads": 13071499,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.1.6+mc1.21.1",
+  "categories": [
+   "cursed",
+   "fabric",
+   "forge",
+   "magic",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "lets-do-vinery",
+  "title": "[Let's Do] Vinery",
+  "downloads": 12999273,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.5.6",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "food",
+   "forge",
+   "game-mechanics",
+   "mobs",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "trek",
+  "title": "Trek",
+  "downloads": 12998578,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "B0.6.2+mod",
+  "categories": [
+   "adventure",
+   "datapack",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "resource-pack-overrides",
+  "title": "Resource Pack Overrides",
+  "downloads": 12973867,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.0-1.21.1-Fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "villager-names-serilum",
+  "title": "Villager Names",
+  "downloads": 12929461,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-8.9-fabric+forge+neo",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "quilt",
+   "social"
+  ]
+ },
+ {
+  "slug": "explorers-compass",
+  "title": "Explorer's Compass",
+  "downloads": 12875188,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-2.6.0-fabric",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "technology",
+   "utility",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "tips",
+  "title": "Tips",
+  "downloads": 12848814,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "21.1.3",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "xaeroplus",
+  "title": "XaeroPlus",
+  "downloads": 12597390,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.37.2+fabric-1.21.1",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "transportation",
+   "utility"
+  ]
+ },
+ {
+  "slug": "rebind-narrator",
+  "title": "Rebind Narrator",
+  "downloads": 12542801,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2026.08.31-fabric-1.21.1",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "friends-and-foes",
+  "title": "Friends&Foes (Fabric/Quilt)",
+  "downloads": 12536666,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "fabric-5.0.4+mc1.21.1",
+  "categories": [
+   "adventure",
+   "fabric",
+   "mobs",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "alternate-current",
+  "title": "Alternate Current",
+  "downloads": 12530882,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "mc1.21-1.9.0",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "ornithe",
+   "quilt",
+   "technology",
+   "utility"
+  ]
+ },
+ {
+  "slug": "azurelib",
+  "title": "AzureLib",
+  "downloads": 12436498,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.2.4",
+  "categories": [
+   "babric",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "library",
+   "neoforge",
+   "ornithe",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "better-block-entities",
+  "title": "Better Block Entities",
+  "downloads": 12418320,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.3.4+mc1.21.1",
+  "categories": [
+   "fabric",
+   "management",
+   "neoforge",
+   "optimization",
+   "utility"
+  ]
+ },
+ {
+  "slug": "respackopts",
+  "title": "Respackopts",
+  "downloads": 12304279,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.14.0+1.21.1.4",
+  "categories": [
+   "fabric",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "oh-the-biomes-weve-gone",
+  "title": "Oh The Biomes We've Gone",
+  "downloads": 12292756,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.6.3-Fabric",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "food",
+   "forge",
+   "mobs",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "worldedit",
+  "title": "WorldEdit",
+  "downloads": 12245109,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "7.3.8",
+  "categories": [
+   "bukkit",
+   "fabric",
+   "folia",
+   "forge",
+   "library",
+   "management",
+   "neoforge",
+   "paper",
+   "quilt",
+   "spigot",
+   "utility"
+  ]
+ },
+ {
+  "slug": "sophisticated-backpacks-unoffical-fabric-port",
+  "title": "Sophisticated Backpacks (Unoffical Fabric port)",
+  "downloads": 12099072,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.21.1-3.23.4.3.106",
+  "categories": [
+   "equipment",
+   "fabric",
+   "storage"
+  ]
+ },
+ {
+  "slug": "carpet",
+  "title": "Carpet",
+  "downloads": 12041082,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "1.4.147",
+  "categories": [
+   "fabric",
+   "game-mechanics",
+   "utility"
+  ]
+ },
+ {
+  "slug": "macaws-windows",
+  "title": "Macaw's Windows",
+  "downloads": 12017108,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.4.2",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "diagonal-fences",
+  "title": "Diagonal Fences",
+  "downloads": 12001286,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "v21.1.1-1.21.1-Fabric",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "do-a-barrel-roll",
+  "title": "Do a Barrel Roll",
+  "downloads": 11962571,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.7.3+1.21-fabric",
+  "categories": [
+   "equipment",
+   "fabric",
+   "forge",
+   "neoforge",
+   "transportation"
+  ]
+ },
+ {
+  "slug": "naturalist",
+  "title": "Naturalist",
+  "downloads": 11961012,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.0.7+1.21.1-fabric",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "mobs",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "advanced-netherite",
+  "title": "Advanced Netherite",
+  "downloads": 11933590,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "fabric-2.3.1-mc1.21.1",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "library",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "macaws-fences-and-walls",
+  "title": "Macaw's Fences and Walls",
+  "downloads": 11773701,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.2.1",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "paxi",
+  "title": "Paxi",
+  "downloads": 11679187,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-Fabric-5.1.3",
+  "categories": [
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "blur-plus",
+  "title": "Blur+",
+  "downloads": 11639990,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "6.3.1+1.21.1-fabric",
+  "categories": [
+   "decoration",
+   "fabric",
+   "neoforge",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "inventoryhudplus",
+  "title": "InventoryHUD+",
+  "downloads": 11616301,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.4.26",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "management",
+   "neoforge",
+   "storage",
+   "utility"
+  ]
+ },
+ {
+  "slug": "when-dungeons-arise",
+  "title": "When Dungeons Arise",
+  "downloads": 11613734,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.1.68",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "neoforge",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "mes-moogs-end-structures",
+  "title": "MES - Moog's End Structures",
+  "downloads": 11516180,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.1.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "geophilic",
+  "title": "Geophilic",
+  "downloads": 11478823,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.7",
+  "categories": [
+   "adventure",
+   "datapack",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "zume",
+  "title": "Zume",
+  "downloads": 11435724,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.2.2",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "aquamirae",
+  "title": "Aquamirae",
+  "downloads": 11417422,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "7.2.13",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "food",
+   "forge",
+   "magic",
+   "mobs",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "highlight",
+  "title": "Highlight",
+  "downloads": 11399316,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.0.0",
+  "categories": [
+   "decoration",
+   "fabric",
+   "forge",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "threadtweak",
+  "title": "ThreadTweak",
+  "downloads": 11311258,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "0.1.5",
+  "categories": [
+   "fabric",
+   "optimization",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "cobblemon-pokenav",
+  "title": "Cobblemon PokeNav",
+  "downloads": 11299137,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.4.2",
+  "categories": [
+   "equipment",
+   "fabric",
+   "neoforge",
+   "social",
+   "utility"
+  ]
+ },
+ {
+  "slug": "vanillabackport",
+  "title": "Vanilla Backport",
+  "downloads": 11250228,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.2.2",
+  "categories": [
+   "adventure",
+   "equipment",
+   "fabric",
+   "forge",
+   "mobs",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "unilib",
+  "title": "UniLib",
+  "downloads": 11224886,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.2.1+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "library",
+   "modloader",
+   "neoforge",
+   "quilt",
+   "rift",
+   "utility"
+  ]
+ },
+ {
+  "slug": "legendary-tooltips",
+  "title": "Legendary Tooltips",
+  "downloads": 11191967,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.5.5",
+  "categories": [
+   "adventure",
+   "decoration",
+   "equipment",
+   "fabric",
+   "forge",
+   "game-mechanics",
+   "neoforge",
+   "utility"
+  ]
+ },
+ {
+  "slug": "cull-leaves",
+  "title": "Cull Leaves",
+  "downloads": 11188934,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.1.1+1.21.1-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "optimization",
+   "quilt"
+  ]
+ },
+ {
+  "slug": "ct-overhaul-village",
+  "title": "ChoiceTheorem's Overhauled Village",
+  "downloads": 11171917,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.6.3",
+  "categories": [
+   "adventure",
+   "economy",
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "creeper-overhaul",
+  "title": "Creeper Overhaul",
+  "downloads": 11130227,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "4.0.6",
+  "categories": [
+   "adventure",
+   "fabric",
+   "forge",
+   "mobs",
+   "neoforge"
+  ]
+ },
+ {
+  "slug": "natures-spirit",
+  "title": "Nature's Spirit",
+  "downloads": 11038504,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "2.2.6-1.21.1",
+  "categories": [
+   "adventure",
+   "decoration",
+   "fabric",
+   "food",
+   "forge",
+   "neoforge",
+   "quilt",
+   "worldgen"
+  ]
+ },
+ {
+  "slug": "neat",
+  "title": "Neat",
+  "downloads": 10963299,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "1.21.1-47-fabric",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt",
+   "utility"
+  ]
+ },
+ {
+  "slug": "beautify-refabricated",
+  "title": "Beautify: Refabricated",
+  "downloads": 10954849,
+  "has_fabric": true,
+  "has_neoforge": false,
+  "fabric_version": "3.6.5-fabric+1.21.1",
+  "categories": [
+   "decoration",
+   "fabric",
+   "utility"
+  ]
+ },
+ {
+  "slug": "neruina",
+  "title": "Neruina - Ticking Entity Fixer",
+  "downloads": 10941752,
+  "has_fabric": true,
+  "has_neoforge": true,
+  "fabric_version": "3.3.5",
+  "categories": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "utility"
+  ]
+ }
+]

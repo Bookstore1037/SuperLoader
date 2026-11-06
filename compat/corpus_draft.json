@@ -1,0 +1,387 @@
+[
+ {
+  "slug": "fabric-api",
+  "title": "Fabric API",
+  "downloads": 295694437,
+  "fabric_version": "0.116.17+1.21.1",
+  "class": "api_lib"
+ },
+ {
+  "slug": "modmenu",
+  "title": "Mod Menu",
+  "downloads": 164976763,
+  "fabric_version": "11.0.5",
+  "class": "candidate"
+ },
+ {
+  "slug": "fabric-language-kotlin",
+  "title": "Fabric Language Kotlin",
+  "downloads": 134987064,
+  "fabric_version": "1.14.2+kotlin.2.4.21",
+  "class": "api_lib"
+ },
+ {
+  "slug": "placeholder-api",
+  "title": "Text Placeholder API",
+  "downloads": 77903506,
+  "fabric_version": "2.4.2+1.21",
+  "class": "api_lib"
+ },
+ {
+  "slug": "zoomify",
+  "title": "Zoomify (Zoom)",
+  "downloads": 74414182,
+  "fabric_version": "2.15.2+1.21.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "indium",
+  "title": "Indium",
+  "downloads": 46379007,
+  "fabric_version": "1.0.35+mc1.21",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "krypton",
+  "title": "Krypton",
+  "downloads": 46229628,
+  "fabric_version": "0.2.8",
+  "class": "candidate"
+ },
+ {
+  "slug": "language-reload",
+  "title": "Language Reload",
+  "downloads": 45183642,
+  "fabric_version": "1.7.6+1.21.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "c2me-fabric",
+  "title": "Concurrent Chunk Management Engine (Fabric)",
+  "downloads": 42874259,
+  "fabric_version": "0.4.0-alpha.0.30+1.21.1",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "presence-footsteps",
+  "title": "Presence Footsteps",
+  "downloads": 42277682,
+  "fabric_version": "1.11.2+1.21",
+  "class": "candidate"
+ },
+ {
+  "slug": "malilib",
+  "title": "MaLiLib",
+  "downloads": 40373141,
+  "fabric_version": "0.21.10",
+  "class": "api_lib"
+ },
+ {
+  "slug": "debugify",
+  "title": "Debugify",
+  "downloads": 40207856,
+  "fabric_version": "1.21.1+1.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "visuality",
+  "title": "Visuality",
+  "downloads": 31557982,
+  "fabric_version": "0.7.7+1.21",
+  "class": "candidate"
+ },
+ {
+  "slug": "morechathistory",
+  "title": "More Chat History",
+  "downloads": 30839328,
+  "fabric_version": "1.3.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "litematica",
+  "title": "Litematica",
+  "downloads": 28990071,
+  "fabric_version": "0.19.61",
+  "class": "candidate"
+ },
+ {
+  "slug": "fallingleaves",
+  "title": "Falling Leaves",
+  "downloads": 28633523,
+  "fabric_version": "1.17.1+1.21.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "optigui",
+  "title": "OptiGUI",
+  "downloads": 28386639,
+  "fabric_version": "2.3.0-beta.9+1.21",
+  "class": "candidate"
+ },
+ {
+  "slug": "cit-resewn",
+  "title": "CIT Resewn",
+  "downloads": 26428610,
+  "fabric_version": "1.2.2+1.21",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "ebe",
+  "title": "Enhanced Block Entities",
+  "downloads": 26219635,
+  "fabric_version": "0.10.2+1.21",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "better-mount-hud",
+  "title": "Better Mount HUD",
+  "downloads": 26027931,
+  "fabric_version": "1.2.4",
+  "class": "candidate"
+ },
+ {
+  "slug": "trinkets",
+  "title": "Trinkets",
+  "downloads": 25698725,
+  "fabric_version": "3.10.0",
+  "class": "candidate"
+ },
+ {
+  "slug": "fastquit",
+  "title": "FastQuit",
+  "downloads": 25654196,
+  "fabric_version": "3.0.0+1.20.6",
+  "class": "candidate"
+ },
+ {
+  "slug": "capes",
+  "title": "Capes",
+  "downloads": 25354870,
+  "fabric_version": "1.5.4+1.21",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "yosbr",
+  "title": "Your Options Shall Be Respected (YOSBR)",
+  "downloads": 25168648,
+  "fabric_version": "0.1.2",
+  "class": "api_lib"
+ },
+ {
+  "slug": "bobby",
+  "title": "Bobby",
+  "downloads": 22341003,
+  "fabric_version": "5.2.4.1+mc1.21",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "animatica",
+  "title": "Animatica",
+  "downloads": 21999807,
+  "fabric_version": "0.6.1+1.21",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "mixintrace",
+  "title": "MixinTrace",
+  "downloads": 20758371,
+  "fabric_version": "1.1.1+1.17",
+  "class": "api_lib"
+ },
+ {
+  "slug": "fabrishot",
+  "title": "Fabrishot",
+  "downloads": 20203589,
+  "fabric_version": "1.14.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "replaymod",
+  "title": "ReplayMod",
+  "downloads": 19729159,
+  "fabric_version": "1.21-2.6.28",
+  "class": "candidate"
+ },
+ {
+  "slug": "paginatedadvancements",
+  "title": "Paginated Advancements & Custom Frames",
+  "downloads": 19083152,
+  "fabric_version": "2.5.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "main-menu-credits",
+  "title": "Main Menu Credits",
+  "downloads": 18736324,
+  "fabric_version": "1.2.0",
+  "class": "candidate"
+ },
+ {
+  "slug": "vmp-fabric",
+  "title": "Very Many Players (Fabric)",
+  "downloads": 18467592,
+  "fabric_version": "0.2.0+beta.7.172+1.21.1",
+  "class": "api_lib"
+ },
+ {
+  "slug": "tooltipfix",
+  "title": "ToolTipFix",
+  "downloads": 17456576,
+  "fabric_version": "1.1.1-1.20",
+  "class": "candidate"
+ },
+ {
+  "slug": "farmers-delight-refabricated",
+  "title": "Farmer's Delight Refabricated",
+  "downloads": 17430264,
+  "fabric_version": "1.21.1-3.3.6",
+  "class": "candidate"
+ },
+ {
+  "slug": "cicada",
+  "title": "CICADA",
+  "downloads": 16962332,
+  "fabric_version": "0.14.3+1.21-1.21.1",
+  "class": "api_lib"
+ },
+ {
+  "slug": "skyboxify",
+  "title": "Skyboxify",
+  "downloads": 16330098,
+  "fabric_version": "1.4",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "betterend",
+  "title": "BetterEnd",
+  "downloads": 16271197,
+  "fabric_version": "21.0.11",
+  "class": "candidate"
+ },
+ {
+  "slug": "cardinal-components-api",
+  "title": "Cardinal Components API",
+  "downloads": 16255729,
+  "fabric_version": "6.1.3",
+  "class": "api_lib"
+ },
+ {
+  "slug": "eating-animation",
+  "title": "Eating Animation",
+  "downloads": 15927134,
+  "fabric_version": "1.9.72",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "ukulib",
+  "title": "ukulib",
+  "downloads": 15392583,
+  "fabric_version": "1.4.1+1.21",
+  "class": "api_lib"
+ },
+ {
+  "slug": "repurposed-structures-fabric",
+  "title": "Repurposed Structures - Fabric",
+  "downloads": 15176193,
+  "fabric_version": "7.5.22+1.21.1-fabric",
+  "class": "candidate"
+ },
+ {
+  "slug": "gamma-utils",
+  "title": "Gamma Utils (Fullbright)",
+  "downloads": 14984502,
+  "fabric_version": "2.1.3",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "particular",
+  "title": "Particular ✨",
+  "downloads": 14949740,
+  "fabric_version": "1.1.2+1.21",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "axiom",
+  "title": "Axiom",
+  "downloads": 14671249,
+  "fabric_version": "6.1.5",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "better-ping-display-fabric",
+  "title": "Better Ping Display [Fabric]",
+  "downloads": 14520785,
+  "fabric_version": "1.21.1-1.1.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "sophisticated-core-unofficial-fabric-port",
+  "title": "Sophisticated Core (Unofficial Fabric port)",
+  "downloads": 14146633,
+  "fabric_version": "1.21.1-1.2.9.21.168",
+  "class": "candidate"
+ },
+ {
+  "slug": "betternether",
+  "title": "BetterNether",
+  "downloads": 13968279,
+  "fabric_version": "21.0.11",
+  "class": "candidate"
+ },
+ {
+  "slug": "smooth-scroll",
+  "title": "Smooth Scrolling",
+  "downloads": 13733761,
+  "fabric_version": "2.2.1",
+  "class": "api_lib"
+ },
+ {
+  "slug": "flashback",
+  "title": "Flashback",
+  "downloads": 13446234,
+  "fabric_version": "0.39.10",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "bclib",
+  "title": "BCLib",
+  "downloads": 13262640,
+  "fabric_version": "21.0.13",
+  "class": "api_lib"
+ },
+ {
+  "slug": "friends-and-foes",
+  "title": "Friends&Foes (Fabric/Quilt)",
+  "downloads": 12536666,
+  "fabric_version": "fabric-5.0.4+mc1.21.1",
+  "class": "candidate"
+ },
+ {
+  "slug": "sophisticated-backpacks-unoffical-fabric-port",
+  "title": "Sophisticated Backpacks (Unoffical Fabric port)",
+  "downloads": 12099072,
+  "fabric_version": "1.21.1-3.23.4.3.106",
+  "class": "candidate"
+ },
+ {
+  "slug": "carpet",
+  "title": "Carpet",
+  "downloads": 12041082,
+  "fabric_version": "1.4.147",
+  "class": "candidate"
+ },
+ {
+  "slug": "threadtweak",
+  "title": "ThreadTweak",
+  "downloads": 11311258,
+  "fabric_version": "0.1.5",
+  "class": "l3_boundary"
+ },
+ {
+  "slug": "beautify-refabricated",
+  "title": "Beautify: Refabricated",
+  "downloads": 10954849,
+  "fabric_version": "3.6.5-fabric+1.21.1",
+  "class": "candidate"
+ }
+]

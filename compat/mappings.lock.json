@@ -1,0 +1,14 @@
+{
+  "_comment": "Yarn 官方映射锁文件：RefmapRepair 合成缺失 refmap 时，把 Yarn(named) 名翻成 intermediary 用。下载后必须校验 sha1，不一致就报错不加载（合成错的 refmap 比不修更糟）。升级 MC 版本时只改这里。",
+  "schema": 1,
+  "minecraft": "1.21.1",
+  "yarn": {
+    "1.21.1": {
+      "version": "1.21.1+build.3",
+      "jar": "yarn-1.21.1+build.3-v2.jar",
+      "url": "https://maven.fabricmc.net/net/fabricmc/yarn/1.21.1+build.3/yarn-1.21.1+build.3-v2.jar",
+      "sha1": "53c8c9729c0dd52e3549c04f16eca89a15818822",
+      "note": "Fabric meta /v2/versions/yarn/1.21.1 最新构建（build.1/2/3 均标 stable:false，build.3 是最新）"
+    }
+  }
+}

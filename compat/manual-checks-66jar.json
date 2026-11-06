@@ -1,0 +1,194 @@
+[
+ {
+  "mod": null,
+  "check": "骑乘时 HUD 显示血量/跳跃条",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "F3+T 重载语言不崩、界面文字正确",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "聊天记录条数超出原版上限",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "长提示文本换行而非溢出屏幕",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "主菜单右下角出现版本/署名文本",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "截图快捷键生成本地高清截图文件",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "粒子效果按配置出现",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "进度界面分页可用",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "背包物品栏可用、存取正常",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "状态效果 HUD 条显示且位置正确",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "链条连接相邻栅栏",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "饱食度/饱和度 HUD 显示（换 NeoForge 3.0.9 后重验）",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "多人服务器中 HUD 显示 ping/延迟条",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "手持物品时 HUD 显示附魔/耐久信息",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "HUD 显示帧率且数值随场景变化",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "远距离放置方块时手臂伸展",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "洞穴尘埃粒子可见",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "水中尾迹粒子可见",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "方块选中框样式改变",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "聊天记录持久化、重启后仍在",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "走路/落地音效与粒子正常",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "打开箱子/工作台界面正常，无 GUI 错位",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "按 F 打开书本式界面，文本渲染正常",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "启动画面显示自定义 splash",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "移动物品时模型在手中保持",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "死亡后墓碑生成、可拾取物品",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "死亡不掉落配置生效",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "不死图腾计数 HUD 显示",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "Mods → MaLiLib → Config 能开 GUI，热键注册无异常",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "能打开投影菜单并加载一个 .litematic（无投影可只看菜单）",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "能打开 tweakeroo 配置 GUI",
+  "result": "pass",
+  "date": "2026-11-05"
+ },
+ {
+  "mod": null,
+  "check": "滚轮在背包/箱子间移动物品正常",
+  "result": "pass",
+  "date": "2026-11-05"
+ }
+]

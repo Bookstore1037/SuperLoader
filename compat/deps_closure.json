@@ -1,0 +1,6145 @@
+{
+ "main": [
+  {
+   "slug": "modmenu",
+   "mod_id": "modmenu",
+   "mod_version": "11.0.5",
+   "environment": "client",
+   "file": "modmenu-11.0.5.jar",
+   "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "modmenu"
+    },
+    {
+     "id": "fabric-screen-api-v1",
+     "kind": "ffapi",
+     "version": "2.0.26+9991ca2f19",
+     "spec": ">=1.0.4",
+     "ok": true,
+     "required_by": "modmenu"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "modmenu"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "kind": "ffapi",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "modmenu"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.10",
+     "ok": true,
+     "required_by": "modmenu"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-beta.2",
+     "ok": true,
+     "required_by": "modmenu"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "modmenu",
+     "file": "modmenu-11.0.5.jar",
+     "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar",
+     "version": "11.0.5",
+     "version_id": "6lgOkclV",
+     "sha1": "2321d890a25b5985eba576d7cd8fe9a9c136e33d",
+     "file_size": 975846,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "mOgUt4GM"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 975846,
+   "group": "main",
+   "check": "打开 Mods 列表，能看到全部 mod",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "打开 Mods 列表能看到全部 mod",
+   "ok": true,
+   "version_id": "6lgOkclV",
+   "sha1": "2321d890a25b5985eba576d7cd8fe9a9c136e33d",
+   "file_size": 975846,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "mOgUt4GM",
+   "nf_build": "no",
+   "nf_evidence": "modmenu: 1.21.1 共 5 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "zoomify",
+   "mod_id": "zoomify",
+   "mod_version": "2.15.2+1.21.1",
+   "environment": "client",
+   "file": "zoomify-2.15.2+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.18.0",
+     "ok": true,
+     "required_by": "zoomify"
+    },
+    {
+     "id": "fabric-language-kotlin",
+     "kind": "fabric",
+     "version": "1.14.2+kotlin.2.4.21",
+     "spec": ">=1.13.8+kotlin.2.3.0",
+     "ok": true,
+     "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+     "modrinth_version": "1.14.2+kotlin.2.4.21",
+     "slug": "fabric-language-kotlin",
+     "real_id": "fabric-language-kotlin",
+     "required_by": "zoomify"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "~1.21 <1.21.2",
+     "ok": true,
+     "required_by": "zoomify"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=17",
+     "ok": true,
+     "required_by": "zoomify"
+    },
+    {
+     "id": "yet_another_config_lib_v3",
+     "kind": "fabric",
+     "version": "3.8.2+1.21.1-fabric",
+     "spec": ">=3.6.6",
+     "ok": true,
+     "file": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+     "modrinth_version": "3.8.2+1.21.1-fabric",
+     "slug": "yacl",
+     "real_id": "yet_another_config_lib_v3",
+     "required_by": "zoomify"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.104.0+1.21.1",
+     "ok": true,
+     "required_by": "yet_another_config_lib_v3"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "zoomify",
+     "file": "zoomify-2.15.2+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar",
+     "version": "2.15.2+1.21.1",
+     "version_id": "6jrMC48Z",
+     "sha1": "9ec9c47e1d3465ea0cbd595b6d9d12227239c9a6",
+     "file_size": 872937,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "w7ThoJFB"
+    },
+    {
+     "id": "fabric-language-kotlin",
+     "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+     "version": "1.14.2+kotlin.2.4.21",
+     "version_id": "SKW1BTL3",
+     "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0",
+     "file_size": 8142878,
+     "game_versions": [
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+     ],
+     "loader": "fabric",
+     "project_id": "Ha28R6CL"
+    },
+    {
+     "id": "yet_another_config_lib_v3",
+     "file": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+     "version": "3.8.2+1.21.1-fabric",
+     "version_id": "o3cDn8Vp",
+     "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
+     "file_size": 1131265,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "1eAoo2KR"
+    }
+   ],
+   "install_jars": 3,
+   "install_bytes": 10147080,
+   "group": "main",
+   "check": "按 C 缩放（含平滑过渡）",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "按住缩放键实际生效",
+   "ok": true,
+   "version_id": "6jrMC48Z",
+   "sha1": "9ec9c47e1d3465ea0cbd595b6d9d12227239c9a6",
+   "file_size": 872937,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "w7ThoJFB",
+   "nf_build": "no",
+   "nf_evidence": "zoomify: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "krypton",
+   "mod_id": "krypton",
+   "mod_version": "0.2.8",
+   "environment": "*",
+   "file": "krypton-0.2.8.jar",
+   "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.11.3",
+     "ok": true,
+     "required_by": "krypton"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21",
+     "ok": true,
+     "required_by": "krypton"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "krypton",
+     "file": "krypton-0.2.8.jar",
+     "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+     "version": "0.2.8",
+     "version_id": "Acz3ttTp",
+     "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50",
+     "file_size": 161045,
+     "game_versions": [
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4"
+     ],
+     "loader": "fabric",
+     "project_id": "fQEb0iXm"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 161045,
+   "group": "main",
+   "check": "无感；进世界后网络正常（无断连）",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "无 UI / 纯传输层：进存档 + 无 FATAL/crash + Netty handler 安装无异常",
+   "ok": true,
+   "version_id": "Acz3ttTp",
+   "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50",
+   "file_size": 161045,
+   "game_versions": [
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4"
+   ],
+   "project_id": "fQEb0iXm",
+   "nf_build": "no",
+   "nf_evidence": "krypton: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "language-reload",
+   "mod_id": "languagereload",
+   "mod_version": "1.7.6+1.21.1",
+   "environment": "client",
+   "file": "language-reload-1.7.6+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/lLMGPiZe/language-reload-1.7.6%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "languagereload"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.10",
+     "ok": true,
+     "required_by": "languagereload"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <1.21.2",
+     "ok": true,
+     "required_by": "languagereload"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "languagereload",
+     "file": "language-reload-1.7.6+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/lLMGPiZe/language-reload-1.7.6%2B1.21.1.jar",
+     "version": "1.7.6+1.21.1",
+     "version_id": "lLMGPiZe",
+     "sha1": "95c1266f43e330d4848dcf2e11a6be98a8990ce5",
+     "file_size": 75091,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "uLbm7CG6"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 75091,
+   "group": "main",
+   "check": "F3+T 重载资源包后语言/字体仍正常",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "F3+T 重载语言不崩、界面文字正确",
+   "ok": true,
+   "version_id": "lLMGPiZe",
+   "sha1": "95c1266f43e330d4848dcf2e11a6be98a8990ce5",
+   "file_size": 75091,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "uLbm7CG6",
+   "nf_build": "no",
+   "nf_evidence": "language-reload: 1.21.1 共 8 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "presence-footsteps",
+   "mod_id": "presencefootsteps",
+   "mod_version": "1.11.2+1.21",
+   "environment": "client",
+   "file": "PresenceFootsteps-1.11.2+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/CrvsDgLW/PresenceFootsteps-1.11.2%2B1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <1.21.2",
+     "ok": true,
+     "required_by": "presencefootsteps"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.16.4",
+     "ok": true,
+     "required_by": "presencefootsteps"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "presencefootsteps"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.102.0+1.21.1",
+     "ok": true,
+     "required_by": "presencefootsteps"
+    },
+    {
+     "id": "kirin",
+     "kind": "jij",
+     "version": "1.20.0+1.21",
+     "spec": ">=1.20.0+1.21",
+     "ok": true,
+     "required_by": "presencefootsteps"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "presencefootsteps",
+     "file": "PresenceFootsteps-1.11.2+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/CrvsDgLW/PresenceFootsteps-1.11.2%2B1.21.jar",
+     "version": "1.11.2+1.21",
+     "version_id": "CrvsDgLW",
+     "sha1": "2e0228905a1e5a2ddecb00d40d764a64a4600a6e",
+     "file_size": 5694024,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "rcTfTZr3"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 5694024,
+   "group": "main",
+   "check": "走路/跳跃有脚步声（需资源包）",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "脚步粒子/音效在移动时出现",
+   "ok": true,
+   "version_id": "CrvsDgLW",
+   "sha1": "2e0228905a1e5a2ddecb00d40d764a64a4600a6e",
+   "file_size": 5694024,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "rcTfTZr3",
+   "nf_build": "no",
+   "nf_evidence": "presence-footsteps: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "debugify",
+   "mod_id": "debugify",
+   "mod_version": "1.21.1+1.1",
+   "environment": "*",
+   "file": "Debugify-1.21.1+1.1.jar",
+   "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/pyIdu3f1/Debugify-1.21.1%2B1.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.14.0",
+     "ok": true,
+     "required_by": "debugify"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "1.21.1",
+     "ok": true,
+     "required_by": "debugify"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "debugify"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "debugify"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "debugify",
+     "file": "Debugify-1.21.1+1.1.jar",
+     "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/pyIdu3f1/Debugify-1.21.1%2B1.1.jar",
+     "version": "1.21.1+1.1",
+     "version_id": "pyIdu3f1",
+     "sha1": "3388ba4c0f973f0a73a68a42048fe902bb2b14ea",
+     "file_size": 289699,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "QwxR6Gcd"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 289699,
+   "group": "main",
+   "check": "F3 调试屏出现 debugify 补充项；配置菜单可开",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "无 UI / 修 bug：进存档 + 无 FATAL/crash + 其 mixin 全部 applied",
+   "ok": true,
+   "version_id": "pyIdu3f1",
+   "sha1": "3388ba4c0f973f0a73a68a42048fe902bb2b14ea",
+   "file_size": 289699,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "QwxR6Gcd",
+   "nf_build": "no",
+   "nf_evidence": "debugify: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "visuality",
+   "mod_id": "visuality",
+   "mod_version": "0.7.7+1.21",
+   "environment": "client",
+   "file": "visuality-0.7.7+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/dhKbgdIb/visuality-0.7.7%2B1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "visuality"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "visuality"
+    },
+    {
+     "id": "cloth-config",
+     "kind": "fabric",
+     "version": "15.0.140",
+     "spec": "*",
+     "ok": true,
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "modrinth_version": "15.0.140+fabric",
+     "slug": "cloth-config",
+     "real_id": "cloth-config",
+     "required_by": "visuality"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "cloth-config"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "visuality"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "visuality",
+     "file": "visuality-0.7.7+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/dhKbgdIb/visuality-0.7.7%2B1.21.jar",
+     "version": "0.7.7+1.21",
+     "version_id": "dhKbgdIb",
+     "sha1": "8d239710c1c1983d780ad04686c3c3d0d1b1585e",
+     "file_size": 79452,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "rI0hvYcd"
+    },
+    {
+     "id": "cloth-config",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 1236618,
+   "group": "main",
+   "check": "区块加载/方块破坏粒子出现",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "粒子效果按配置出现",
+   "ok": true,
+   "version_id": "dhKbgdIb",
+   "sha1": "8d239710c1c1983d780ad04686c3c3d0d1b1585e",
+   "file_size": 79452,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "rI0hvYcd",
+   "nf_build": "no",
+   "nf_evidence": "visuality: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "morechathistory",
+   "mod_id": "morechathistory",
+   "mod_version": "1.3.1",
+   "environment": "client",
+   "file": "morechathistory-1.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/8qkXwOnk/versions/3siYJiWG/morechathistory-1.3.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.20.5",
+     "ok": true,
+     "required_by": "morechathistory"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.0",
+     "ok": true,
+     "required_by": "morechathistory"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "morechathistory",
+     "file": "morechathistory-1.3.1.jar",
+     "url": "https://cdn.modrinth.com/data/8qkXwOnk/versions/3siYJiWG/morechathistory-1.3.1.jar",
+     "version": "1.3.1",
+     "version_id": "3siYJiWG",
+     "sha1": "b4337ef9dc0a6cdf31d8f3df68a6542f64f3625e",
+     "file_size": 3573,
+     "game_versions": [
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11"
+     ],
+     "loader": "fabric",
+     "project_id": "8qkXwOnk"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 3573,
+   "group": "main",
+   "check": "聊天栏上滚超过 100 条",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "聊天记录条数超出原版上限",
+   "ok": true,
+   "version_id": "3siYJiWG",
+   "sha1": "b4337ef9dc0a6cdf31d8f3df68a6542f64f3625e",
+   "file_size": 3573,
+   "game_versions": [
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5",
+    "1.21.6",
+    "1.21.7",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11"
+   ],
+   "project_id": "8qkXwOnk",
+   "nf_build": "no",
+   "nf_evidence": "morechathistory: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "litematica",
+   "mod_id": "litematica",
+   "mod_version": "0.19.61",
+   "environment": "client",
+   "file": "litematica-fabric-1.21-0.19.61.jar",
+   "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/o7i8oi1Z/litematica-fabric-1.21-0.19.61.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <=1.21.1",
+     "ok": true,
+     "required_by": "litematica"
+    },
+    {
+     "id": "malilib",
+     "kind": "fabric",
+     "version": "0.21.10",
+     "spec": ">=0.21.10-",
+     "ok": true,
+     "file": "malilib-fabric-1.21-0.21.10.jar",
+     "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+     "modrinth_version": "0.21.10",
+     "slug": "malilib",
+     "real_id": "malilib",
+     "required_by": "litematica"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "kind": "ffapi",
+     "version": "4.3.1+204211bf19",
+     "spec": ">=4.2.0",
+     "ok": true,
+     "required_by": "malilib"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "malilib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "litematica",
+     "file": "litematica-fabric-1.21-0.19.61.jar",
+     "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/o7i8oi1Z/litematica-fabric-1.21-0.19.61.jar",
+     "version": "0.19.61",
+     "version_id": "o7i8oi1Z",
+     "sha1": "efce2dd7118b1e61c8aa461bd8cc9902907dd863",
+     "file_size": 1642590,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "bEpr0Arc"
+    },
+    {
+     "id": "malilib",
+     "file": "malilib-fabric-1.21-0.21.10.jar",
+     "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+     "version": "0.21.10",
+     "version_id": "C99LEy6r",
+     "sha1": "e2699ef71618c54fc03c6c8b28e336603596dcef",
+     "file_size": 1411200,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "GcWjdA9I"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 3053790,
+   "group": "main",
+   "check": "M 打开 Litematica 菜单，加载一次放置预览",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "打开投影菜单、加载/放置投影正常",
+   "ok": true,
+   "version_id": "o7i8oi1Z",
+   "sha1": "efce2dd7118b1e61c8aa461bd8cc9902907dd863",
+   "file_size": 1642590,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "bEpr0Arc",
+   "nf_build": "no",
+   "nf_evidence": "litematica: 1.21.1 共 10 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "fallingleaves",
+   "mod_id": "fallingleaves",
+   "mod_version": "1.17.1",
+   "environment": "client",
+   "file": "fallingleaves-1.17.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/Y0zS16Bk/fallingleaves-1.17.1%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15",
+     "ok": true,
+     "required_by": "fallingleaves"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "fallingleaves"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <=1.21.1",
+     "ok": true,
+     "required_by": "fallingleaves"
+    },
+    {
+     "id": "cloth-config",
+     "kind": "fabric",
+     "version": "15.0.140",
+     "spec": ">=10.0.0",
+     "ok": true,
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "modrinth_version": "15.0.140+fabric",
+     "slug": "cloth-config",
+     "real_id": "cloth-config",
+     "required_by": "fallingleaves"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "fallingleaves"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "fallingleaves",
+     "file": "fallingleaves-1.17.1+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/Y0zS16Bk/fallingleaves-1.17.1%2B1.21.1.jar",
+     "version": "1.17.1+1.21.1",
+     "version_id": "Y0zS16Bk",
+     "sha1": "5210b4cb359a95c53580b1399f98e51ab0967cc5",
+     "file_size": 170056,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "WhbRG4iK"
+    },
+    {
+     "id": "cloth-config",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 1327222,
+   "group": "main",
+   "check": "树林里树叶飘落粒子",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "树叶粒子下落效果可见",
+   "ok": true,
+   "version_id": "Y0zS16Bk",
+   "sha1": "5210b4cb359a95c53580b1399f98e51ab0967cc5",
+   "file_size": 170056,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "WhbRG4iK",
+   "nf_build": "no",
+   "nf_evidence": "fallingleaves: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "optigui",
+   "mod_id": "optigui",
+   "mod_version": "2.3.0-beta.9+1.21",
+   "environment": "client",
+   "file": "optigui-2.3.0-beta.9+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/JuksLGBQ/versions/npnKNaoI/optigui-2.3.0-beta.9%2B1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.11",
+     "ok": true,
+     "required_by": "optigui"
+    },
+    {
+     "id": "fabric-events-interaction-v0",
+     "kind": "ffapi",
+     "version": "0.7.14+057f5afd19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "optigui"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "optigui"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "kind": "ffapi",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "optigui"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "kind": "ffapi",
+     "version": "4.3.1+204211bf19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "optigui"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "optigui"
+    },
+    {
+     "id": "fabric-language-kotlin",
+     "kind": "fabric",
+     "version": "1.14.2+kotlin.2.4.21",
+     "spec": ">=1.11.0+kotlin.2.0.0",
+     "ok": true,
+     "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+     "modrinth_version": "1.14.2+kotlin.2.4.21",
+     "slug": "fabric-language-kotlin",
+     "real_id": "fabric-language-kotlin",
+     "required_by": "optigui"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21",
+     "ok": true,
+     "required_by": "optigui"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "optigui"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "optigui",
+     "file": "optigui-2.3.0-beta.9+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/JuksLGBQ/versions/npnKNaoI/optigui-2.3.0-beta.9%2B1.21.jar",
+     "version": "2.3.0-beta.9+1.21",
+     "version_id": "npnKNaoI",
+     "sha1": "9f72bd80779118624138cace74da349b5cf31b6f",
+     "file_size": 614152,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "JuksLGBQ"
+    },
+    {
+     "id": "fabric-language-kotlin",
+     "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+     "version": "1.14.2+kotlin.2.4.21",
+     "version_id": "SKW1BTL3",
+     "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0",
+     "file_size": 8142878,
+     "game_versions": [
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+     ],
+     "loader": "fabric",
+     "project_id": "Ha28R6CL"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 8757030,
+   "group": "main",
+   "check": "装 CIT 资源包后容器界面贴图替换生效",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "GUI 背景/按钮纹理被替换且不崩",
+   "ok": true,
+   "version_id": "npnKNaoI",
+   "sha1": "9f72bd80779118624138cace74da349b5cf31b6f",
+   "file_size": 614152,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "JuksLGBQ",
+   "nf_build": "no",
+   "nf_evidence": "optigui: 1.21.1 共 10 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "better-mount-hud",
+   "mod_id": "bettermounthud",
+   "mod_version": "1.2.4",
+   "environment": "client",
+   "file": "bettermounthud-1.2.4.jar",
+   "url": "https://cdn.modrinth.com/data/kqJFAPU9/versions/yyJushgo/bettermounthud-1.2.4.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "bettermounthud"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.11.3",
+     "ok": true,
+     "required_by": "bettermounthud"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "bettermounthud",
+     "file": "bettermounthud-1.2.4.jar",
+     "url": "https://cdn.modrinth.com/data/kqJFAPU9/versions/yyJushgo/bettermounthud-1.2.4.jar",
+     "version": "1.2.4",
+     "version_id": "yyJushgo",
+     "sha1": "4df822bd5bd7d2e125eb9c7fdb38bb4b6ee0476e",
+     "file_size": 21013,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "kqJFAPU9"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 21013,
+   "group": "main",
+   "check": "骑马/坐船时 HUD 正常",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "骑乘时 HUD 显示血量/跳跃条",
+   "ok": true,
+   "version_id": "yyJushgo",
+   "sha1": "4df822bd5bd7d2e125eb9c7fdb38bb4b6ee0476e",
+   "file_size": 21013,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "kqJFAPU9",
+   "nf_build": "no",
+   "nf_evidence": "better-mount-hud: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "fastquit",
+   "mod_id": "fastquit",
+   "mod_version": "3.0.0+1.20.6",
+   "environment": "client",
+   "file": "fastquit-3.0.0+1.20.6.jar",
+   "url": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.7",
+     "ok": true,
+     "required_by": "fastquit"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.20.5",
+     "ok": true,
+     "required_by": "fastquit"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "fastquit"
+    },
+    {
+     "id": "cloth-config",
+     "kind": "fabric",
+     "version": "15.0.140",
+     "spec": "*",
+     "ok": true,
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "modrinth_version": "15.0.140+fabric",
+     "slug": "cloth-config",
+     "real_id": "cloth-config",
+     "required_by": "fastquit"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=17",
+     "ok": true,
+     "required_by": "fastquit"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "fastquit",
+     "file": "fastquit-3.0.0+1.20.6.jar",
+     "url": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar",
+     "version": "3.0.0+1.20.6",
+     "version_id": "dIGKewCo",
+     "sha1": "9c4bf4fc3292d627fe0eff85a96672a15f27338c",
+     "file_size": 58822,
+     "game_versions": [
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "x1hIzbuY"
+    },
+    {
+     "id": "cloth-config",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 1215988,
+   "group": "main",
+   "check": "关闭游戏立即退出（无卡顿）",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "关窗路径：关窗后进程在阈值内退出（不做人工确认）",
+   "ok": true,
+   "version_id": "dIGKewCo",
+   "sha1": "9c4bf4fc3292d627fe0eff85a96672a15f27338c",
+   "file_size": 58822,
+   "game_versions": [
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "x1hIzbuY",
+   "nf_build": "no",
+   "nf_evidence": "fastquit: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "fabrishot",
+   "mod_id": "fabrishot",
+   "mod_version": "1.14.1",
+   "environment": "client",
+   "file": "fabrishot-1.14.1.jar",
+   "url": "https://cdn.modrinth.com/data/3qsfQtE9/versions/HfdXLVRy/fabrishot-1.14.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21",
+     "ok": true,
+     "required_by": "fabrishot"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "kind": "ffapi",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "fabrishot"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "fabrishot"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "fabrishot",
+     "file": "fabrishot-1.14.1.jar",
+     "url": "https://cdn.modrinth.com/data/3qsfQtE9/versions/HfdXLVRy/fabrishot-1.14.1.jar",
+     "version": "1.14.1",
+     "version_id": "HfdXLVRy",
+     "sha1": "c8afc690bb3508df7db793f37e1fe5407dba2f22",
+     "file_size": 51708,
+     "game_versions": [
+      "1.21",
+      "1.21.1",
+      "1.21.2"
+     ],
+     "loader": "fabric",
+     "project_id": "3qsfQtE9"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 51708,
+   "group": "main",
+   "check": "F9 截图并保存",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "截图快捷键生成本地高清截图文件",
+   "ok": true,
+   "version_id": "HfdXLVRy",
+   "sha1": "c8afc690bb3508df7db793f37e1fe5407dba2f22",
+   "file_size": 51708,
+   "game_versions": [
+    "1.21",
+    "1.21.1",
+    "1.21.2"
+   ],
+   "project_id": "3qsfQtE9",
+   "nf_build": "no",
+   "nf_evidence": "fabrishot: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "replaymod",
+   "mod_id": "replaymod",
+   "mod_version": "1.21-2.6.28",
+   "environment": "client",
+   "file": "replaymod-1.21-2.6.28.jar",
+   "url": "https://cdn.modrinth.com/data/Nv2fQJo5/versions/DKvQ3lQq/replaymod-1.21-2.6.28.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.7.0",
+     "ok": true,
+     "required_by": "replaymod"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "kind": "ffapi",
+     "version": "4.3.1+204211bf19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "replaymod"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "replaymod"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "replaymod"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "replaymod",
+     "file": "replaymod-1.21-2.6.28.jar",
+     "url": "https://cdn.modrinth.com/data/Nv2fQJo5/versions/DKvQ3lQq/replaymod-1.21-2.6.28.jar",
+     "version": "1.21-2.6.28",
+     "version_id": "DKvQ3lQq",
+     "sha1": "528894b52cf3a35aac362e6eaf8e60f6f1364b98",
+     "file_size": 15710248,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "Nv2fQJo5"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 15710248,
+   "group": "main",
+   "check": "打开回放菜单，开始录制",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "录制开始/停止、回放能加载（预期失败，见 expected）",
+   "ok": true,
+   "version_id": "DKvQ3lQq",
+   "sha1": "528894b52cf3a35aac362e6eaf8e60f6f1364b98",
+   "file_size": 15710248,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "Nv2fQJo5",
+   "nf_build": "no",
+   "nf_evidence": "replaymod: 1.21.1 共 6 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "paginatedadvancements",
+   "mod_id": "paginatedadvancements",
+   "mod_version": "2.5.1",
+   "environment": "client",
+   "file": "paginatedadvancements-2.5.1.jar",
+   "url": "https://cdn.modrinth.com/data/pJogNFap/versions/fQnpir9a/paginatedadvancements-2.5.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21",
+     "ok": true,
+     "required_by": "paginatedadvancements"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "paginatedadvancements"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.102.0",
+     "ok": true,
+     "required_by": "paginatedadvancements"
+    },
+    {
+     "id": "cloth-config",
+     "kind": "fabric",
+     "version": "15.0.140",
+     "spec": "*",
+     "ok": true,
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "modrinth_version": "15.0.140+fabric",
+     "slug": "cloth-config",
+     "real_id": "cloth-config",
+     "required_by": "paginatedadvancements"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "paginatedadvancements",
+     "file": "paginatedadvancements-2.5.1.jar",
+     "url": "https://cdn.modrinth.com/data/pJogNFap/versions/fQnpir9a/paginatedadvancements-2.5.1.jar",
+     "version": "2.5.1",
+     "version_id": "fQnpir9a",
+     "sha1": "23a4570fb52d62135d705156079e52ddfe980b94",
+     "file_size": 71859,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "pJogNFap"
+    },
+    {
+     "id": "cloth-config",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 1229025,
+   "group": "main",
+   "check": "进度界面翻页正常",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "进度界面分页可用",
+   "ok": true,
+   "version_id": "fQnpir9a",
+   "sha1": "23a4570fb52d62135d705156079e52ddfe980b94",
+   "file_size": 71859,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "pJogNFap",
+   "nf_build": "no",
+   "nf_evidence": "paginatedadvancements: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "main-menu-credits",
+   "mod_id": "isxander-main-menu-credits",
+   "mod_version": "1.2.0",
+   "environment": "client",
+   "file": "main-menu-credits-1.2.0.jar",
+   "url": "https://cdn.modrinth.com/data/qJDfP7WN/versions/eUN0SbET/main-menu-credits-1.2.0.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.0",
+     "ok": true,
+     "required_by": "isxander-main-menu-credits"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.20.5",
+     "ok": true,
+     "required_by": "isxander-main-menu-credits"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "isxander-main-menu-credits"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "isxander-main-menu-credits",
+     "file": "main-menu-credits-1.2.0.jar",
+     "url": "https://cdn.modrinth.com/data/qJDfP7WN/versions/eUN0SbET/main-menu-credits-1.2.0.jar",
+     "version": "1.2.0",
+     "version_id": "eUN0SbET",
+     "sha1": "37ad23f76336eedbd940a1f99c5e49d969fdee67",
+     "file_size": 16640,
+     "game_versions": [
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11"
+     ],
+     "loader": "fabric",
+     "project_id": "qJDfP7WN"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 16640,
+   "group": "main",
+   "check": "主菜单右下角滚动字幕",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "主菜单右下角出现版本/署名文本",
+   "ok": true,
+   "version_id": "eUN0SbET",
+   "sha1": "37ad23f76336eedbd940a1f99c5e49d969fdee67",
+   "file_size": 16640,
+   "game_versions": [
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5",
+    "1.21.6",
+    "1.21.7",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11"
+   ],
+   "project_id": "qJDfP7WN",
+   "nf_build": "no",
+   "nf_evidence": "main-menu-credits: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "tooltipfix",
+   "mod_id": "tooltipfix",
+   "mod_version": "1.1.1-1.20",
+   "environment": "client",
+   "file": "tooltipfix-1.1.1-1.20.jar",
+   "url": "https://cdn.modrinth.com/data/2RKFTmiB/versions/B2L4LeMV/tooltipfix-1.1.1-1.20.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.12.5",
+     "ok": true,
+     "required_by": "tooltipfix"
+    },
+    {
+     "id": "fabric",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "tooltipfix"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "tooltipfix",
+     "file": "tooltipfix-1.1.1-1.20.jar",
+     "url": "https://cdn.modrinth.com/data/2RKFTmiB/versions/B2L4LeMV/tooltipfix-1.1.1-1.20.jar",
+     "version": "1.1.1-1.20",
+     "version_id": "B2L4LeMV",
+     "sha1": "de704792c691e3d19316c87c21c9ad2bee6c66c3",
+     "file_size": 12432,
+     "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "2RKFTmiB"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 12432,
+   "group": "main",
+   "check": "长 tooltip 不超出屏幕",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "长提示文本换行而非溢出屏幕",
+   "ok": true,
+   "version_id": "B2L4LeMV",
+   "sha1": "de704792c691e3d19316c87c21c9ad2bee6c66c3",
+   "file_size": 12432,
+   "game_versions": [
+    "1.20",
+    "1.20.1",
+    "1.20.2",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "2RKFTmiB",
+   "nf_build": "no",
+   "nf_evidence": "tooltipfix: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "better-ping-display-fabric",
+   "mod_id": "betterpingdisplay",
+   "mod_version": "1.1.1",
+   "environment": "client",
+   "file": "BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+   "url": "https://cdn.modrinth.com/data/MS1ZMyR7/versions/xCWQ8iLW/BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.11",
+     "ok": true,
+     "required_by": "betterpingdisplay"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "1.21.1",
+     "ok": true,
+     "required_by": "betterpingdisplay"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "betterpingdisplay",
+     "file": "BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+     "url": "https://cdn.modrinth.com/data/MS1ZMyR7/versions/xCWQ8iLW/BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+     "version": "1.21.1-1.1.1",
+     "version_id": "xCWQ8iLW",
+     "sha1": "534ba30ec8a7ea23048a507d02a651b6ddcaf523",
+     "file_size": 14850,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "MS1ZMyR7"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 14850,
+   "group": "main",
+   "check": "多人界面 ping 显示正常",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "多人服务器中 HUD 显示 ping/延迟条",
+   "ok": true,
+   "version_id": "xCWQ8iLW",
+   "sha1": "534ba30ec8a7ea23048a507d02a651b6ddcaf523",
+   "file_size": 14850,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "MS1ZMyR7",
+   "nf_build": "no",
+   "nf_evidence": "better-ping-display-fabric: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "beautify-refabricated",
+   "mod_id": "beautify",
+   "mod_version": "3.6.5",
+   "environment": "*",
+   "file": "beautify-3.6.5-fabric+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/DhSSvaxs/versions/qpzaFKKc/beautify-3.6.5-fabric%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "cloth-config",
+     "kind": "fabric",
+     "version": "15.0.140",
+     "spec": "*",
+     "ok": true,
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "modrinth_version": "15.0.140+fabric",
+     "slug": "cloth-config",
+     "real_id": "cloth-config",
+     "required_by": "beautify"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.14.0",
+     "ok": true,
+     "required_by": "cloth-config"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "cloth-config"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.115.0+1.21.1",
+     "ok": true,
+     "required_by": "beautify"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "beautify"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "beautify",
+     "file": "beautify-3.6.5-fabric+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/DhSSvaxs/versions/qpzaFKKc/beautify-3.6.5-fabric%2B1.21.1.jar",
+     "version": "3.6.5-fabric+1.21.1",
+     "version_id": "qpzaFKKc",
+     "sha1": "0842c2a4abc37097d2ac662ba84ce44efdfbe80e",
+     "file_size": 921124,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "DhSSvaxs"
+    },
+    {
+     "id": "cloth-config",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 2078290,
+   "group": "main",
+   "check": "放置一件装饰方块",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "装饰方块/物品外观生效",
+   "ok": true,
+   "version_id": "qpzaFKKc",
+   "sha1": "0842c2a4abc37097d2ac662ba84ce44efdfbe80e",
+   "file_size": 921124,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "DhSSvaxs",
+   "nf_build": "no",
+   "nf_evidence": "beautify-refabricated: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "carpet",
+   "mod_id": "carpet",
+   "mod_version": "1.4.147+v240613",
+   "environment": "*",
+   "file": "fabric-carpet-1.21-1.4.147+v240613.jar",
+   "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">1.20.1",
+     "ok": true,
+     "required_by": "carpet"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.14.18",
+     "ok": true,
+     "required_by": "carpet"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "carpet"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "carpet",
+     "file": "fabric-carpet-1.21-1.4.147+v240613.jar",
+     "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
+     "version": "1.4.147",
+     "version_id": "f2mvlGrg",
+     "sha1": "54f2907d83e67283d165336f26e5219d4bd36037",
+     "file_size": 1525027,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "TQTTVgYE"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 1525027,
+   "group": "main",
+   "check": "/carpet 命令有响应",
+   "verdict_mode": "manual",
+   "expected": "fail",
+   "expected_layer": "L2",
+   "expected_reason": "Carpet 通过 mixin/ASM 深度改造服务端类与指令树；Connector 的 mixin 重映射对这类“改 vanilla 行为”的注入覆盖不到，预期在 apply 阶段失败",
+   "scope": "client",
+   "manual_check": "/carpet 指令可用、规则生效（预期失败，见 expected）",
+   "ok": true,
+   "version_id": "f2mvlGrg",
+   "sha1": "54f2907d83e67283d165336f26e5219d4bd36037",
+   "file_size": 1525027,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "TQTTVgYE",
+   "nf_build": "no",
+   "nf_evidence": "carpet: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "no-resource-pack-warnings",
+   "mod_id": "no-resource-pack-warnings",
+   "mod_version": "1.3.1",
+   "environment": "*",
+   "file": "no-resource-pack-warnings-1.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/6xKUDQcB/versions/73nzTFDd/no-resource-pack-warnings-1.3.1.jar",
+   "loader": "fabric",
+   "entries": [],
+   "issues": [],
+   "install": [
+    {
+     "id": "no-resource-pack-warnings",
+     "file": "no-resource-pack-warnings-1.3.1.jar",
+     "url": "https://cdn.modrinth.com/data/6xKUDQcB/versions/73nzTFDd/no-resource-pack-warnings-1.3.1.jar",
+     "version": "1.3.1",
+     "version_id": "73nzTFDd",
+     "sha1": "7a21f4604fab946201e2cfc1a9a8f526f5581cdf",
+     "file_size": 5002,
+     "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8"
+     ],
+     "loader": "fabric",
+     "project_id": "6xKUDQcB"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 5002,
+   "group": "main",
+   "check": "无资源包警告弹窗",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "无 UI / 只压警告：启动日志中不再出现该类警告",
+   "ok": true,
+   "version_id": "73nzTFDd",
+   "sha1": "7a21f4604fab946201e2cfc1a9a8f526f5581cdf",
+   "file_size": 5002,
+   "game_versions": [
+    "1.20",
+    "1.20.1",
+    "1.20.2",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5",
+    "1.21.6",
+    "1.21.7",
+    "1.21.8"
+   ],
+   "project_id": "6xKUDQcB",
+   "nf_build": "no",
+   "nf_evidence": "no-resource-pack-warnings: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "stendhal",
+   "mod_id": "stendhal",
+   "mod_version": "1.4.1-1.21",
+   "environment": "*",
+   "file": "stendhal-1.4.1-1.21.jar",
+   "url": "https://cdn.modrinth.com/data/BWloQ9jK/versions/I3a5043B/stendhal-1.4.1-1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.11",
+     "ok": true,
+     "required_by": "stendhal"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "stendhal"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "stendhal",
+     "file": "stendhal-1.4.1-1.21.jar",
+     "url": "https://cdn.modrinth.com/data/BWloQ9jK/versions/I3a5043B/stendhal-1.4.1-1.21.jar",
+     "version": "1.4.1-1.21",
+     "version_id": "I3a5043B",
+     "sha1": "a653cc8d30a28d600ad6e1b3045564ebf9d67efc",
+     "file_size": 479928,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "BWloQ9jK"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 479928,
+   "group": "main",
+   "check": "书与笔界面出现新功能",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "打开书本/任务界面、翻页正常",
+   "ok": true,
+   "version_id": "I3a5043B",
+   "sha1": "a653cc8d30a28d600ad6e1b3045564ebf9d67efc",
+   "file_size": 479928,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "BWloQ9jK",
+   "nf_build": "no",
+   "nf_evidence": "stendhal: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "forcecloseworldloadingscreen",
+   "mod_id": "forcecloseworldloadingscreen",
+   "mod_version": "2.2.3",
+   "environment": "client",
+   "file": "forcecloseloadingscreen-2.2.3.jar",
+   "url": "https://cdn.modrinth.com/data/blWBX5n1/versions/G95MOUIu/forcecloseloadingscreen-2.2.3.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.10",
+     "ok": true,
+     "required_by": "forcecloseworldloadingscreen"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.20.5",
+     "ok": true,
+     "required_by": "forcecloseworldloadingscreen"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "forcecloseworldloadingscreen"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "forcecloseworldloadingscreen",
+     "file": "forcecloseloadingscreen-2.2.3.jar",
+     "url": "https://cdn.modrinth.com/data/blWBX5n1/versions/G95MOUIu/forcecloseloadingscreen-2.2.3.jar",
+     "version": "2.2.3",
+     "version_id": "G95MOUIu",
+     "sha1": "58a3ba92c29cbe914c18cc1e9c336616b7899ded",
+     "file_size": 115043,
+     "game_versions": [
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5"
+     ],
+     "loader": "fabric",
+     "project_id": "blWBX5n1"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 115043,
+   "group": "main",
+   "check": "加载世界时关闭界面不崩",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "进世界路径：进入世界后加载屏已关闭",
+   "ok": true,
+   "version_id": "G95MOUIu",
+   "sha1": "58a3ba92c29cbe914c18cc1e9c336616b7899ded",
+   "file_size": 115043,
+   "game_versions": [
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5"
+   ],
+   "project_id": "blWBX5n1",
+   "nf_build": "no",
+   "nf_evidence": "forcecloseworldloadingscreen: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "tweakeroo",
+   "mod_id": "tweakeroo",
+   "mod_version": "0.21.61",
+   "environment": "client",
+   "file": "tweakeroo-fabric-1.21-0.21.61.jar",
+   "url": "https://cdn.modrinth.com/data/t5wuYk45/versions/XweKE6fy/tweakeroo-fabric-1.21-0.21.61.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <=1.21.1",
+     "ok": true,
+     "required_by": "tweakeroo"
+    },
+    {
+     "id": "malilib",
+     "kind": "fabric",
+     "version": "0.21.10",
+     "spec": ">=0.21.9-",
+     "ok": true,
+     "file": "malilib-fabric-1.21-0.21.10.jar",
+     "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+     "modrinth_version": "0.21.10",
+     "slug": "malilib",
+     "real_id": "malilib",
+     "required_by": "tweakeroo"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "kind": "ffapi",
+     "version": "4.3.1+204211bf19",
+     "spec": ">=4.2.0",
+     "ok": true,
+     "required_by": "malilib"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "malilib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "tweakeroo",
+     "file": "tweakeroo-fabric-1.21-0.21.61.jar",
+     "url": "https://cdn.modrinth.com/data/t5wuYk45/versions/XweKE6fy/tweakeroo-fabric-1.21-0.21.61.jar",
+     "version": "0.21.61",
+     "version_id": "XweKE6fy",
+     "sha1": "0abe7330be5d4d6c55f1a094ab639e64ea4c5816",
+     "file_size": 643553,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "t5wuYk45"
+    },
+    {
+     "id": "malilib",
+     "file": "malilib-fabric-1.21-0.21.10.jar",
+     "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+     "version": "0.21.10",
+     "version_id": "C99LEy6r",
+     "sha1": "e2699ef71618c54fc03c6c8b28e336603596dcef",
+     "file_size": 1411200,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "GcWjdA9I"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 2054753,
+   "group": "main",
+   "check": "M 打开 Tweakeroo 菜单，开关一项",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "打开配置界面、任一 tweak 生效",
+   "ok": true,
+   "version_id": "XweKE6fy",
+   "sha1": "0abe7330be5d4d6c55f1a094ab639e64ea4c5816",
+   "file_size": 643553,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "t5wuYk45",
+   "nf_build": "no",
+   "nf_evidence": "tweakeroo: 1.21.1 共 12 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "status-effect-bars",
+   "mod_id": "status-effect-bars",
+   "mod_version": "1.0.6",
+   "environment": "client",
+   "file": "status-effect-bars-1.0.6.jar",
+   "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "status-effect-bars"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.10",
+     "ok": true,
+     "required_by": "status-effect-bars"
+    },
+    {
+     "id": "cloth-config2",
+     "kind": "fabric",
+     "version": "15.0.140",
+     "spec": "*",
+     "ok": true,
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "modrinth_version": "15.0.140+fabric",
+     "slug": "cloth-config",
+     "real_id": "cloth-config",
+     "required_by": "status-effect-bars"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "status-effect-bars",
+     "file": "status-effect-bars-1.0.6.jar",
+     "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar",
+     "version": "1.0.6",
+     "version_id": "ramqgou6",
+     "sha1": "c44856cace7ab4ccf37ede190ab1275dd1920af6",
+     "file_size": 42373,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "x02cBj9Y"
+    },
+    {
+     "id": "cloth-config2",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 1199539,
+   "group": "main",
+   "check": "状态效果条显示（吃一瓶药水）",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "状态效果 HUD 条显示且位置正确",
+   "ok": true,
+   "version_id": "ramqgou6",
+   "sha1": "c44856cace7ab4ccf37ede190ab1275dd1920af6",
+   "file_size": 42373,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "x02cBj9Y",
+   "nf_build": "no",
+   "nf_evidence": "status-effect-bars: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "cave-dust",
+   "mod_id": "cavedust",
+   "mod_version": "3.0.1",
+   "environment": "*",
+   "file": "cave_dust-3.0.1.jar",
+   "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/8zG4dQ2R/cave_dust-3.0.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.14.5",
+     "ok": true,
+     "required_by": "cavedust"
+    },
+    {
+     "id": "fabric",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "cavedust"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "1.21.1",
+     "ok": true,
+     "required_by": "cavedust"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=17",
+     "ok": true,
+     "required_by": "cavedust"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "cavedust",
+     "file": "cave_dust-3.0.1.jar",
+     "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/8zG4dQ2R/cave_dust-3.0.1.jar",
+     "version": "3.0.1",
+     "version_id": "8zG4dQ2R",
+     "sha1": "a9f2b1af1dc26b23c1f07a067b58781280e3274d",
+     "file_size": 257069,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "jawg7zT1"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 257069,
+   "group": "main",
+   "check": "洞穴内看到尘埃粒子",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "洞穴尘埃粒子可见",
+   "ok": true,
+   "version_id": "8zG4dQ2R",
+   "sha1": "a9f2b1af1dc26b23c1f07a067b58781280e3274d",
+   "file_size": 257069,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "jawg7zT1",
+   "nf_build": "no",
+   "nf_evidence": "cave-dust: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "wakes",
+   "mod_id": "wakes",
+   "mod_version": "0.4.1+1.21.1",
+   "environment": "client",
+   "file": "wakes-0.4.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/dlNu0RQY/versions/WuY7eJX9/wakes-0.4.1%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.14.21",
+     "ok": true,
+     "required_by": "wakes"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "~1.21",
+     "ok": true,
+     "required_by": "wakes"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "wakes"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "wakes"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "wakes",
+     "file": "wakes-0.4.1+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/dlNu0RQY/versions/WuY7eJX9/wakes-0.4.1%2B1.21.1.jar",
+     "version": "0.4.1+1.21.1",
+     "version_id": "WuY7eJX9",
+     "sha1": "c4f4d09a4b9362bcc952f370ce8c8b44d662dc42",
+     "file_size": 268435,
+     "game_versions": [
+      "1.21",
+      "1.21.1",
+      "1.21.2"
+     ],
+     "loader": "fabric",
+     "project_id": "dlNu0RQY"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 268435,
+   "group": "main",
+   "check": "水面/船尾迹粒子",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "水中尾迹粒子可见",
+   "ok": true,
+   "version_id": "WuY7eJX9",
+   "sha1": "c4f4d09a4b9362bcc952f370ce8c8b44d662dc42",
+   "file_size": 268435,
+   "game_versions": [
+    "1.21",
+    "1.21.1",
+    "1.21.2"
+   ],
+   "project_id": "dlNu0RQY",
+   "nf_build": "no",
+   "nf_evidence": "wakes: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "better-selection",
+   "mod_id": "better-selection",
+   "mod_version": "1.6.8",
+   "environment": "client",
+   "file": "better-selection-1.6.8.jar",
+   "url": "https://cdn.modrinth.com/data/xIpcAYJL/versions/XjB8wIwx/better-selection-1.6.8.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.16.14",
+     "ok": true,
+     "required_by": "better-selection"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "better-selection",
+     "file": "better-selection-1.6.8.jar",
+     "url": "https://cdn.modrinth.com/data/xIpcAYJL/versions/XjB8wIwx/better-selection-1.6.8.jar",
+     "version": "1.6.8",
+     "version_id": "XjB8wIwx",
+     "sha1": "b7d49d2bb41fa673ef4b2c07d95193a5b32a0010",
+     "file_size": 12268,
+     "game_versions": [
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8"
+     ],
+     "loader": "fabric",
+     "project_id": "xIpcAYJL"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 12268,
+   "group": "main",
+   "check": "方块选中框更贴合形状",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "方块选中框样式改变",
+   "ok": true,
+   "version_id": "XjB8wIwx",
+   "sha1": "b7d49d2bb41fa673ef4b2c07d95193a5b32a0010",
+   "file_size": 12268,
+   "game_versions": [
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5",
+    "1.21.6",
+    "1.21.7",
+    "1.21.8"
+   ],
+   "project_id": "xIpcAYJL",
+   "nf_build": "no",
+   "nf_evidence": "better-selection: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "chatpatches",
+   "mod_id": "chatpatches",
+   "mod_version": "8.0.0",
+   "environment": "client",
+   "file": "chatpatches-8.0.0+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/MOqt4Z5n/versions/lIUP93Uo/chatpatches-8.0.0%2B1.21.1-fabric.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "chatpatches"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <=1.21.1",
+     "ok": true,
+     "required_by": "chatpatches"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.19.0",
+     "ok": true,
+     "required_by": "chatpatches"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "kind": "ffapi",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "chatpatches"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "kind": "ffapi",
+     "version": "4.3.1+204211bf19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "chatpatches"
+    },
+    {
+     "id": "fabric-screen-api-v1",
+     "kind": "ffapi",
+     "version": "2.0.26+9991ca2f19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "chatpatches"
+    },
+    {
+     "id": "yet_another_config_lib_v3",
+     "kind": "fabric",
+     "version": "3.8.2+1.21.1-fabric",
+     "spec": "*",
+     "ok": true,
+     "file": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+     "modrinth_version": "3.8.2+1.21.1-fabric",
+     "slug": "yacl",
+     "real_id": "yet_another_config_lib_v3",
+     "required_by": "chatpatches"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.104.0+1.21.1",
+     "ok": true,
+     "required_by": "yet_another_config_lib_v3"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "chatpatches",
+     "file": "chatpatches-8.0.0+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/MOqt4Z5n/versions/lIUP93Uo/chatpatches-8.0.0%2B1.21.1-fabric.jar",
+     "version": "8.0.0+1.21.1-fabric",
+     "version_id": "lIUP93Uo",
+     "sha1": "2701c37aa71ed3e193243712cd10d06d011a1f0e",
+     "file_size": 1535071,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "MOqt4Z5n"
+    },
+    {
+     "id": "yet_another_config_lib_v3",
+     "file": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+     "version": "3.8.2+1.21.1-fabric",
+     "version_id": "o3cDn8Vp",
+     "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
+     "file_size": 1131265,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "1eAoo2KR"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 2666336,
+   "group": "main",
+   "check": "聊天栏复制/时间戳正常",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "聊天记录持久化、重启后仍在",
+   "ok": true,
+   "version_id": "lIUP93Uo",
+   "sha1": "2701c37aa71ed3e193243712cd10d06d011a1f0e",
+   "file_size": 1535071,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "MOqt4Z5n",
+   "nf_build": "no",
+   "nf_evidence": "chatpatches: 1.21.1 共 16 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "custom-splash-screen",
+   "mod_id": "customsplashscreen",
+   "mod_version": "2.2.2",
+   "environment": "client",
+   "file": "customsplashscreen-2.2.2.jar",
+   "url": "https://cdn.modrinth.com/data/BwFQLeCh/versions/LspxE3dn/customsplashscreen-2.2.2.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "midnightlib",
+     "kind": "jij",
+     "version": "1.10.0",
+     "spec": ">=1.9.0",
+     "ok": true,
+     "required_by": "customsplashscreen"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "customsplashscreen",
+     "file": "customsplashscreen-2.2.2.jar",
+     "url": "https://cdn.modrinth.com/data/BwFQLeCh/versions/LspxE3dn/customsplashscreen-2.2.2.jar",
+     "version": "2.2.2",
+     "version_id": "LspxE3dn",
+     "sha1": "c5567c7efc6a305eaebfee46ef1a7b63068c5818",
+     "file_size": 668462,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "BwFQLeCh"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 668462,
+   "group": "main",
+   "check": "启动时自定义 splash",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "启动画面 logo/背景被替换",
+   "ok": true,
+   "version_id": "LspxE3dn",
+   "sha1": "c5567c7efc6a305eaebfee46ef1a7b63068c5818",
+   "file_size": 668462,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "BwFQLeCh",
+   "nf_build": "no",
+   "nf_evidence": "custom-splash-screen: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "held-item-info",
+   "mod_id": "held-item-info",
+   "mod_version": "1.7.0",
+   "environment": "client",
+   "file": "held-item-info-1.7.0.jar",
+   "url": "https://cdn.modrinth.com/data/tEcWzCZz/versions/EvcC3qTM/held-item-info-1.7.0.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "held-item-info"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.10",
+     "ok": true,
+     "required_by": "held-item-info"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "held-item-info",
+     "file": "held-item-info-1.7.0.jar",
+     "url": "https://cdn.modrinth.com/data/tEcWzCZz/versions/EvcC3qTM/held-item-info-1.7.0.jar",
+     "version": "1.7.0",
+     "version_id": "EvcC3qTM",
+     "sha1": "32f34e6b481e2d3ca5e0d6205dc699872f2f2315",
+     "file_size": 79720,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "tEcWzCZz"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 79720,
+   "group": "main",
+   "check": "手持物品信息 HUD",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "手持物品时 HUD 显示附魔/耐久信息",
+   "ok": true,
+   "version_id": "EvcC3qTM",
+   "sha1": "32f34e6b481e2d3ca5e0d6205dc699872f2f2315",
+   "file_size": 79720,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "tEcWzCZz",
+   "nf_build": "no",
+   "nf_evidence": "held-item-info: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "hold-my-items",
+   "mod_id": "hold-my-items",
+   "mod_version": "4.3",
+   "environment": "*",
+   "file": "HMI 4.3 - 1.21.(1).jar",
+   "url": "https://cdn.modrinth.com/data/AP8rDDLS/versions/QvoJWaYG/HMI%204.3%20-%201.21.%281%29.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.16.10",
+     "ok": true,
+     "required_by": "hold-my-items"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21",
+     "ok": true,
+     "required_by": "hold-my-items"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "hold-my-items"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "hold-my-items"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "hold-my-items",
+     "file": "HMI 4.3 - 1.21.(1).jar",
+     "url": "https://cdn.modrinth.com/data/AP8rDDLS/versions/QvoJWaYG/HMI%204.3%20-%201.21.%281%29.jar",
+     "version": "4.3",
+     "version_id": "QvoJWaYG",
+     "sha1": "19ff289fa00d338092458265f3ed24a92a9ada5f",
+     "file_size": 105906,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "AP8rDDLS"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 105906,
+   "group": "main",
+   "check": "手持物品位置/动画变化",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "切换物品栏时手持物不消失/位置正确",
+   "ok": true,
+   "version_id": "QvoJWaYG",
+   "sha1": "19ff289fa00d338092458265f3ed24a92a9ada5f",
+   "file_size": 105906,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "AP8rDDLS",
+   "nf_build": "no",
+   "nf_evidence": "hold-my-items: 1.21.1 共 12 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "connectiblechains",
+   "mod_id": "connectiblechains",
+   "mod_version": "2.5.7+1.21.1",
+   "environment": "*",
+   "file": "connectiblechains-2.5.7+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/ykSfIgTw/versions/bix8ndct/connectiblechains-2.5.7%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.7",
+     "ok": true,
+     "required_by": "connectiblechains"
+    },
+    {
+     "id": "fabric",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "connectiblechains"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "1.21.1",
+     "ok": true,
+     "required_by": "connectiblechains"
+    },
+    {
+     "id": "cloth-config",
+     "kind": "fabric",
+     "version": "15.0.140",
+     "spec": ">=15.0.140",
+     "ok": true,
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "modrinth_version": "15.0.140+fabric",
+     "slug": "cloth-config",
+     "real_id": "cloth-config",
+     "required_by": "connectiblechains"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "connectiblechains",
+     "file": "connectiblechains-2.5.7+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/ykSfIgTw/versions/bix8ndct/connectiblechains-2.5.7%2B1.21.1.jar",
+     "version": "2.5.7+1.21.1",
+     "version_id": "bix8ndct",
+     "sha1": "ad08f0f3a6c6cc1891dc6fce385c41ac9af4046c",
+     "file_size": 537471,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "ykSfIgTw"
+    },
+    {
+     "id": "cloth-config",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 1694637,
+   "group": "main",
+   "check": "铁链连接方块正常渲染",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "链条连接相邻栅栏",
+   "ok": true,
+   "version_id": "bix8ndct",
+   "sha1": "ad08f0f3a6c6cc1891dc6fce385c41ac9af4046c",
+   "file_size": 537471,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "ykSfIgTw",
+   "nf_build": "no",
+   "nf_evidence": "connectiblechains: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "lazy-language-loader",
+   "mod_id": "lazy-language-loader",
+   "mod_version": "0.3.7",
+   "environment": "client",
+   "file": "lazy-language-loader-0.3.7.jar",
+   "url": "https://cdn.modrinth.com/data/Nz0RSWrF/versions/4cZkq7uT/lazy-language-loader-0.3.7.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "1.21.x",
+     "ok": true,
+     "required_by": "lazy-language-loader"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "lazy-language-loader"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "lazy-language-loader",
+     "file": "lazy-language-loader-0.3.7.jar",
+     "url": "https://cdn.modrinth.com/data/Nz0RSWrF/versions/4cZkq7uT/lazy-language-loader-0.3.7.jar",
+     "version": "0.3.7",
+     "version_id": "4cZkq7uT",
+     "sha1": "ea6349ba680dc616df1dc9b0d348b9d416bf2025",
+     "file_size": 24354,
+     "game_versions": [
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3"
+     ],
+     "loader": "fabric",
+     "project_id": "Nz0RSWrF"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 24354,
+   "group": "main",
+   "check": "切换语言不卡死",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "启动期加载：启动到主菜单无卡死/异常",
+   "ok": true,
+   "version_id": "4cZkq7uT",
+   "sha1": "ea6349ba680dc616df1dc9b0d348b9d416bf2025",
+   "file_size": 24354,
+   "game_versions": [
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3"
+   ],
+   "project_id": "Nz0RSWrF",
+   "nf_build": "no",
+   "nf_evidence": "lazy-language-loader: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "fpsdisplay",
+   "mod_id": "fpsdisplay",
+   "mod_version": "4.2.1+1.21.1",
+   "environment": "client",
+   "file": "fpsdisplay-4.2.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/DIlqwRFH/versions/nWbgJNPj/fpsdisplay-4.2.1%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.10",
+     "ok": true,
+     "required_by": "fpsdisplay"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "fpsdisplay"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "kind": "ffapi",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "fpsdisplay"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "fpsdisplay",
+     "file": "fpsdisplay-4.2.1+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/DIlqwRFH/versions/nWbgJNPj/fpsdisplay-4.2.1%2B1.21.1.jar",
+     "version": "4.2.1+1.21.1",
+     "version_id": "nWbgJNPj",
+     "sha1": "d91988c71ccf830c14a5594b3038cdced9dfe3fb",
+     "file_size": 146703,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "DIlqwRFH"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 146703,
+   "group": "main",
+   "check": "FPS 显示叠加层",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "HUD 显示帧率且数值随场景变化",
+   "ok": true,
+   "version_id": "nWbgJNPj",
+   "sha1": "d91988c71ccf830c14a5594b3038cdced9dfe3fb",
+   "file_size": 146703,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "DIlqwRFH",
+   "nf_build": "no",
+   "nf_evidence": "fpsdisplay: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "reacharound",
+   "mod_id": "reacharound",
+   "mod_version": "1.3.1",
+   "environment": "*",
+   "file": "reacharound+1.21-1.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/r3VgI4QN/versions/QbLX7jsn/reacharound%2B1.21-1.3.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.11",
+     "ok": true,
+     "required_by": "reacharound"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "reacharound"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "reacharound"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "reacharound",
+     "file": "reacharound+1.21-1.3.1.jar",
+     "url": "https://cdn.modrinth.com/data/r3VgI4QN/versions/QbLX7jsn/reacharound%2B1.21-1.3.1.jar",
+     "version": "1.3.1",
+     "version_id": "QbLX7jsn",
+     "sha1": "4d56d0a9beac6de9d74dbd6b52291e9da8f5cc00",
+     "file_size": 26590,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "r3VgI4QN"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 26590,
+   "group": "main",
+   "check": "远距离放置方块（reach 扩展）",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "远距离放置方块时手臂伸展",
+   "ok": true,
+   "version_id": "QbLX7jsn",
+   "sha1": "4d56d0a9beac6de9d74dbd6b52291e9da8f5cc00",
+   "file_size": 26590,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "r3VgI4QN",
+   "nf_build": "no",
+   "nf_evidence": "reacharound: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "inmis",
+   "mod_id": "inmis",
+   "mod_version": "2.8.2-1.21.1",
+   "environment": "*",
+   "file": "inmis-2.8.2-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/I0UYcPa0/versions/iE11BIfP/inmis-2.8.2-1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "inmis"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21.1",
+     "ok": true,
+     "required_by": "inmis"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.102.1+1.21.1",
+     "ok": true,
+     "required_by": "inmis"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.16.2",
+     "ok": true,
+     "required_by": "inmis"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "inmis",
+     "file": "inmis-2.8.2-1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/I0UYcPa0/versions/iE11BIfP/inmis-2.8.2-1.21.1.jar",
+     "version": "2.8.2-1.21.1",
+     "version_id": "iE11BIfP",
+     "sha1": "466363e2abf837ed7b0a4543a2c1d5bbe954cffb",
+     "file_size": 133522,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "I0UYcPa0"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 133522,
+   "group": "main",
+   "check": "打开背包物品栏",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "背包物品栏可用、存取正常",
+   "ok": true,
+   "version_id": "iE11BIfP",
+   "sha1": "466363e2abf837ed7b0a4543a2c1d5bbe954cffb",
+   "file_size": 133522,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "I0UYcPa0",
+   "nf_build": "no",
+   "nf_evidence": "inmis: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "universal-graves",
+   "mod_id": "universal-graves",
+   "mod_version": "3.4.4+1.21",
+   "environment": "*",
+   "file": "graves-3.4.4+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/yn9u3ypm/versions/Fg64B87Y/graves-3.4.4%2B1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.10",
+     "ok": true,
+     "required_by": "universal-graves"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "universal-graves"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "universal-graves"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "universal-graves"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "universal-graves",
+     "file": "graves-3.4.4+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/yn9u3ypm/versions/Fg64B87Y/graves-3.4.4%2B1.21.jar",
+     "version": "3.4.4+1.21",
+     "version_id": "Fg64B87Y",
+     "sha1": "e289663f13de87ed871fccb8837c5d69cc3bb2e6",
+     "file_size": 1709158,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "yn9u3ypm"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 1709158,
+   "group": "main",
+   "check": "死亡后墓碑生成并取回物品",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "死亡后生成墓碑并可取回物品",
+   "ok": true,
+   "version_id": "Fg64B87Y",
+   "sha1": "e289663f13de87ed871fccb8837c5d69cc3bb2e6",
+   "file_size": 1709158,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "yn9u3ypm",
+   "nf_build": "no",
+   "nf_evidence": "universal-graves: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "lenient-death",
+   "mod_id": "lenientdeath",
+   "mod_version": "1.2.5+1.21.1",
+   "environment": "*",
+   "file": "lenientdeath-1.2.5+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/Bfi1KBJV/versions/FUbtsgt9/lenientdeath-1.2.5%2B1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.0",
+     "ok": true,
+     "required_by": "lenientdeath"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.20.5",
+     "ok": true,
+     "required_by": "lenientdeath"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "lenientdeath"
+    },
+    {
+     "id": "fabric-permissions-api-v0",
+     "kind": "jij",
+     "version": "0.2-SNAPSHOT",
+     "spec": "*",
+     "ok": true,
+     "required_by": "lenientdeath"
+    },
+    {
+     "id": "jackfredlib-lying",
+     "kind": "jij",
+     "version": "0.5.5+1.21",
+     "spec": ">=0.5.0",
+     "ok": true,
+     "required_by": "lenientdeath"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "lenientdeath",
+     "file": "lenientdeath-1.2.5+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/Bfi1KBJV/versions/FUbtsgt9/lenientdeath-1.2.5%2B1.21.1.jar",
+     "version": "1.2.5+1.21.1",
+     "version_id": "FUbtsgt9",
+     "sha1": "cca7eb614db1053e9b8f8f413bc7bc82edcd472a",
+     "file_size": 920915,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "Bfi1KBJV"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 920915,
+   "group": "main",
+   "check": "死亡不掉落/惩罚可配置",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "死亡惩罚按配置生效（不掉落/保留经验等）",
+   "ok": true,
+   "version_id": "FUbtsgt9",
+   "sha1": "cca7eb614db1053e9b8f8f413bc7bc82edcd472a",
+   "file_size": 920915,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "Bfi1KBJV",
+   "nf_build": "no",
+   "nf_evidence": "lenient-death: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "totemcounter",
+   "mod_id": "totemcounter",
+   "mod_version": "1.6.1+mc1.21",
+   "environment": "client",
+   "file": "totemcounter-1.6.1+mc1.21.jar",
+   "url": "https://cdn.modrinth.com/data/T9R7YTnA/versions/IKkXFg8J/totemcounter-1.6.1%2Bmc1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.20.6",
+     "ok": true,
+     "required_by": "totemcounter"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15",
+     "ok": true,
+     "required_by": "totemcounter"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "totemcounter"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "totemcounter"
+    },
+    {
+     "id": "fabric-command-api-v2",
+     "kind": "ffapi",
+     "version": "2.2.28+36d727be19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "totemcounter"
+    },
+    {
+     "id": "ukulib",
+     "kind": "fabric",
+     "version": "1.4.1+1.21",
+     "spec": "^1.2.0",
+     "ok": true,
+     "file": "ukulib-1.4.1+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/Y8uFrUil/versions/WIHBQHSG/ukulib-1.4.1%2B1.21.jar",
+     "modrinth_version": "1.4.1+1.21",
+     "slug": "ukulib",
+     "real_id": "ukulib",
+     "required_by": "totemcounter"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "totemcounter",
+     "file": "totemcounter-1.6.1+mc1.21.jar",
+     "url": "https://cdn.modrinth.com/data/T9R7YTnA/versions/IKkXFg8J/totemcounter-1.6.1%2Bmc1.21.jar",
+     "version": "1.6.1+mc1.21",
+     "version_id": "IKkXFg8J",
+     "sha1": "fb1d6035bd1d783330bae757d1013c0ad888f6e9",
+     "file_size": 74592,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "T9R7YTnA"
+    },
+    {
+     "id": "ukulib",
+     "file": "ukulib-1.4.1+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/Y8uFrUil/versions/WIHBQHSG/ukulib-1.4.1%2B1.21.jar",
+     "version": "1.4.1+1.21",
+     "version_id": "WIHBQHSG",
+     "sha1": "069701cb77c775ae2bfa9d59e4b9a18eafbb602d",
+     "file_size": 309756,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "Y8uFrUil"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 384348,
+   "group": "main",
+   "check": "图腾数量 HUD",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "HUD 显示图腾数量",
+   "ok": true,
+   "version_id": "IKkXFg8J",
+   "sha1": "fb1d6035bd1d783330bae757d1013c0ad888f6e9",
+   "file_size": 74592,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "T9R7YTnA",
+   "nf_build": "no",
+   "nf_evidence": "totemcounter: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "minihud",
+   "mod_id": "minihud",
+   "mod_version": "0.32.60",
+   "environment": "client",
+   "file": "minihud-fabric-1.21-0.32.60.jar",
+   "url": "https://cdn.modrinth.com/data/UMxybHE8/versions/v23Owcjb/minihud-fabric-1.21-0.32.60.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <=1.21.1",
+     "ok": true,
+     "required_by": "minihud"
+    },
+    {
+     "id": "malilib",
+     "kind": "fabric",
+     "version": "0.21.10",
+     "spec": ">=0.21.10-",
+     "ok": true,
+     "file": "malilib-fabric-1.21-0.21.10.jar",
+     "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+     "modrinth_version": "0.21.10",
+     "slug": "malilib",
+     "real_id": "malilib",
+     "required_by": "minihud"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "kind": "ffapi",
+     "version": "4.3.1+204211bf19",
+     "spec": ">=4.2.0",
+     "ok": true,
+     "required_by": "malilib"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "malilib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "minihud",
+     "file": "minihud-fabric-1.21-0.32.60.jar",
+     "url": "https://cdn.modrinth.com/data/UMxybHE8/versions/v23Owcjb/minihud-fabric-1.21-0.32.60.jar",
+     "version": "0.32.60",
+     "version_id": "v23Owcjb",
+     "sha1": "302a3cf8a3054b59dc1dba75799d01ef48d66aa5",
+     "file_size": 907264,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "UMxybHE8"
+    },
+    {
+     "id": "malilib",
+     "file": "malilib-fabric-1.21-0.21.10.jar",
+     "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+     "version": "0.21.10",
+     "version_id": "C99LEy6r",
+     "sha1": "e2699ef71618c54fc03c6c8b28e336603596dcef",
+     "file_size": 1411200,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "GcWjdA9I"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 2318464,
+   "group": "main",
+   "check": "M 打开 Minihud 菜单，开一个信息行",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "打开信息行显示坐标/生物群系等",
+   "ok": true,
+   "version_id": "v23Owcjb",
+   "sha1": "302a3cf8a3054b59dc1dba75799d01ef48d66aa5",
+   "file_size": 907264,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "UMxybHE8",
+   "nf_build": "no",
+   "nf_evidence": "minihud: 1.21.1 共 11 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "malilib",
+   "mod_id": "malilib",
+   "mod_version": "0.21.10",
+   "environment": "client",
+   "file": "malilib-fabric-1.21-0.21.10.jar",
+   "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <=1.21.1",
+     "ok": true,
+     "required_by": "malilib"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "kind": "ffapi",
+     "version": "4.3.1+204211bf19",
+     "spec": ">=4.2.0",
+     "ok": true,
+     "required_by": "malilib"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "malilib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "malilib",
+     "file": "malilib-fabric-1.21-0.21.10.jar",
+     "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+     "version": "0.21.10",
+     "version_id": "C99LEy6r",
+     "sha1": "e2699ef71618c54fc03c6c8b28e336603596dcef",
+     "file_size": 1411200,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "GcWjdA9I"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 1411200,
+   "group": "main",
+   "check": "Mods 界面能打开 MaLiLib 配置 GUI；热键注册无异常",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "manual_check": "Mods → MaLiLib → Config 能打开其配置 GUI，热键注册无异常",
+   "ok": true,
+   "version_id": "C99LEy6r",
+   "sha1": "e2699ef71618c54fc03c6c8b28e336603596dcef",
+   "file_size": 1411200,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "GcWjdA9I",
+   "nf_build": "no",
+   "nf_evidence": "malilib: 1.21.1 共 11 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "yosbr",
+   "mod_id": "yosbr",
+   "mod_version": "0.1.2",
+   "environment": "*",
+   "file": "yosbr-0.1.2.jar",
+   "url": "https://cdn.modrinth.com/data/WwbubTsV/versions/KMOzdYko/yosbr-0.1.2.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.7.8+build.189",
+     "ok": true,
+     "required_by": "yosbr"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "yosbr",
+     "file": "yosbr-0.1.2.jar",
+     "url": "https://cdn.modrinth.com/data/WwbubTsV/versions/KMOzdYko/yosbr-0.1.2.jar",
+     "version": "0.1.2",
+     "version_id": "KMOzdYko",
+     "sha1": "f0340e9c0bc95d67f3f3e9c1cd79b61054af11f9",
+     "file_size": 17373,
+     "game_versions": [
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26w14a",
+      "26.2-snapshot-1",
+      "26.1.2",
+      "26.2-snapshot-2",
+      "26.2-snapshot-3",
+      "26.2-snapshot-4",
+      "26.2-snapshot-5",
+      "26.2-snapshot-6",
+      "26.2-snapshot-7",
+      "26.2-snapshot-8",
+      "26.2-pre-1",
+      "26.2-pre-2",
+      "26.2-pre-3",
+      "26.2-pre-4",
+      "26.2-pre-5",
+      "26.2-pre-6",
+      "26.2-rc-1",
+      "26.2-rc-2",
+      "26.2",
+      "26.3-snapshot-1",
+      "26.3-snapshot-2",
+      "26.3-snapshot-3",
+      "26.3-snapshot-4",
+      "26.3-snapshot-5",
+      "26.3-snapshot-6",
+      "26.3-snapshot-7",
+      "26.3-snapshot-8",
+      "26.3-snapshot-9",
+      "26.3-snapshot-10",
+      "26.3-pre-1",
+      "26.3-pre-2",
+      "26.3-pre-3",
+      "26.3-rc-1",
+      "26.3-rc-2",
+      "26.3-rc-3",
+      "26.3",
+      "26.4-snapshot-1"
+     ],
+     "loader": "fabric",
+     "project_id": "WwbubTsV"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 17373,
+   "group": "main",
+   "check": "客户端",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "配置文件产物：首次启动后 options.txt 含其写入的默认值",
+   "ok": true,
+   "version_id": "KMOzdYko",
+   "sha1": "f0340e9c0bc95d67f3f3e9c1cd79b61054af11f9",
+   "file_size": 17373,
+   "game_versions": [
+    "1.14",
+    "1.14.1",
+    "1.14.2",
+    "1.14.3",
+    "1.14.4",
+    "1.15",
+    "1.15.1",
+    "1.15.2",
+    "1.16",
+    "1.16.1",
+    "1.16.2",
+    "1.16.3",
+    "1.16.4",
+    "1.16.5",
+    "1.17",
+    "1.17.1",
+    "1.18",
+    "1.18.1",
+    "1.18.2",
+    "1.19",
+    "1.19.1",
+    "1.19.2",
+    "1.19.3",
+    "1.19.4",
+    "1.20",
+    "1.20.1",
+    "1.20.2",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5",
+    "1.21.6",
+    "1.21.7",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26w14a",
+    "26.2-snapshot-1",
+    "26.1.2",
+    "26.2-snapshot-2",
+    "26.2-snapshot-3",
+    "26.2-snapshot-4",
+    "26.2-snapshot-5",
+    "26.2-snapshot-6",
+    "26.2-snapshot-7",
+    "26.2-snapshot-8",
+    "26.2-pre-1",
+    "26.2-pre-2",
+    "26.2-pre-3",
+    "26.2-pre-4",
+    "26.2-pre-5",
+    "26.2-pre-6",
+    "26.2-rc-1",
+    "26.2-rc-2",
+    "26.2",
+    "26.3-snapshot-1",
+    "26.3-snapshot-2",
+    "26.3-snapshot-3",
+    "26.3-snapshot-4",
+    "26.3-snapshot-5",
+    "26.3-snapshot-6",
+    "26.3-snapshot-7",
+    "26.3-snapshot-8",
+    "26.3-snapshot-9",
+    "26.3-snapshot-10",
+    "26.3-pre-1",
+    "26.3-pre-2",
+    "26.3-pre-3",
+    "26.3-rc-1",
+    "26.3-rc-2",
+    "26.3-rc-3",
+    "26.3",
+    "26.4-snapshot-1"
+   ],
+   "project_id": "WwbubTsV",
+   "nf_build": "no",
+   "nf_evidence": "yosbr: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "stackdeobf",
+   "mod_id": "stackdeobfuscator",
+   "mod_version": "1.4.3+08e71cc",
+   "environment": "*",
+   "file": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+   "url": "https://cdn.modrinth.com/data/NusMqsjF/versions/pyiVLk9R/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.14.11",
+     "ok": true,
+     "required_by": "stackdeobfuscator"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.14-alpha.18.49.a",
+     "ok": true,
+     "required_by": "stackdeobfuscator"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=17",
+     "ok": true,
+     "required_by": "stackdeobfuscator"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "stackdeobfuscator",
+     "file": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+     "url": "https://cdn.modrinth.com/data/NusMqsjF/versions/pyiVLk9R/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar",
+     "version": "1.4.3",
+     "version_id": "pyiVLk9R",
+     "sha1": "c36982af69e6d9d9dbac52e4d6c43e8a64fc6163",
+     "file_size": 321213,
+     "game_versions": [
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "20w14infinite",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "22w13oneblockatatime",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "23w12a",
+      "23w13a",
+      "23w13a_or_b",
+      "23w14a",
+      "23w16a",
+      "23w17a",
+      "23w18a",
+      "1.20-pre1",
+      "1.20-pre2",
+      "1.20-pre3",
+      "1.20-pre4",
+      "1.20-pre5",
+      "1.20-pre6",
+      "1.20-pre7",
+      "1.20-rc1",
+      "1.20",
+      "1.20.1-rc1",
+      "1.20.1",
+      "23w31a",
+      "23w32a",
+      "23w33a",
+      "23w35a",
+      "1.20.2-pre1",
+      "1.20.2-pre2",
+      "1.20.2-pre3",
+      "1.20.2-pre4",
+      "1.20.2-rc1",
+      "1.20.2-rc2",
+      "1.20.2",
+      "23w40a",
+      "23w41a",
+      "23w42a",
+      "23w43a",
+      "23w43b",
+      "23w44a",
+      "23w45a",
+      "23w46a",
+      "1.20.3-pre1",
+      "1.20.3-pre2",
+      "1.20.3-pre3",
+      "1.20.3-pre4",
+      "1.20.3-rc1",
+      "1.20.3",
+      "1.20.4-rc1",
+      "1.20.4",
+      "23w51a",
+      "23w51b",
+      "24w03a",
+      "24w03b",
+      "24w04a",
+      "24w05a",
+      "24w05b",
+      "24w06a",
+      "24w07a",
+      "24w09a",
+      "24w10a",
+      "24w11a",
+      "24w12a",
+      "24w13a",
+      "24w14potato",
+      "24w14a",
+      "1.20.5-pre1",
+      "1.20.5-pre2",
+      "1.20.5-pre3",
+      "1.20.5-pre4",
+      "1.20.5-rc1",
+      "1.20.5-rc2",
+      "1.20.5-rc3",
+      "1.20.5",
+      "1.20.6-rc1",
+      "1.20.6",
+      "24w18a",
+      "24w19a",
+      "24w19b",
+      "24w20a",
+      "24w21a",
+      "24w21b",
+      "1.21-pre1",
+      "1.21-pre2",
+      "1.21-pre3",
+      "1.21-pre4",
+      "1.21-rc1",
+      "1.21",
+      "1.21.1-rc1",
+      "1.21.1",
+      "24w33a",
+      "24w34a",
+      "24w35a",
+      "24w36a",
+      "24w37a",
+      "24w38a",
+      "24w39a",
+      "24w40a",
+      "1.21.2-pre1",
+      "1.21.2-pre2",
+      "1.21.2-pre3",
+      "1.21.2-pre4",
+      "1.21.2-pre5",
+      "1.21.2-rc1",
+      "1.21.2-rc2",
+      "1.21.2",
+      "1.21.3",
+      "24w44a",
+      "24w45a",
+      "24w46a",
+      "1.21.4-pre1",
+      "1.21.4-pre2",
+      "1.21.4-pre3",
+      "1.21.4-rc1",
+      "1.21.4-rc2",
+      "1.21.4-rc3",
+      "1.21.4",
+      "25w02a",
+      "25w03a",
+      "25w04a",
+      "25w05a",
+      "25w06a",
+      "25w07a",
+      "25w08a",
+      "25w09a",
+      "25w09b",
+      "25w10a",
+      "1.21.5-pre1",
+      "1.21.5-pre2",
+      "1.21.5-pre3",
+      "1.21.5-rc1",
+      "1.21.5-rc2",
+      "1.21.5",
+      "25w14craftmine",
+      "25w15a",
+      "25w16a",
+      "25w17a",
+      "25w18a",
+      "25w19a",
+      "25w20a",
+      "25w21a",
+      "1.21.6-pre1",
+      "1.21.6-pre2",
+      "1.21.6-pre3",
+      "1.21.6-pre4",
+      "1.21.6-rc1",
+      "1.21.6",
+      "1.21.7-rc1",
+      "1.21.7-rc2",
+      "1.21.7",
+      "1.21.8-rc1",
+      "1.21.8",
+      "25w31a",
+      "25w32a",
+      "25w33a",
+      "25w34a",
+      "25w34b",
+      "25w35a",
+      "25w36a",
+      "25w36b",
+      "25w37a",
+      "1.21.9-pre1",
+      "1.21.9-pre2",
+      "1.21.9-pre3",
+      "1.21.9-pre4",
+      "1.21.9-rc1",
+      "1.21.9",
+      "1.21.10-rc1",
+      "1.21.10",
+      "25w41a",
+      "25w42a",
+      "25w43a",
+      "25w44a",
+      "25w45a",
+      "25w46a",
+      "1.21.11-pre1",
+      "1.21.11-pre2",
+      "1.21.11-pre3",
+      "1.21.11-pre4",
+      "1.21.11-pre5",
+      "1.21.11-rc1",
+      "1.21.11-rc2",
+      "1.21.11-rc3",
+      "1.21.11"
+     ],
+     "loader": "fabric",
+     "project_id": "NusMqsjF"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 321213,
+   "group": "main",
+   "check": "客户端",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "启动产物：日志出现 stackdeobf 标记、堆栈可读",
+   "ok": true,
+   "version_id": "pyiVLk9R",
+   "sha1": "c36982af69e6d9d9dbac52e4d6c43e8a64fc6163",
+   "file_size": 321213,
+   "game_versions": [
+    "1.14",
+    "1.14.1",
+    "1.14.2",
+    "1.14.3",
+    "1.14.4",
+    "1.15",
+    "1.15.1",
+    "1.15.2",
+    "20w14infinite",
+    "1.16",
+    "1.16.1",
+    "1.16.2",
+    "1.16.3",
+    "1.16.4",
+    "1.16.5",
+    "1.17",
+    "1.17.1",
+    "1.18",
+    "1.18.1",
+    "1.18.2",
+    "22w13oneblockatatime",
+    "1.19",
+    "1.19.1",
+    "1.19.2",
+    "1.19.3",
+    "1.19.4",
+    "23w12a",
+    "23w13a",
+    "23w13a_or_b",
+    "23w14a",
+    "23w16a",
+    "23w17a",
+    "23w18a",
+    "1.20-pre1",
+    "1.20-pre2",
+    "1.20-pre3",
+    "1.20-pre4",
+    "1.20-pre5",
+    "1.20-pre6",
+    "1.20-pre7",
+    "1.20-rc1",
+    "1.20",
+    "1.20.1-rc1",
+    "1.20.1",
+    "23w31a",
+    "23w32a",
+    "23w33a",
+    "23w35a",
+    "1.20.2-pre1",
+    "1.20.2-pre2",
+    "1.20.2-pre3",
+    "1.20.2-pre4",
+    "1.20.2-rc1",
+    "1.20.2-rc2",
+    "1.20.2",
+    "23w40a",
+    "23w41a",
+    "23w42a",
+    "23w43a",
+    "23w43b",
+    "23w44a",
+    "23w45a",
+    "23w46a",
+    "1.20.3-pre1",
+    "1.20.3-pre2",
+    "1.20.3-pre3",
+    "1.20.3-pre4",
+    "1.20.3-rc1",
+    "1.20.3",
+    "1.20.4-rc1",
+    "1.20.4",
+    "23w51a",
+    "23w51b",
+    "24w03a",
+    "24w03b",
+    "24w04a",
+    "24w05a",
+    "24w05b",
+    "24w06a",
+    "24w07a",
+    "24w09a",
+    "24w10a",
+    "24w11a",
+    "24w12a",
+    "24w13a",
+    "24w14potato",
+    "24w14a",
+    "1.20.5-pre1",
+    "1.20.5-pre2",
+    "1.20.5-pre3",
+    "1.20.5-pre4",
+    "1.20.5-rc1",
+    "1.20.5-rc2",
+    "1.20.5-rc3",
+    "1.20.5",
+    "1.20.6-rc1",
+    "1.20.6",
+    "24w18a",
+    "24w19a",
+    "24w19b",
+    "24w20a",
+    "24w21a",
+    "24w21b",
+    "1.21-pre1",
+    "1.21-pre2",
+    "1.21-pre3",
+    "1.21-pre4",
+    "1.21-rc1",
+    "1.21",
+    "1.21.1-rc1",
+    "1.21.1",
+    "24w33a",
+    "24w34a",
+    "24w35a",
+    "24w36a",
+    "24w37a",
+    "24w38a",
+    "24w39a",
+    "24w40a",
+    "1.21.2-pre1",
+    "1.21.2-pre2",
+    "1.21.2-pre3",
+    "1.21.2-pre4",
+    "1.21.2-pre5",
+    "1.21.2-rc1",
+    "1.21.2-rc2",
+    "1.21.2",
+    "1.21.3",
+    "24w44a",
+    "24w45a",
+    "24w46a",
+    "1.21.4-pre1",
+    "1.21.4-pre2",
+    "1.21.4-pre3",
+    "1.21.4-rc1",
+    "1.21.4-rc2",
+    "1.21.4-rc3",
+    "1.21.4",
+    "25w02a",
+    "25w03a",
+    "25w04a",
+    "25w05a",
+    "25w06a",
+    "25w07a",
+    "25w08a",
+    "25w09a",
+    "25w09b",
+    "25w10a",
+    "1.21.5-pre1",
+    "1.21.5-pre2",
+    "1.21.5-pre3",
+    "1.21.5-rc1",
+    "1.21.5-rc2",
+    "1.21.5",
+    "25w14craftmine",
+    "25w15a",
+    "25w16a",
+    "25w17a",
+    "25w18a",
+    "25w19a",
+    "25w20a",
+    "25w21a",
+    "1.21.6-pre1",
+    "1.21.6-pre2",
+    "1.21.6-pre3",
+    "1.21.6-pre4",
+    "1.21.6-rc1",
+    "1.21.6",
+    "1.21.7-rc1",
+    "1.21.7-rc2",
+    "1.21.7",
+    "1.21.8-rc1",
+    "1.21.8",
+    "25w31a",
+    "25w32a",
+    "25w33a",
+    "25w34a",
+    "25w34b",
+    "25w35a",
+    "25w36a",
+    "25w36b",
+    "25w37a",
+    "1.21.9-pre1",
+    "1.21.9-pre2",
+    "1.21.9-pre3",
+    "1.21.9-pre4",
+    "1.21.9-rc1",
+    "1.21.9",
+    "1.21.10-rc1",
+    "1.21.10",
+    "25w41a",
+    "25w42a",
+    "25w43a",
+    "25w44a",
+    "25w45a",
+    "25w46a",
+    "1.21.11-pre1",
+    "1.21.11-pre2",
+    "1.21.11-pre3",
+    "1.21.11-pre4",
+    "1.21.11-pre5",
+    "1.21.11-rc1",
+    "1.21.11-rc2",
+    "1.21.11-rc3",
+    "1.21.11"
+   ],
+   "project_id": "NusMqsjF",
+   "nf_build": "no",
+   "nf_evidence": "stackdeobf: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "faster-random",
+   "mod_id": "faster-random",
+   "mod_version": "5.1.0",
+   "environment": "*",
+   "file": "fasterrandom-5.1.0.jar",
+   "url": "https://cdn.modrinth.com/data/RfFxanNh/versions/BbFqiKvi/fasterrandom-5.1.0.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.11",
+     "ok": true,
+     "required_by": "faster-random"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.19",
+     "ok": true,
+     "required_by": "faster-random"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "faster-random",
+     "file": "fasterrandom-5.1.0.jar",
+     "url": "https://cdn.modrinth.com/data/RfFxanNh/versions/BbFqiKvi/fasterrandom-5.1.0.jar",
+     "version": "5.1.0",
+     "version_id": "BbFqiKvi",
+     "sha1": "440720daaf51d5ad88a96ed59e1f59c63fad3f73",
+     "file_size": 20697,
+     "game_versions": [
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "RfFxanNh"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 20697,
+   "group": "main",
+   "check": "客户端",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "无 UI / 随机数加速：进存档 + 无 FATAL/crash + 世界生成不报错",
+   "ok": true,
+   "version_id": "BbFqiKvi",
+   "sha1": "440720daaf51d5ad88a96ed59e1f59c63fad3f73",
+   "file_size": 20697,
+   "game_versions": [
+    "1.19",
+    "1.19.1",
+    "1.19.2",
+    "1.19.3",
+    "1.19.4",
+    "1.20",
+    "1.20.1",
+    "1.20.2",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "RfFxanNh",
+   "nf_build": "no",
+   "nf_evidence": "faster-random: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "sophisticated-core-unofficial-fabric-port",
+   "mod_id": "sophisticatedcore",
+   "mod_version": "1.21.1-1.2.9.21.168",
+   "environment": "*",
+   "file": "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+   "url": "https://cdn.modrinth.com/data/9jxwkYQL/versions/ZLVrtF0Q/sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "1.21.1",
+     "ok": true,
+     "required_by": "sophisticatedcore"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.16.9",
+     "ok": true,
+     "required_by": "sophisticatedcore"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.114.0+1.21.1",
+     "ok": true,
+     "required_by": "sophisticatedcore"
+    },
+    {
+     "id": "forgeconfigapiport",
+     "kind": "fabric",
+     "version": "21.1.6",
+     "spec": ">=21.1.3",
+     "ok": true,
+     "file": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "modrinth_version": "v21.1.6-1.21.1-Fabric",
+     "slug": "forge-config-api-port",
+     "real_id": "forgeconfigapiport",
+     "required_by": "sophisticatedcore"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=17",
+     "ok": true,
+     "required_by": "forgeconfigapiport"
+    },
+    {
+     "id": "team_reborn_energy",
+     "kind": "jij",
+     "version": "4.1.0",
+     "spec": ">=4.1.0",
+     "ok": true,
+     "required_by": "sophisticatedcore"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "sophisticatedcore",
+     "file": "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+     "url": "https://cdn.modrinth.com/data/9jxwkYQL/versions/ZLVrtF0Q/sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+     "version": "1.21.1-1.2.9.21.168",
+     "version_id": "ZLVrtF0Q",
+     "sha1": "43a95dfa338a2a6ba3ea33a5efa0ac040331e50c",
+     "file_size": 2996065,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9jxwkYQL"
+    },
+    {
+     "id": "forgeconfigapiport",
+     "file": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+     "version": "21.1.6",
+     "version_id": "N5qzq0XV",
+     "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+     "file_size": 633065,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "ohNO6lps"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 3629130,
+   "group": "main",
+   "check": "客户端",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "client",
+   "auto_assert": "库：ModList 出现 + 进存档 + 无 FATAL/crash",
+   "ok": true,
+   "version_id": "ZLVrtF0Q",
+   "sha1": "43a95dfa338a2a6ba3ea33a5efa0ac040331e50c",
+   "file_size": 2996065,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "9jxwkYQL",
+   "nf_build": "no",
+   "nf_evidence": "sophisticated-core-unofficial-fabric-port: 1.21.1 共 19 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "mixintrace",
+   "mod_id": "mixintrace",
+   "mod_version": "1.1.1+1.17",
+   "environment": "*",
+   "file": "mixintrace-1.1.1+1.17.jar",
+   "url": "https://cdn.modrinth.com/data/sGmHWmeL/versions/1.1.1%2B1.17/mixintrace-1.1.1%2B1.17.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.12.0",
+     "ok": true,
+     "required_by": "mixintrace"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "*",
+     "ok": true,
+     "required_by": "mixintrace"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "mixintrace",
+     "file": "mixintrace-1.1.1+1.17.jar",
+     "url": "https://cdn.modrinth.com/data/sGmHWmeL/versions/1.1.1%2B1.17/mixintrace-1.1.1%2B1.17.jar",
+     "version": "1.1.1+1.17",
+     "version_id": "LGYOH4RN",
+     "sha1": "7fbb0130db0e427ee7180d304dfa65c46f0e3b69",
+     "file_size": 36039,
+     "game_versions": [
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "sGmHWmeL"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 36039,
+   "group": "main",
+   "check": "客户端",
+   "verdict_mode": "manual",
+   "expected": "fail",
+   "expected_layer": "L4",
+   "expected_reason": "Mixintrace 钩住 Fabric 的 MixinService/agent 内部实现；NeoForge 自带 mixin 服务与 Fabric 版本不同源，预期在类加载/服务替换阶段失败",
+   "scope": "client",
+   "manual_check": "mixin 服务正常（预期失败，见 expected）",
+   "ok": true,
+   "version_id": "LGYOH4RN",
+   "sha1": "7fbb0130db0e427ee7180d304dfa65c46f0e3b69",
+   "file_size": 36039,
+   "game_versions": [
+    "1.17",
+    "1.17.1",
+    "1.18",
+    "1.18.1",
+    "1.18.2",
+    "1.19",
+    "1.19.1",
+    "1.19.2",
+    "1.19.3",
+    "1.19.4",
+    "1.20",
+    "1.20.1",
+    "1.20.2",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "sGmHWmeL",
+   "nf_build": "no",
+   "nf_evidence": "mixintrace: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  }
+ ],
+ "infra": [
+  {
+   "slug": "fabric-language-kotlin",
+   "mod_id": "fabric-language-kotlin",
+   "mod_version": "1.14.2+kotlin.2.4.21",
+   "environment": null,
+   "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+   "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.19.5",
+     "ok": true,
+     "required_by": "fabric-language-kotlin"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "fabric-language-kotlin",
+     "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+     "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+     "version": "1.14.2+kotlin.2.4.21",
+     "version_id": "SKW1BTL3",
+     "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0",
+     "file_size": 8142878,
+     "game_versions": [
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+     ],
+     "loader": "fabric",
+     "project_id": "Ha28R6CL"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 8142878,
+   "group": "infra",
+   "check": "依赖它的 mod（zoomify/optigui）能起来",
+   "ok": true,
+   "version_id": "SKW1BTL3",
+   "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0",
+   "file_size": 8142878,
+   "game_versions": [
+    "1.14",
+    "1.14.1",
+    "1.14.2",
+    "1.14.3",
+    "1.14.4",
+    "1.15",
+    "1.15.1",
+    "1.15.2",
+    "1.16",
+    "1.16.1",
+    "1.16.2",
+    "1.16.3",
+    "1.16.4",
+    "1.16.5",
+    "1.17",
+    "1.17.1",
+    "1.18",
+    "1.18.1",
+    "1.18.2",
+    "1.19",
+    "1.19.1",
+    "1.19.2",
+    "1.19.3",
+    "1.19.4",
+    "1.20",
+    "1.20.1",
+    "1.20.2",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5",
+    "1.21.6",
+    "1.21.7",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2",
+    "26.3"
+   ],
+   "project_id": "Ha28R6CL",
+   "nf_build": "no",
+   "nf_evidence": "fabric-language-kotlin: 1.21.1 共 22 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "cardinal-components-api",
+   "mod_id": "cardinal-components",
+   "mod_version": "6.1.3",
+   "environment": "*",
+   "file": "cardinal-components-api-6.1.3.jar",
+   "url": "https://cdn.modrinth.com/data/K01OU20C/versions/nLsCe2VD/cardinal-components-api-6.1.3.jar",
+   "loader": "fabric",
+   "entries": [],
+   "issues": [],
+   "install": [
+    {
+     "id": "cardinal-components",
+     "file": "cardinal-components-api-6.1.3.jar",
+     "url": "https://cdn.modrinth.com/data/K01OU20C/versions/nLsCe2VD/cardinal-components-api-6.1.3.jar",
+     "version": "6.1.3",
+     "version_id": "nLsCe2VD",
+     "sha1": "e762f5205c0fd0f9bed1c04432bf9b51ec832882",
+     "file_size": 229645,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "K01OU20C"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 229645,
+   "group": "infra",
+   "check": "依赖它的 mod 能起来",
+   "ok": true,
+   "version_id": "nLsCe2VD",
+   "sha1": "e762f5205c0fd0f9bed1c04432bf9b51ec832882",
+   "file_size": 229645,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "K01OU20C",
+   "nf_build": "no",
+   "nf_evidence": "cardinal-components-api: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "cloth-config",
+   "mod_id": "cloth-config",
+   "mod_version": "15.0.140",
+   "environment": null,
+   "file": "cloth-config-15.0.140-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.14.0",
+     "ok": true,
+     "required_by": "cloth-config"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "cloth-config"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "cloth-config",
+     "file": "cloth-config-15.0.140-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+     "version": "15.0.140+fabric",
+     "version_id": "HpMb5wGb",
+     "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+     "file_size": 1157166,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "9s6osm5g"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 1157166,
+   "group": "infra",
+   "check": "配置界面能打开",
+   "ok": true,
+   "version_id": "HpMb5wGb",
+   "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+   "file_size": 1157166,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "9s6osm5g",
+   "nf_build": "yes",
+   "nf_evidence": "cloth-config 15.0.140+neoforge (2024-09-16, loaders=neoforge)"
+  },
+  {
+   "slug": "yacl",
+   "mod_id": "yet_another_config_lib_v3",
+   "mod_version": "3.8.2+1.21.1-fabric",
+   "environment": "*",
+   "file": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.17.0",
+     "ok": true,
+     "required_by": "yet_another_config_lib_v3"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": "~1.21 <1.21.2",
+     "ok": true,
+     "required_by": "yet_another_config_lib_v3"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=17",
+     "ok": true,
+     "required_by": "yet_another_config_lib_v3"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.104.0+1.21.1",
+     "ok": true,
+     "required_by": "yet_another_config_lib_v3"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "yet_another_config_lib_v3",
+     "file": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+     "version": "3.8.2+1.21.1-fabric",
+     "version_id": "o3cDn8Vp",
+     "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
+     "file_size": 1131265,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "1eAoo2KR"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 1131265,
+   "group": "infra",
+   "check": "配置界面能打开",
+   "ok": true,
+   "version_id": "o3cDn8Vp",
+   "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
+   "file_size": 1131265,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "1eAoo2KR",
+   "nf_build": "yes",
+   "nf_evidence": "yacl 3.8.2+1.21.1-neoforge (2026-01-09, loaders=neoforge)"
+  },
+  {
+   "slug": "resourceful-lib",
+   "mod_id": "resourcefullib",
+   "mod_version": "3.0.12",
+   "environment": "*",
+   "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabric",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "resourcefullib"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.20.5",
+     "ok": true,
+     "required_by": "resourcefullib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "resourcefullib",
+     "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+     "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+     "version": "3.0.12",
+     "version_id": "Hf91FuVF",
+     "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+     "file_size": 485586,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "G1hIVOrD"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 485586,
+   "group": "infra",
+   "check": "依赖它的 mod 能起来",
+   "ok": true,
+   "version_id": "Hf91FuVF",
+   "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+   "file_size": 485586,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "G1hIVOrD",
+   "nf_build": "yes",
+   "nf_evidence": "resourceful-lib 3.0.12 (2024-12-08, loaders=neoforge)"
+  },
+  {
+   "slug": "placeholder-api",
+   "mod_id": "placeholder-api",
+   "mod_version": "2.4.2+1.21",
+   "environment": "*",
+   "file": "placeholder-api-2.4.2+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.0",
+     "ok": true,
+     "required_by": "placeholder-api"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21-",
+     "ok": true,
+     "required_by": "placeholder-api"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "placeholder-api",
+     "file": "placeholder-api-2.4.2+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+     "version": "2.4.2+1.21",
+     "version_id": "U5bhVym2",
+     "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
+     "file_size": 232325,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "eXts2L7r"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 232325,
+   "group": "infra",
+   "check": "modmenu 依赖",
+   "ok": true,
+   "version_id": "U5bhVym2",
+   "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
+   "file_size": 232325,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "eXts2L7r",
+   "nf_build": "no",
+   "nf_evidence": "placeholder-api: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "ukulib",
+   "mod_id": "ukulib",
+   "mod_version": "1.4.1+1.21",
+   "environment": "client",
+   "file": "ukulib-1.4.1+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/Y8uFrUil/versions/WIHBQHSG/ukulib-1.4.1%2B1.21.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21",
+     "ok": true,
+     "required_by": "ukulib"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15",
+     "ok": true,
+     "required_by": "ukulib"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "ukulib"
+    },
+    {
+     "id": "fabric-command-api-v2",
+     "kind": "ffapi",
+     "version": "2.2.28+36d727be19",
+     "spec": "*",
+     "ok": true,
+     "required_by": "ukulib"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "kind": "ffapi",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*",
+     "ok": true,
+     "required_by": "ukulib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "ukulib",
+     "file": "ukulib-1.4.1+1.21.jar",
+     "url": "https://cdn.modrinth.com/data/Y8uFrUil/versions/WIHBQHSG/ukulib-1.4.1%2B1.21.jar",
+     "version": "1.4.1+1.21",
+     "version_id": "WIHBQHSG",
+     "sha1": "069701cb77c775ae2bfa9d59e4b9a18eafbb602d",
+     "file_size": 309756,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "Y8uFrUil"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 309756,
+   "group": "infra",
+   "check": "totemcounter 依赖",
+   "ok": true,
+   "version_id": "WIHBQHSG",
+   "sha1": "069701cb77c775ae2bfa9d59e4b9a18eafbb602d",
+   "file_size": 309756,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "Y8uFrUil",
+   "nf_build": "no",
+   "nf_evidence": "ukulib: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  }
+ ],
+ "content_phase2": [
+  {
+   "slug": "farmers-delight-refabricated",
+   "mod_id": "farmersdelight",
+   "mod_version": "1.21.1-3.3.6+refabricated",
+   "environment": "*",
+   "file": "FarmersDelight-1.21.1-3.3.6+refabricated.jar",
+   "url": "https://cdn.modrinth.com/data/7vxePowz/versions/wbVXT4Ua/FarmersDelight-1.21.1-3.3.6%2Brefabricated.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.19",
+     "ok": true,
+     "required_by": "farmersdelight"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "farmersdelight"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21 <=1.21.1",
+     "ok": true,
+     "required_by": "farmersdelight"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "farmersdelight",
+     "file": "FarmersDelight-1.21.1-3.3.6+refabricated.jar",
+     "url": "https://cdn.modrinth.com/data/7vxePowz/versions/wbVXT4Ua/FarmersDelight-1.21.1-3.3.6%2Brefabricated.jar",
+     "version": "1.21.1-3.3.6",
+     "version_id": "wbVXT4Ua",
+     "sha1": "6d75a472d56c7cf0e9abc7e654861076e8eff389",
+     "file_size": 3243316,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "7vxePowz"
+    }
+   ],
+   "install_jars": 1,
+   "install_bytes": 3243316,
+   "group": "content_phase2",
+   "check": "种植/烹饪一件食物",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "content",
+   "manual_check": "种植/烹饪一件食物",
+   "ok": true,
+   "version_id": "wbVXT4Ua",
+   "sha1": "6d75a472d56c7cf0e9abc7e654861076e8eff389",
+   "file_size": 3243316,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "7vxePowz",
+   "nf_build": "no",
+   "nf_evidence": "farmers-delight-refabricated: 1.21.1 共 46 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "betterend",
+   "mod_id": "betterend",
+   "mod_version": "21.0.11",
+   "environment": "*",
+   "file": "better-end-21.0.11.jar",
+   "url": "https://cdn.modrinth.com/data/gc8OEnCC/versions/4qhBEg6J/better-end-21.0.11.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.11",
+     "ok": true,
+     "required_by": "betterend"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.100.0",
+     "ok": true,
+     "required_by": "betterend"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "betterend"
+    },
+    {
+     "id": "bclib",
+     "kind": "fabric",
+     "version": "21.0.13",
+     "spec": "21.0.x",
+     "ok": true,
+     "file": "bclib-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/BgNRHReB/versions/TxWM7AW8/bclib-21.0.13.jar",
+     "modrinth_version": "21.0.13",
+     "slug": "bclib",
+     "real_id": "bclib",
+     "required_by": "betterend"
+    },
+    {
+     "id": "wunderlib",
+     "kind": "fabric",
+     "version": "21.0.8",
+     "spec": "21.0.x",
+     "ok": true,
+     "file": "wunderlib-21.0.8.jar",
+     "url": "https://cdn.modrinth.com/data/8O0Adq7w/versions/NWOZ9B7R/wunderlib-21.0.8.jar",
+     "modrinth_version": "21.0.8",
+     "slug": "wunderlib",
+     "real_id": "wunderlib",
+     "required_by": "bclib"
+    },
+    {
+     "id": "wover",
+     "kind": "fabric",
+     "version": "21.0.13",
+     "spec": "21.0.x",
+     "ok": true,
+     "file": "worldweaver-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/RiN8rDVs/versions/mPmeykPR/worldweaver-21.0.13.jar",
+     "modrinth_version": "21.0.13",
+     "slug": "worldweaver",
+     "real_id": "wover",
+     "required_by": "bclib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "betterend",
+     "file": "better-end-21.0.11.jar",
+     "url": "https://cdn.modrinth.com/data/gc8OEnCC/versions/4qhBEg6J/better-end-21.0.11.jar",
+     "version": "21.0.11",
+     "version_id": "4qhBEg6J",
+     "sha1": "625f4340bd9ab67a08130a4167fc6a01777ab075",
+     "file_size": 93380273,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "gc8OEnCC"
+    },
+    {
+     "id": "bclib",
+     "file": "bclib-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/BgNRHReB/versions/TxWM7AW8/bclib-21.0.13.jar",
+     "version": "21.0.13",
+     "version_id": "TxWM7AW8",
+     "sha1": "6a46eb6a8fb9cc0adb878b0ad12555834078c2b3",
+     "file_size": 1486843,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "BgNRHReB"
+    },
+    {
+     "id": "wunderlib",
+     "file": "wunderlib-21.0.8.jar",
+     "url": "https://cdn.modrinth.com/data/8O0Adq7w/versions/NWOZ9B7R/wunderlib-21.0.8.jar",
+     "version": "21.0.8",
+     "version_id": "NWOZ9B7R",
+     "sha1": "ad8c66609db363765855983f0e7f3b655ed0cc64",
+     "file_size": 384385,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "8O0Adq7w"
+    },
+    {
+     "id": "wover",
+     "file": "worldweaver-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/RiN8rDVs/versions/mPmeykPR/worldweaver-21.0.13.jar",
+     "version": "21.0.13",
+     "version_id": "mPmeykPR",
+     "sha1": "01e7196395386bbddc3ff7d47fe37869a850cecd",
+     "file_size": 2364215,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "RiN8rDVs"
+    }
+   ],
+   "install_jars": 4,
+   "install_bytes": 97615716,
+   "group": "content_phase2",
+   "check": "创造物品栏出现 BetterEnd 方块",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "content",
+   "manual_check": "创造物品栏出现 BetterEnd 方块",
+   "ok": true,
+   "version_id": "4qhBEg6J",
+   "sha1": "625f4340bd9ab67a08130a4167fc6a01777ab075",
+   "file_size": 93380273,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "gc8OEnCC",
+   "nf_build": "no",
+   "nf_evidence": "betterend: 1.21.1 共 4 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "betternether",
+   "mod_id": "betternether",
+   "mod_version": "21.0.11",
+   "environment": "*",
+   "file": "better-nether-21.0.11.jar",
+   "url": "https://cdn.modrinth.com/data/MpzVLzy5/versions/M1o6hR2m/better-nether-21.0.11.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.15.3",
+     "ok": true,
+     "required_by": "betternether"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": ">=0.100.0",
+     "ok": true,
+     "required_by": "betternether"
+    },
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "betternether"
+    },
+    {
+     "id": "bclib",
+     "kind": "fabric",
+     "version": "21.0.13",
+     "spec": "21.0.x",
+     "ok": true,
+     "file": "bclib-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/BgNRHReB/versions/TxWM7AW8/bclib-21.0.13.jar",
+     "modrinth_version": "21.0.13",
+     "slug": "bclib",
+     "real_id": "bclib",
+     "required_by": "betternether"
+    },
+    {
+     "id": "wunderlib",
+     "kind": "fabric",
+     "version": "21.0.8",
+     "spec": "21.0.x",
+     "ok": true,
+     "file": "wunderlib-21.0.8.jar",
+     "url": "https://cdn.modrinth.com/data/8O0Adq7w/versions/NWOZ9B7R/wunderlib-21.0.8.jar",
+     "modrinth_version": "21.0.8",
+     "slug": "wunderlib",
+     "real_id": "wunderlib",
+     "required_by": "bclib"
+    },
+    {
+     "id": "wover",
+     "kind": "fabric",
+     "version": "21.0.13",
+     "spec": "21.0.x",
+     "ok": true,
+     "file": "worldweaver-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/RiN8rDVs/versions/mPmeykPR/worldweaver-21.0.13.jar",
+     "modrinth_version": "21.0.13",
+     "slug": "worldweaver",
+     "real_id": "wover",
+     "required_by": "bclib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "betternether",
+     "file": "better-nether-21.0.11.jar",
+     "url": "https://cdn.modrinth.com/data/MpzVLzy5/versions/M1o6hR2m/better-nether-21.0.11.jar",
+     "version": "21.0.11",
+     "version_id": "M1o6hR2m",
+     "sha1": "c6dcee6fd46d25d0bf2246549efd3da96ce45769",
+     "file_size": 23145216,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "MpzVLzy5"
+    },
+    {
+     "id": "bclib",
+     "file": "bclib-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/BgNRHReB/versions/TxWM7AW8/bclib-21.0.13.jar",
+     "version": "21.0.13",
+     "version_id": "TxWM7AW8",
+     "sha1": "6a46eb6a8fb9cc0adb878b0ad12555834078c2b3",
+     "file_size": 1486843,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "BgNRHReB"
+    },
+    {
+     "id": "wunderlib",
+     "file": "wunderlib-21.0.8.jar",
+     "url": "https://cdn.modrinth.com/data/8O0Adq7w/versions/NWOZ9B7R/wunderlib-21.0.8.jar",
+     "version": "21.0.8",
+     "version_id": "NWOZ9B7R",
+     "sha1": "ad8c66609db363765855983f0e7f3b655ed0cc64",
+     "file_size": 384385,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "8O0Adq7w"
+    },
+    {
+     "id": "wover",
+     "file": "worldweaver-21.0.13.jar",
+     "url": "https://cdn.modrinth.com/data/RiN8rDVs/versions/mPmeykPR/worldweaver-21.0.13.jar",
+     "version": "21.0.13",
+     "version_id": "mPmeykPR",
+     "sha1": "01e7196395386bbddc3ff7d47fe37869a850cecd",
+     "file_size": 2364215,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "RiN8rDVs"
+    }
+   ],
+   "install_jars": 4,
+   "install_bytes": 27380659,
+   "group": "content_phase2",
+   "check": "进入下界看新群系",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "content",
+   "manual_check": "进入下界看新群系",
+   "ok": true,
+   "version_id": "M1o6hR2m",
+   "sha1": "c6dcee6fd46d25d0bf2246549efd3da96ce45769",
+   "file_size": 23145216,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "MpzVLzy5",
+   "nf_build": "no",
+   "nf_evidence": "betternether: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "friends-and-foes",
+   "mod_id": "friendsandfoes",
+   "mod_version": "5.0.4",
+   "environment": "*",
+   "file": "friendsandfoes-fabric-5.0.4+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/POQ2i9zu/versions/uh0ha6mZ/friendsandfoes-fabric-5.0.4%2Bmc1.21.1.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21",
+     "ok": true,
+     "required_by": "friendsandfoes"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.19.0",
+     "ok": true,
+     "required_by": "friendsandfoes"
+    },
+    {
+     "id": "fabric-api",
+     "kind": "ffapi-root",
+     "version": "provided-by-forgified",
+     "spec": "*",
+     "ok": true,
+     "required_by": "friendsandfoes"
+    },
+    {
+     "id": "resourcefullib",
+     "kind": "fabric",
+     "version": "3.0.12",
+     "spec": ">=3.0.12",
+     "ok": true,
+     "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+     "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+     "modrinth_version": "3.0.12",
+     "slug": "resourceful-lib",
+     "real_id": "resourcefullib",
+     "required_by": "friendsandfoes"
+    },
+    {
+     "id": "fabric",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "resourcefullib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "friendsandfoes",
+     "file": "friendsandfoes-fabric-5.0.4+mc1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/POQ2i9zu/versions/uh0ha6mZ/friendsandfoes-fabric-5.0.4%2Bmc1.21.1.jar",
+     "version": "fabric-5.0.4+mc1.21.1",
+     "version_id": "uh0ha6mZ",
+     "sha1": "f9c011beb6731531ecb59807feaa0b350dc92849",
+     "file_size": 5289491,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "POQ2i9zu"
+    },
+    {
+     "id": "resourcefullib",
+     "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+     "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+     "version": "3.0.12",
+     "version_id": "Hf91FuVF",
+     "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+     "file_size": 485586,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "G1hIVOrD"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 5775077,
+   "group": "content_phase2",
+   "check": "创造物品栏出现新生物蛋",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "content",
+   "manual_check": "创造物品栏出现新生物蛋",
+   "ok": true,
+   "version_id": "uh0ha6mZ",
+   "sha1": "f9c011beb6731531ecb59807feaa0b350dc92849",
+   "file_size": 5289491,
+   "game_versions": [
+    "1.21",
+    "1.21.1"
+   ],
+   "project_id": "POQ2i9zu",
+   "nf_build": "no",
+   "nf_evidence": "friends-and-foes: 1.21.1 共 42 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "the-bumblezone-fabric",
+   "mod_id": "the_bumblezone",
+   "mod_version": "7.17.3+1.21.1-fabric",
+   "environment": "*",
+   "file": "the_bumblezone-7.17.3+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/eA8SXqWL/versions/WXjHJFB3/the_bumblezone-7.17.3%2B1.21.1-fabric.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "java",
+     "kind": "builtin",
+     "version": "25",
+     "spec": ">=21",
+     "ok": true,
+     "required_by": "the_bumblezone"
+    },
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.16.10",
+     "ok": true,
+     "required_by": "the_bumblezone"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21.1",
+     "ok": true,
+     "required_by": "the_bumblezone"
+    },
+    {
+     "id": "fabric",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.100.6",
+     "ok": true,
+     "required_by": "the_bumblezone"
+    },
+    {
+     "id": "resourcefullib",
+     "kind": "jij",
+     "version": "3.0.12",
+     "spec": ">=3.0.11",
+     "ok": true,
+     "required_by": "the_bumblezone"
+    },
+    {
+     "id": "midnightlib",
+     "kind": "fabric",
+     "version": "1.10.0",
+     "spec": "*",
+     "ok": true,
+     "file": "midnightlib-fabric-1.10.0+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/codAaoxh/versions/jQ0KXdpD/midnightlib-fabric-1.10.0%2B1.21.1.jar",
+     "modrinth_version": "1.10.0+1.21.1-fabric",
+     "slug": "midnightlib",
+     "real_id": "midnightlib",
+     "required_by": "the_bumblezone"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "midnightlib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "the_bumblezone",
+     "file": "the_bumblezone-7.17.3+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/eA8SXqWL/versions/WXjHJFB3/the_bumblezone-7.17.3%2B1.21.1-fabric.jar",
+     "version": "7.17.3+1.21.1-fabric",
+     "version_id": "WXjHJFB3",
+     "sha1": "9fecf79de2158c90d8dd61c730de1428eb72fd71",
+     "file_size": 83590227,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "eA8SXqWL"
+    },
+    {
+     "id": "midnightlib",
+     "file": "midnightlib-fabric-1.10.0+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/codAaoxh/versions/jQ0KXdpD/midnightlib-fabric-1.10.0%2B1.21.1.jar",
+     "version": "1.10.0",
+     "version_id": "jQ0KXdpD",
+     "sha1": "3120b1329ab0d01b4af4e659495259bffee2ddae",
+     "file_size": 63975,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "codAaoxh"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 83654202,
+   "group": "content_phase2",
+   "check": "进入 Bumblezone 维度",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "content",
+   "manual_check": "进入 Bumblezone 维度",
+   "ok": true,
+   "version_id": "WXjHJFB3",
+   "sha1": "9fecf79de2158c90d8dd61c730de1428eb72fd71",
+   "file_size": 83590227,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "eA8SXqWL",
+   "nf_build": "no",
+   "nf_evidence": "the-bumblezone-fabric: 1.21.1 共 76 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "repurposed-structures-fabric",
+   "mod_id": "repurposed_structures",
+   "mod_version": "7.5.22+1.21.1-fabric",
+   "environment": "*",
+   "file": "repurposed_structures-7.5.22+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/muf0XoRe/versions/JRMMCb1O/repurposed_structures-7.5.22%2B1.21.1-fabric.jar",
+   "loader": "fabric",
+   "entries": [
+    {
+     "id": "fabricloader",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": "*",
+     "ok": true,
+     "required_by": "repurposed_structures"
+    },
+    {
+     "id": "minecraft",
+     "kind": "builtin",
+     "version": "1.21.1",
+     "spec": ">=1.21.1",
+     "ok": true,
+     "required_by": "repurposed_structures"
+    },
+    {
+     "id": "fabric",
+     "kind": "builtin",
+     "version": "2.5.68",
+     "spec": ">=0.116.14",
+     "ok": true,
+     "required_by": "repurposed_structures"
+    },
+    {
+     "id": "midnightlib",
+     "kind": "fabric",
+     "version": "1.10.0",
+     "spec": ">=1.5.7",
+     "ok": true,
+     "file": "midnightlib-fabric-1.10.0+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/codAaoxh/versions/jQ0KXdpD/midnightlib-fabric-1.10.0%2B1.21.1.jar",
+     "modrinth_version": "1.10.0+1.21.1-fabric",
+     "slug": "midnightlib",
+     "real_id": "midnightlib",
+     "required_by": "repurposed_structures"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "kind": "ffapi",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*",
+     "ok": true,
+     "required_by": "midnightlib"
+    }
+   ],
+   "issues": [],
+   "install": [
+    {
+     "id": "repurposed_structures",
+     "file": "repurposed_structures-7.5.22+1.21.1-fabric.jar",
+     "url": "https://cdn.modrinth.com/data/muf0XoRe/versions/JRMMCb1O/repurposed_structures-7.5.22%2B1.21.1-fabric.jar",
+     "version": "7.5.22+1.21.1-fabric",
+     "version_id": "JRMMCb1O",
+     "sha1": "5cd080074996fbb0abdf1549bab5669094e73f69",
+     "file_size": 8203618,
+     "game_versions": [
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "muf0XoRe"
+    },
+    {
+     "id": "midnightlib",
+     "file": "midnightlib-fabric-1.10.0+1.21.1.jar",
+     "url": "https://cdn.modrinth.com/data/codAaoxh/versions/jQ0KXdpD/midnightlib-fabric-1.10.0%2B1.21.1.jar",
+     "version": "1.10.0",
+     "version_id": "jQ0KXdpD",
+     "sha1": "3120b1329ab0d01b4af4e659495259bffee2ddae",
+     "file_size": 63975,
+     "game_versions": [
+      "1.21",
+      "1.21.1"
+     ],
+     "loader": "fabric",
+     "project_id": "codAaoxh"
+    }
+   ],
+   "install_jars": 2,
+   "install_bytes": 8267593,
+   "group": "content_phase2",
+   "check": "新世界生成后结构出现",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "scope": "content",
+   "manual_check": "新世界生成后结构出现",
+   "ok": true,
+   "version_id": "JRMMCb1O",
+   "sha1": "5cd080074996fbb0abdf1549bab5669094e73f69",
+   "file_size": 8203618,
+   "game_versions": [
+    "1.21.1"
+   ],
+   "project_id": "muf0XoRe",
+   "nf_build": "no",
+   "nf_evidence": "repurposed-structures-fabric: 1.21.1 共 17 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  }
+ ]
+}

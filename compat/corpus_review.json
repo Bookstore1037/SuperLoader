@@ -1,0 +1,1265 @@
+[
+ {
+  "slug": "modmenu",
+  "title": "Mod Menu",
+  "downloads": 164976763,
+  "version": "11.0.5",
+  "file": "modmenu-11.0.5.jar",
+  "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar",
+  "type": "工具",
+  "deps": [
+   "placeholder-api"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "zoomify",
+  "title": "Zoomify (Zoom)",
+  "downloads": 74414182,
+  "version": "2.15.2+1.21.1",
+  "file": "zoomify-2.15.2+1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar",
+  "type": "工具",
+  "deps": [
+   "yacl",
+   "fabric-language-kotlin"
+  ],
+  "check": "按 C 缩放（含平滑过渡）",
+  "class": "candidate"
+ },
+ {
+  "slug": "krypton",
+  "title": "Krypton",
+  "downloads": 46229628,
+  "version": "0.2.8",
+  "file": "krypton-0.2.8.jar",
+  "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+  "type": "优化",
+  "deps": [],
+  "check": "无感；进世界后网络包正常（无断连）",
+  "class": "candidate"
+ },
+ {
+  "slug": "language-reload",
+  "title": "Language Reload",
+  "downloads": 45183642,
+  "version": "1.7.6+1.21.1",
+  "file": "language-reload-1.7.6+1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/lLMGPiZe/language-reload-1.7.6%2B1.21.1.jar",
+  "type": "优化",
+  "deps": [],
+  "check": "F3+T 重载资源包后语言仍正常",
+  "class": "candidate"
+ },
+ {
+  "slug": "presence-footsteps",
+  "title": "Presence Footsteps",
+  "downloads": 42277682,
+  "version": "1.11.2+1.21",
+  "file": "PresenceFootsteps-1.11.2+1.21.jar",
+  "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/CrvsDgLW/PresenceFootsteps-1.11.2%2B1.21.jar",
+  "type": "装饰",
+  "deps": [],
+  "check": "走路/跳跃有脚步声（需资源包）",
+  "class": "candidate"
+ },
+ {
+  "slug": "debugify",
+  "title": "Debugify",
+  "downloads": 40207856,
+  "version": "1.21.1+1.1",
+  "file": "Debugify-1.21.1+1.1.jar",
+  "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/pyIdu3f1/Debugify-1.21.1%2B1.1.jar",
+  "type": "优化",
+  "deps": [
+   "yacl"
+  ],
+  "check": "F3 调试屏出现 debugify 补充项；配置菜单可开",
+  "class": "candidate"
+ },
+ {
+  "slug": "visuality",
+  "title": "Visuality",
+  "downloads": 31557982,
+  "version": "0.7.7+1.21",
+  "file": "visuality-0.7.7+1.21.jar",
+  "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/dhKbgdIb/visuality-0.7.7%2B1.21.jar",
+  "type": "装饰",
+  "deps": [
+   "cloth-config"
+  ],
+  "check": "进世界看区块加载粒子/方块破坏粒子",
+  "class": "candidate"
+ },
+ {
+  "slug": "morechathistory",
+  "title": "More Chat History",
+  "downloads": 30839328,
+  "version": "1.3.1",
+  "file": "morechathistory-1.3.1.jar",
+  "url": "https://cdn.modrinth.com/data/8qkXwOnk/versions/3siYJiWG/morechathistory-1.3.1.jar",
+  "type": "社交",
+  "deps": [],
+  "check": "聊天栏上滚超过 100 条",
+  "class": "candidate"
+ },
+ {
+  "slug": "litematica",
+  "title": "Litematica",
+  "downloads": 28990071,
+  "version": "0.19.61",
+  "file": "litematica-fabric-1.21-0.19.61.jar",
+  "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/o7i8oi1Z/litematica-fabric-1.21-0.19.61.jar",
+  "type": "工具",
+  "deps": [
+   "malilib"
+  ],
+  "check": "打开 Litematica 菜单（M），加载一次放置预览",
+  "class": "candidate"
+ },
+ {
+  "slug": "fallingleaves",
+  "title": "Falling Leaves",
+  "downloads": 28633523,
+  "version": "1.17.1+1.21.1",
+  "file": "fallingleaves-1.17.1+1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/Y0zS16Bk/fallingleaves-1.17.1%2B1.21.1.jar",
+  "type": "装饰",
+  "deps": [
+   "cloth-config"
+  ],
+  "check": "进森林看树叶飘落粒子",
+  "class": "candidate"
+ },
+ {
+  "slug": "optigui",
+  "title": "OptiGUI",
+  "downloads": 28386639,
+  "version": "2.3.0-beta.9+1.21",
+  "file": "optigui-2.3.0-beta.9+1.21.jar",
+  "url": "https://cdn.modrinth.com/data/JuksLGBQ/versions/npnKNaoI/optigui-2.3.0-beta.9%2B1.21.jar",
+  "type": "装饰",
+  "deps": [
+   "fabric-language-kotlin"
+  ],
+  "check": "装一个 CIT 资源包后容器界面贴图替换生效",
+  "class": "candidate"
+ },
+ {
+  "slug": "better-mount-hud",
+  "title": "Better Mount HUD",
+  "downloads": 26027931,
+  "version": "1.2.4",
+  "file": "bettermounthud-1.2.4.jar",
+  "url": "https://cdn.modrinth.com/data/kqJFAPU9/versions/yyJushgo/bettermounthud-1.2.4.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "骑马/坐船时 HUD 正常",
+  "class": "candidate"
+ },
+ {
+  "slug": "fastquit",
+  "title": "FastQuit",
+  "downloads": 25654196,
+  "version": "3.0.0+1.20.6",
+  "file": "fastquit-3.0.0+1.20.6.jar",
+  "url": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar",
+  "type": "优化",
+  "deps": [
+   "cloth-config"
+  ],
+  "check": "关闭游戏立即退出（无卡顿）",
+  "class": "candidate"
+ },
+ {
+  "slug": "fabrishot",
+  "title": "Fabrishot",
+  "downloads": 20203589,
+  "version": "1.14.1",
+  "file": "fabrishot-1.14.1.jar",
+  "url": "https://cdn.modrinth.com/data/3qsfQtE9/versions/HfdXLVRy/fabrishot-1.14.1.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "F9 截图并保存",
+  "class": "candidate"
+ },
+ {
+  "slug": "replaymod",
+  "title": "ReplayMod",
+  "downloads": 19729159,
+  "version": "1.21-2.6.28",
+  "file": "replaymod-1.21-2.6.28.jar",
+  "url": "https://cdn.modrinth.com/data/Nv2fQJo5/versions/DKvQ3lQq/replaymod-1.21-2.6.28.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "打开回放菜单，开始录制",
+  "class": "candidate"
+ },
+ {
+  "slug": "paginatedadvancements",
+  "title": "Paginated Advancements & Custom Frames",
+  "downloads": 19083152,
+  "version": "2.5.1",
+  "file": "paginatedadvancements-2.5.1.jar",
+  "url": "https://cdn.modrinth.com/data/pJogNFap/versions/fQnpir9a/paginatedadvancements-2.5.1.jar",
+  "type": "工具",
+  "deps": [
+   "cloth-config"
+  ],
+  "check": "打开进度界面，翻页正常",
+  "class": "candidate"
+ },
+ {
+  "slug": "main-menu-credits",
+  "title": "Main Menu Credits",
+  "downloads": 18736324,
+  "version": "1.2.0",
+  "file": "main-menu-credits-1.2.0.jar",
+  "url": "https://cdn.modrinth.com/data/qJDfP7WN/versions/eUN0SbET/main-menu-credits-1.2.0.jar",
+  "type": "库",
+  "deps": [],
+  "check": "主菜单右下角出现滚动字幕",
+  "class": "candidate"
+ },
+ {
+  "slug": "tooltipfix",
+  "title": "ToolTipFix",
+  "downloads": 17456576,
+  "version": "1.1.1-1.20",
+  "file": "tooltipfix-1.1.1-1.20.jar",
+  "url": "https://cdn.modrinth.com/data/2RKFTmiB/versions/B2L4LeMV/tooltipfix-1.1.1-1.20.jar",
+  "type": "优化",
+  "deps": [],
+  "check": "长 tooltip 不超出屏幕",
+  "class": "candidate"
+ },
+ {
+  "slug": "farmers-delight-refabricated",
+  "title": "Farmer's Delight Refabricated",
+  "downloads": 17430264,
+  "version": "1.21.1-3.3.6",
+  "file": "FarmersDelight-1.21.1-3.3.6+refabricated.jar",
+  "url": "https://cdn.modrinth.com/data/7vxePowz/versions/wbVXT4Ua/FarmersDelight-1.21.1-3.3.6%2Brefabricated.jar",
+  "type": "装饰",
+  "deps": [],
+  "check": "种植/烹饪一件食物",
+  "class": "candidate"
+ },
+ {
+  "slug": "betterend",
+  "title": "BetterEnd",
+  "downloads": 16271197,
+  "version": "21.0.11",
+  "file": "better-end-21.0.11.jar",
+  "url": "https://cdn.modrinth.com/data/gc8OEnCC/versions/4qhBEg6J/better-end-21.0.11.jar",
+  "type": "装饰",
+  "deps": [
+   "worldweaver",
+   "bclib"
+  ],
+  "check": "创建/进入 BetterEnd 群系（或看创造物品栏）",
+  "class": "candidate"
+ },
+ {
+  "slug": "repurposed-structures-fabric",
+  "title": "Repurposed Structures - Fabric",
+  "downloads": 15176193,
+  "version": "7.5.22+1.21.1-fabric",
+  "file": "repurposed_structures-7.5.22+1.21.1-fabric.jar",
+  "url": "https://cdn.modrinth.com/data/muf0XoRe/versions/JRMMCb1O/repurposed_structures-7.5.22%2B1.21.1-fabric.jar",
+  "type": "世界生成",
+  "deps": [
+   "midnightlib"
+  ],
+  "check": "新世界生成后结构出现",
+  "class": "candidate"
+ },
+ {
+  "slug": "better-ping-display-fabric",
+  "title": "Better Ping Display [Fabric]",
+  "downloads": 14520785,
+  "version": "1.21.1-1.1.1",
+  "file": "BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+  "url": "https://cdn.modrinth.com/data/MS1ZMyR7/versions/xCWQ8iLW/BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "多人界面 ping 显示（可离线看 GUI）",
+  "class": "candidate"
+ },
+ {
+  "slug": "sophisticated-core-unofficial-fabric-port",
+  "title": "Sophisticated Core (Unofficial Fabric port)",
+  "downloads": 14146633,
+  "version": "1.21.1-1.2.9.21.168",
+  "file": "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+  "url": "https://cdn.modrinth.com/data/9jxwkYQL/versions/ZLVrtF0Q/sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+  "type": "库",
+  "deps": [
+   "forge-config-api-port"
+  ],
+  "check": "打开背包升级界面",
+  "class": "candidate"
+ },
+ {
+  "slug": "betternether",
+  "title": "BetterNether",
+  "downloads": 13968279,
+  "version": "21.0.11",
+  "file": "better-nether-21.0.11.jar",
+  "url": "https://cdn.modrinth.com/data/MpzVLzy5/versions/M1o6hR2m/better-nether-21.0.11.jar",
+  "type": "装饰",
+  "deps": [
+   "worldweaver",
+   "bclib"
+  ],
+  "check": "进入下界看 Nether 群系",
+  "class": "candidate"
+ },
+ {
+  "slug": "friends-and-foes",
+  "title": "Friends&Foes (Fabric/Quilt)",
+  "downloads": 12536666,
+  "version": "fabric-5.0.4+mc1.21.1",
+  "file": "friendsandfoes-fabric-5.0.4+mc1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/POQ2i9zu/versions/uh0ha6mZ/friendsandfoes-fabric-5.0.4%2Bmc1.21.1.jar",
+  "type": "玩法",
+  "deps": [
+   "resourceful-lib"
+  ],
+  "check": "创造物品栏出现新生物蛋",
+  "class": "candidate"
+ },
+ {
+  "slug": "sophisticated-backpacks-unoffical-fabric-port",
+  "title": "Sophisticated Backpacks (Unoffical Fabric port)",
+  "downloads": 12099072,
+  "version": "1.21.1-3.23.4.3.106",
+  "file": "sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
+  "url": "https://cdn.modrinth.com/data/ouNrBQtq/versions/nHhuPdda/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
+  "type": "装备",
+  "deps": [
+   "sophisticated-core-unofficial-fabric-port"
+  ],
+  "check": "合成背包并打开",
+  "class": "candidate"
+ },
+ {
+  "slug": "carpet",
+  "title": "Carpet",
+  "downloads": 12041082,
+  "version": "1.4.147",
+  "file": "fabric-carpet-1.21-1.4.147+v240613.jar",
+  "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
+  "type": "机制",
+  "deps": [],
+  "check": "输入 /carpet 命令能响应",
+  "class": "candidate"
+ },
+ {
+  "slug": "beautify-refabricated",
+  "title": "Beautify: Refabricated",
+  "downloads": 10954849,
+  "version": "3.6.5-fabric+1.21.1",
+  "file": "beautify-3.6.5-fabric+1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/DhSSvaxs/versions/qpzaFKKc/beautify-3.6.5-fabric%2B1.21.1.jar",
+  "type": "装饰",
+  "deps": [
+   "cloth-config"
+  ],
+  "check": "放置装饰方块",
+  "class": "candidate"
+ },
+ {
+  "slug": "cobblemon-additions",
+  "title": "Cobblemon additions",
+  "downloads": 10884433,
+  "version": "4.3.0",
+  "file": "cobblemon-additions-4.3.0.jar",
+  "url": "https://cdn.modrinth.com/data/W2pr9jyL/versions/NVitD9gY/cobblemon-additions-4.3.0.jar",
+  "type": "玩法",
+  "deps": [
+   "cobbledollars",
+   "cobblemon"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "ukus-armor-hud",
+  "title": "uku's Armor HUD",
+  "downloads": 10595011,
+  "version": "0.5.1+mc1.21",
+  "file": "ukus-armor-hud-0.5.1+mc1.21.jar",
+  "url": "https://cdn.modrinth.com/data/wF189hn9/versions/KvfhcyfG/ukus-armor-hud-0.5.1%2Bmc1.21.jar",
+  "type": "装备",
+  "deps": [
+   "ukulib"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "sophisticated-storage-unofficial-fabric-port",
+  "title": "Sophisticated Storage (Unofficial Fabric port)",
+  "downloads": 10170345,
+  "version": "1.21.1-1.3.7.9.139",
+  "file": "sophisticatedstorage-1.21.1-1.3.7.9.139.jar",
+  "url": "https://cdn.modrinth.com/data/iHtpVwJL/versions/kjNlOByJ/sophisticatedstorage-1.21.1-1.3.7.9.139.jar",
+  "type": "存储",
+  "deps": [
+   "sophisticated-core-unofficial-fabric-port"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "fabric-seasons",
+  "title": "Fabric Seasons",
+  "downloads": 10111298,
+  "version": "2.4.2-BETA+1.21",
+  "file": "fabric-seasons-2.4.2-BETA+1.21.jar",
+  "url": "https://cdn.modrinth.com/data/KJe6y9Eu/versions/2mIvRTNp/fabric-seasons-2.4.2-BETA%2B1.21.jar",
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "the-bumblezone-fabric",
+  "title": "The Bumblezone - Fabric",
+  "downloads": 10058521,
+  "version": "7.17.3+1.21.1-fabric",
+  "file": "the_bumblezone-7.17.3+1.21.1-fabric.jar",
+  "url": "https://cdn.modrinth.com/data/eA8SXqWL/versions/WXjHJFB3/the_bumblezone-7.17.3%2B1.21.1-fabric.jar",
+  "type": "生物",
+  "deps": [
+   "midnightlib",
+   "resourceful-lib"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "no-resource-pack-warnings",
+  "title": "No Resource Pack Warnings",
+  "downloads": 9910559,
+  "version": "1.3.1",
+  "file": "no-resource-pack-warnings-1.3.1.jar",
+  "url": "https://cdn.modrinth.com/data/6xKUDQcB/versions/73nzTFDd/no-resource-pack-warnings-1.3.1.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "stendhal",
+  "title": "Stendhal",
+  "downloads": 9470776,
+  "version": "1.4.1-1.21",
+  "file": "stendhal-1.4.1-1.21.jar",
+  "url": "https://cdn.modrinth.com/data/BWloQ9jK/versions/I3a5043B/stendhal-1.4.1-1.21.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "noxesium",
+  "title": "Noxesium",
+  "downloads": 8851254,
+  "version": "2.3.3",
+  "file": "noxesium-2.3.3.jar",
+  "url": "https://cdn.modrinth.com/data/Kw7Sm3Xf/versions/23vBW8kj/noxesium-2.3.3.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "coolrain",
+  "title": "Cool Rain",
+  "downloads": 8612646,
+  "version": "1.4.0-1.21.1",
+  "file": "coolrain-1.4.0-1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/iDyqnQLT/versions/i2dHlstR/coolrain-1.4.0-1.21.1.jar",
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "viafabricplus",
+  "title": "ViaFabricPlus",
+  "downloads": 8572897,
+  "version": "3.4.9",
+  "file": "ViaFabricPlus-3.4.9.jar",
+  "url": "https://cdn.modrinth.com/data/rIC2XJV4/versions/9aI7gGPn/ViaFabricPlus-3.4.9.jar",
+  "type": "趣味",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "forcecloseworldloadingscreen",
+  "title": "kennytvs-epic-force-close-loading-screen-mod-for-fabric",
+  "downloads": 8437014,
+  "version": "2.2.3",
+  "file": "forcecloseloadingscreen-2.2.3.jar",
+  "url": "https://cdn.modrinth.com/data/blWBX5n1/versions/G95MOUIu/forcecloseloadingscreen-2.2.3.jar",
+  "type": "趣味",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "tweakeroo",
+  "title": "Tweakeroo",
+  "downloads": 8210932,
+  "version": "0.21.61",
+  "file": "tweakeroo-fabric-1.21-0.21.61.jar",
+  "url": "https://cdn.modrinth.com/data/t5wuYk45/versions/XweKE6fy/tweakeroo-fabric-1.21-0.21.61.jar",
+  "type": "工具",
+  "deps": [
+   "malilib"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "bosses-of-mass-destruction",
+  "title": "Bosses of Mass Destruction",
+  "downloads": 8207387,
+  "version": "1.10.2-1.21.1",
+  "file": "BOMD-1.10.2-1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/du3UfiLL/versions/aSCbUUL1/BOMD-1.10.2-1.21.1.jar",
+  "type": "玩法",
+  "deps": [
+   "cardinal-components-api",
+   "fabric-language-kotlin",
+   "geckolib",
+   "cloth-config"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "status-effect-bars",
+  "title": "Status Effect Bars",
+  "downloads": 8179488,
+  "version": "1.0.6",
+  "file": "status-effect-bars-1.0.6.jar",
+  "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar",
+  "type": "装饰",
+  "deps": [
+   "cloth-config"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "stackdeobf",
+  "title": "StackDeobfuscator",
+  "downloads": 8072254,
+  "version": "1.4.3",
+  "file": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+  "url": "https://cdn.modrinth.com/data/NusMqsjF/versions/pyiVLk9R/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar",
+  "type": "管理",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "cull-less-leaves",
+  "title": "Cull Less Leaves",
+  "downloads": 7889350,
+  "version": "1.4.2+1.21-fabric",
+  "file": "Cull Less Leaves-1.4.2+1.21-fabric.jar",
+  "url": "https://cdn.modrinth.com/data/iG6ZHsUV/versions/4sXZok62/Cull%20Less%20Leaves-1.4.2%2B1.21-fabric.jar",
+  "type": "优化",
+  "deps": [
+   "sodium",
+   "yacl"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "cave-dust",
+  "title": "Cave Dust",
+  "downloads": 7744875,
+  "version": "3.0.1",
+  "file": "cave_dust-3.0.1.jar",
+  "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/8zG4dQ2R/cave_dust-3.0.1.jar",
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "nvidium",
+  "title": "Nvidium",
+  "downloads": 7684630,
+  "version": "0.4.1-beta10-1.21-1.21.1",
+  "file": "nvidium-0.4.1-beta10-1.21-1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/BIQFSOIx/nvidium-0.4.1-beta10-1.21-1.21.1.jar",
+  "type": "优化",
+  "deps": [
+   "sodium"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "adventurez",
+  "title": "AdventureZ",
+  "downloads": 7585525,
+  "version": "1.5.2+1.21.1",
+  "file": "adventurez-1.5.2.jar",
+  "url": "https://cdn.modrinth.com/data/defK2XM3/versions/kNR6O8Oh/adventurez-1.5.2.jar",
+  "type": "玩法",
+  "deps": [
+   "cloth-config"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "wakes",
+  "title": "Wakes",
+  "downloads": 7543089,
+  "version": "0.4.1+1.21.1",
+  "file": "wakes-0.4.1+1.21.1.jar",
+  "url": "https://cdn.modrinth.com/data/dlNu0RQY/versions/WuY7eJX9/wakes-0.4.1%2B1.21.1.jar",
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "better-selection",
+  "title": "Better Selection",
+  "downloads": 7483088,
+  "version": "1.6.8",
+  "file": "better-selection-1.6.8.jar",
+  "url": "https://cdn.modrinth.com/data/xIpcAYJL/versions/XjB8wIwx/better-selection-1.6.8.jar",
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "chatpatches",
+  "title": "Chat Patches",
+  "downloads": 7448321,
+  "version": "8.0.0+1.21.1-fabric",
+  "file": "chatpatches-8.0.0+1.21.1-fabric.jar",
+  "url": "https://cdn.modrinth.com/data/MOqt4Z5n/versions/lIUP93Uo/chatpatches-8.0.0%2B1.21.1-fabric.jar",
+  "type": "装饰",
+  "deps": [
+   "yacl"
+  ],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "faster-random",
+  "title": "Faster Random",
+  "downloads": 7411206,
+  "version": "5.1.0",
+  "file": null,
+  "url": null,
+  "type": "魔法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "cobblethemes",
+  "title": "CobbleThemes",
+  "downloads": 7397250,
+  "version": "1.0.0",
+  "file": null,
+  "url": null,
+  "type": "机制",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "dcwa",
+  "title": "Disable Custom Worlds Advice",
+  "downloads": 7365682,
+  "version": "6.0",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "show-me-your-skin",
+  "title": "Show Me Your Skin!",
+  "downloads": 7297600,
+  "version": "1.11.3+1.21",
+  "file": null,
+  "url": null,
+  "type": "装备",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "explosive-enhancement",
+  "title": "Explosive Enhancement",
+  "downloads": 7261041,
+  "version": "1.3.2-1.21-1.21.1",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "pokeblocks",
+  "title": "Pokeblocks",
+  "downloads": 7172299,
+  "version": "1.5.0-1.21.1",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "minihud",
+  "title": "MiniHUD",
+  "downloads": 7064484,
+  "version": "0.32.60",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "you-shall-not-spawn",
+  "title": "You Shall Not Spawn!",
+  "downloads": 7041930,
+  "version": "1.0.6",
+  "file": null,
+  "url": null,
+  "type": "管理",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "custom-splash-screen",
+  "title": "Custom Splash Screen",
+  "downloads": 6943415,
+  "version": "2.2.2",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "cobblemon-trainer-battle",
+  "title": "Cobblemon Trainer Battle",
+  "downloads": 6909851,
+  "version": "1.11.13+1.8.4",
+  "file": null,
+  "url": null,
+  "type": "小游戏",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "walksylib",
+  "title": "WalksyLib",
+  "downloads": 6809234,
+  "version": "2.0.5+1.21-1.21.1",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "true-ending",
+  "title": "True Ending - Ender Dragon Overhaul",
+  "downloads": 6721633,
+  "version": "1.1.2d",
+  "file": null,
+  "url": null,
+  "type": "魔法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "fabric-seasons-extras",
+  "title": "Fabric Seasons: Extras",
+  "downloads": 6717863,
+  "version": "1.3.3-BETA+1.21",
+  "file": null,
+  "url": null,
+  "type": "科技",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "cape-provider",
+  "title": "Cape Provider",
+  "downloads": 6560131,
+  "version": "5.0.0.0-legacy+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "fabric-seasons-delight-compat",
+  "title": "Fabric Seasons: Delight Compat",
+  "downloads": 6444695,
+  "version": "1.0",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "exordium",
+  "title": "Exordium",
+  "downloads": 6409998,
+  "version": "1.4.2",
+  "file": null,
+  "url": null,
+  "type": "优化",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "held-item-info",
+  "title": "Held Item Info",
+  "downloads": 6304969,
+  "version": "1.7.0",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "grass-overhaul",
+  "title": "Grass Overhaul",
+  "downloads": 6274197,
+  "version": "1.0.0",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "hold-my-items",
+  "title": "Hold My Items",
+  "downloads": 6237410,
+  "version": "4.3",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "camera-utils",
+  "title": "Camera Utils",
+  "downloads": 6216625,
+  "version": "fabric-1.21.1-1.0.16",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "satin-free-wakes",
+  "title": "Satin Free Wakes",
+  "downloads": 6148261,
+  "version": "0.2.2-1.21",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "infinite-music",
+  "title": "Music Delay Remover (Infinite Music)",
+  "downloads": 6145410,
+  "version": "0.4.6",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "from-the-fog",
+  "title": "From The Fog",
+  "downloads": 6105686,
+  "version": "1.9.4",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "brb",
+  "title": "Better Recipe Book",
+  "downloads": 5826416,
+  "version": "1.10.0-rc5+1.21",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "tmcraft",
+  "title": "TMCraft",
+  "downloads": 5789078,
+  "version": "1.4.19+1.8.4",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "cobblecuisine",
+  "title": "CobbleCuisine",
+  "downloads": 5737947,
+  "version": "2.2.0-alpha1",
+  "file": null,
+  "url": null,
+  "type": "食物",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "connectiblechains",
+  "title": "Connectible Chains [Fabric]",
+  "downloads": 5736974,
+  "version": "2.5.7+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "guard-villagers-fabricquilt",
+  "title": "Guard Villagers (Fabric/Quilt)",
+  "downloads": 5668174,
+  "version": "2.1.2-1.21.1",
+  "file": null,
+  "url": null,
+  "type": "装备",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "silk",
+  "title": "Silk",
+  "downloads": 5648116,
+  "version": "1.10.7",
+  "file": null,
+  "url": null,
+  "type": "库",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "dragonloot",
+  "title": "DragonLoot",
+  "downloads": 5624646,
+  "version": "1.1.10+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "装备",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "fwaystones",
+  "title": "Wraith Waystones",
+  "downloads": 5596054,
+  "version": "3.3.4+mc1.21.1",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "vulkanmod",
+  "title": "VulkanMod",
+  "downloads": 5494615,
+  "version": "0.6.7+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "优化",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "inmis",
+  "title": "Inmis",
+  "downloads": 5490236,
+  "version": "2.8.2-1.21.1",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "reacharound",
+  "title": "Reacharound",
+  "downloads": 5354874,
+  "version": "1.3.1",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "bedrockify",
+  "title": "BedrockIfy",
+  "downloads": 5311625,
+  "version": "1.10.1+mc1.21",
+  "file": null,
+  "url": null,
+  "type": "机制",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "universal-graves",
+  "title": "Universal Graves",
+  "downloads": 5292938,
+  "version": "3.4.4+1.21",
+  "file": null,
+  "url": null,
+  "type": "机制",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "better-nether-map",
+  "title": "Better Nether Map",
+  "downloads": 5279065,
+  "version": "4.0.0-1.21.1",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "deuf-refabricated",
+  "title": "DEUF Refabricated",
+  "downloads": 5255959,
+  "version": "1.1.0",
+  "file": null,
+  "url": null,
+  "type": "fabric",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "lazy-language-loader",
+  "title": "lazy-language-loader",
+  "downloads": 5254432,
+  "version": "0.3.7",
+  "file": null,
+  "url": null,
+  "type": "优化",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "skyblocker-liap",
+  "title": "Skyblocker • Hypixel Skyblock",
+  "downloads": 5248797,
+  "version": "v1.23.0-beta.1+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "inmisaddon",
+  "title": "InmisAddon",
+  "downloads": 5190822,
+  "version": "1.0.6+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "装饰",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "cozy-home",
+  "title": "Lucky's Cozy Home: Refurnished",
+  "downloads": 5153524,
+  "version": "1.1.20",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "lenient-death",
+  "title": "Lenient Death",
+  "downloads": 5147352,
+  "version": "1.2.5+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "机制",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "totemcounter",
+  "title": "TotemCounter",
+  "downloads": 5136309,
+  "version": "1.6.1+mc1.21",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "betterend-crashed-ships-tweaks",
+  "title": "BetterEnd Crashed Ships Tweaks",
+  "downloads": 5068207,
+  "version": "1.1.0",
+  "file": null,
+  "url": null,
+  "type": "趣味",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "fpsdisplay",
+  "title": "FPS - Display",
+  "downloads": 5061029,
+  "version": "4.2.1+1.21.1",
+  "file": null,
+  "url": null,
+  "type": "工具",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "minecells",
+  "title": "Mine Cells - Dead Cells Mod",
+  "downloads": 5049269,
+  "version": "2.0.3",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "numismatic-overhaul",
+  "title": "Numismatic Overhaul",
+  "downloads": 5049214,
+  "version": "0.3.5+1.21",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "niftycarts",
+  "title": "NiftyCarts",
+  "downloads": 4996536,
+  "version": "21.1.1",
+  "file": null,
+  "url": null,
+  "type": "存储",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ },
+ {
+  "slug": "lumymon",
+  "title": "LumyMon",
+  "downloads": 4983901,
+  "version": "0.6.6",
+  "file": null,
+  "url": null,
+  "type": "玩法",
+  "deps": [],
+  "check": "进世界 + 触发主功能",
+  "class": "candidate"
+ }
+]

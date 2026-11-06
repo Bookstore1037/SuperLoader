@@ -1,0 +1,130 @@
+[
+  {
+    "mod": "better-mount-hud",
+    "check": "骑乘时 HUD 显示血量/跳跃条",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "language-reload",
+    "check": "F3+T 重载语言不崩、界面文字正确",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "morechathistory",
+    "check": "聊天记录条数超出原版上限",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "tooltipfix",
+    "check": "长提示文本换行而非溢出屏幕",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "main-menu-credits",
+    "check": "主菜单右下角出现版本/署名文本",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "fabrishot",
+    "check": "截图快捷键生成本地高清截图文件",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "visuality",
+    "check": "粒子效果按配置出现",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "paginatedadvancements",
+    "check": "进度界面分页可用",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "inmis",
+    "check": "背包物品栏可用、存取正常",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "status-effect-bars",
+    "check": "状态效果 HUD 条显示且位置正确",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "connectiblechains",
+    "check": "链条连接相邻栅栏",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "appleskin",
+    "check": "饱食度/饱和度 HUD 显示（换 NeoForge 3.0.9 后重验）",
+    "result": "pass",
+    "date": "2026-11-05"
+  },
+  {
+    "mod": "better-ping-display-fabric",
+    "check": "多人服务器中 HUD 显示 ping/延迟条",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "BetterPingDisplay-Fabric-1.21.1-1.1.1.jar"
+  },
+  {
+    "mod": "held-item-info",
+    "check": "手持物品时 HUD 显示附魔/耐久信息",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "held-item-info-1.7.0.jar"
+  },
+  {
+    "mod": "fpsdisplay",
+    "check": "HUD 显示帧率且数值随场景变化",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "fpsdisplay-4.2.1+1.21.1.jar"
+  },
+  {
+    "mod": "reacharound",
+    "check": "远距离放置方块时手臂伸展",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "reacharound+1.21-1.3.1.jar"
+  },
+  {
+    "mod": "cave-dust",
+    "check": "洞穴尘埃粒子可见",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "cave_dust-3.0.1.jar"
+  },
+  {
+    "mod": "wakes",
+    "check": "水中尾迹粒子可见",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "wakes-0.4.1+1.21.1.jar"
+  },
+  {
+    "mod": "better-selection",
+    "check": "方块选中框样式改变",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "better-selection-1.6.8.jar"
+  },
+  {
+    "mod": "chatpatches",
+    "check": "聊天记录持久化、重启后仍在",
+    "result": "pass",
+    "date": "2026-11-05",
+    "jar": "chatpatches-8.0.0+1.21.1-fabric.jar"
+  }
+]

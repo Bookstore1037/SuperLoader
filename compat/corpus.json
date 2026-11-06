@@ -1,0 +1,2407 @@
+{
+ "game_version": "1.21.1",
+ "loader": "neoforge 21.1.265 + connector 2.0.0-beta.17",
+ "main": [
+  {
+   "slug": "modmenu",
+   "type": "工具",
+   "check": "打开 Mods 列表，能看到全部 mod",
+   "version": "11.0.5",
+   "file": "modmenu-11.0.5.jar",
+   "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar",
+   "sha1": "2321d890a25b5985eba576d7cd8fe9a9c136e33d",
+   "deps": [
+    "placeholder-api",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "打开 Mods 列表能看到全部 mod",
+   "version_id": "6lgOkclV",
+   "nf_build": "no",
+   "nf_evidence": "modmenu: 1.21.1 共 5 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-resource-loader-v0",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-screen-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.0.26+9991ca2f19",
+     "spec": ">=1.0.4"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "zoomify",
+   "type": "工具",
+   "check": "按 C 缩放（含平滑过渡）",
+   "version": "2.15.2+1.21.1",
+   "file": "zoomify-2.15.2+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar",
+   "sha1": "9ec9c47e1d3465ea0cbd595b6d9d12227239c9a6",
+   "deps": [
+    "yacl",
+    "fabric-language-kotlin",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "按住缩放键实际生效",
+   "version_id": "6jrMC48Z",
+   "nf_build": "no",
+   "nf_evidence": "zoomify: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-language-kotlin",
+     "slug": "fabric-language-kotlin",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "1.14.2+kotlin.2.4.21",
+     "spec": ">=1.13.8+kotlin.2.3.0"
+    },
+    {
+     "id": "yet_another_config_lib_v3",
+     "slug": "yacl",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "3.8.2+1.21.1-fabric",
+     "spec": ">=3.6.6"
+    }
+   ]
+  },
+  {
+   "slug": "krypton",
+   "type": "优化",
+   "check": "无感；进世界后网络正常（无断连）",
+   "version": "0.2.8",
+   "file": "krypton-0.2.8.jar",
+   "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+   "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "无 UI / 纯传输层：进存档 + 无 FATAL/crash + Netty handler 安装无异常",
+   "version_id": "Acz3ttTp",
+   "nf_build": "no",
+   "nf_evidence": "krypton: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "manual_check": null,
+   "deps_detail": [],
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "presence-footsteps",
+   "type": "装饰",
+   "check": "走路/跳跃有脚步声（需资源包）",
+   "version": "1.11.2+1.21",
+   "file": "PresenceFootsteps-1.11.2+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/CrvsDgLW/PresenceFootsteps-1.11.2%2B1.21.jar",
+   "sha1": "2e0228905a1e5a2ddecb00d40d764a64a4600a6e",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "脚步粒子/音效在移动时出现",
+   "version_id": "CrvsDgLW",
+   "nf_build": "no",
+   "nf_evidence": "presence-footsteps: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "yes",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": ">=0.102.0+1.21.1"
+    },
+    {
+     "id": "kirin",
+     "slug": null,
+     "kind": "jij",
+     "loader": "jij",
+     "version": "1.20.0+1.21",
+     "spec": ">=1.20.0+1.21"
+    }
+   ]
+  },
+  {
+   "slug": "debugify",
+   "type": "优化",
+   "check": "F3 调试屏出现 debugify 补充项；配置菜单可开",
+   "version": "1.21.1+1.1",
+   "file": "Debugify-1.21.1+1.1.jar",
+   "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/pyIdu3f1/Debugify-1.21.1%2B1.1.jar",
+   "sha1": "3388ba4c0f973f0a73a68a42048fe902bb2b14ea",
+   "deps": [
+    "yacl",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "无 UI / 修 bug：进存档 + 无 FATAL/crash + 其 mixin 全部 applied",
+   "version_id": "pyIdu3f1",
+   "nf_build": "no",
+   "nf_evidence": "debugify: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-resource-loader-v0",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*"
+    }
+   ],
+   "manual_check": null,
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "visuality",
+   "type": "装饰",
+   "check": "区块加载/方块破坏粒子出现",
+   "version": "0.7.7+1.21",
+   "file": "visuality-0.7.7+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/dhKbgdIb/visuality-0.7.7%2B1.21.jar",
+   "sha1": "8d239710c1c1983d780ad04686c3c3d0d1b1585e",
+   "deps": [
+    "cloth-config",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "粒子效果按配置出现",
+   "version_id": "dhKbgdIb",
+   "nf_build": "no",
+   "nf_evidence": "visuality: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": "*"
+    },
+    {
+     "id": "cloth-config",
+     "slug": "cloth-config",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "15.0.140",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "morechathistory",
+   "type": "社交",
+   "check": "聊天栏上滚超过 100 条",
+   "version": "1.3.1",
+   "file": "morechathistory-1.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/8qkXwOnk/versions/3siYJiWG/morechathistory-1.3.1.jar",
+   "sha1": "b4337ef9dc0a6cdf31d8f3df68a6542f64f3625e",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "聊天记录条数超出原版上限",
+   "version_id": "3siYJiWG",
+   "nf_build": "no",
+   "nf_evidence": "morechathistory: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "litematica",
+   "type": "工具",
+   "check": "M 打开 Litematica 菜单，加载一次放置预览",
+   "version": "0.19.61",
+   "file": "litematica-fabric-1.21-0.19.61.jar",
+   "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/o7i8oi1Z/litematica-fabric-1.21-0.19.61.jar",
+   "sha1": "efce2dd7118b1e61c8aa461bd8cc9902907dd863",
+   "deps": [
+    "malilib"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "打开投影菜单、加载/放置投影正常",
+   "version_id": "o7i8oi1Z",
+   "nf_build": "no",
+   "nf_evidence": "litematica: 1.21.1 共 10 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "malilib",
+     "slug": "malilib",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "0.21.10",
+     "spec": ">=0.21.10-"
+    }
+   ]
+  },
+  {
+   "slug": "optigui",
+   "type": "装饰",
+   "check": "装 CIT 资源包后容器界面贴图替换生效",
+   "version": "2.3.0-beta.9+1.21",
+   "file": "optigui-2.3.0-beta.9+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/JuksLGBQ/versions/npnKNaoI/optigui-2.3.0-beta.9%2B1.21.jar",
+   "sha1": "9f72bd80779118624138cace74da349b5cf31b6f",
+   "deps": [
+    "fabric-api",
+    "fabric-language-kotlin"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "GUI 背景/按钮纹理被替换且不崩",
+   "version_id": "npnKNaoI",
+   "nf_build": "no",
+   "nf_evidence": "optigui: 1.21.1 共 10 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-events-interaction-v0",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "0.7.14+057f5afd19",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "4.3.1+204211bf19",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-language-kotlin",
+     "slug": "fabric-language-kotlin",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "1.14.2+kotlin.2.4.21",
+     "spec": ">=1.11.0+kotlin.2.0.0"
+    }
+   ]
+  },
+  {
+   "slug": "better-mount-hud",
+   "type": "工具",
+   "check": "骑马/坐船时 HUD 正常",
+   "version": "1.2.4",
+   "file": "bettermounthud-1.2.4.jar",
+   "url": "https://cdn.modrinth.com/data/kqJFAPU9/versions/yyJushgo/bettermounthud-1.2.4.jar",
+   "sha1": "4df822bd5bd7d2e125eb9c7fdb38bb4b6ee0476e",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "骑乘时 HUD 显示血量/跳跃条",
+   "version_id": "yyJushgo",
+   "nf_build": "no",
+   "nf_evidence": "better-mount-hud: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "fastquit",
+   "type": "优化",
+   "check": "关闭游戏立即退出（无卡顿）",
+   "version": "3.0.0+1.20.6",
+   "file": "fastquit-3.0.0+1.20.6.jar",
+   "url": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar",
+   "sha1": "9c4bf4fc3292d627fe0eff85a96672a15f27338c",
+   "deps": [
+    "cloth-config",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "关窗路径：关窗后进程在阈值内退出（不做人工确认）",
+   "version_id": "dIGKewCo",
+   "nf_build": "no",
+   "nf_evidence": "fastquit: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-resource-loader-v0",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*"
+    },
+    {
+     "id": "cloth-config",
+     "slug": "cloth-config",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "15.0.140",
+     "spec": "*"
+    }
+   ],
+   "manual_check": null,
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "fabrishot",
+   "type": "工具",
+   "check": "F9 截图并保存",
+   "version": "1.14.1",
+   "file": "fabrishot-1.14.1.jar",
+   "url": "https://cdn.modrinth.com/data/3qsfQtE9/versions/HfdXLVRy/fabrishot-1.14.1.jar",
+   "sha1": "c8afc690bb3508df7db793f37e1fe5407dba2f22",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "截图快捷键生成本地高清截图文件",
+   "version_id": "HfdXLVRy",
+   "nf_build": "no",
+   "nf_evidence": "fabrishot: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "paginatedadvancements",
+   "type": "工具",
+   "check": "进度界面翻页正常",
+   "version": "2.5.1",
+   "file": "paginatedadvancements-2.5.1.jar",
+   "url": "https://cdn.modrinth.com/data/pJogNFap/versions/fQnpir9a/paginatedadvancements-2.5.1.jar",
+   "sha1": "23a4570fb52d62135d705156079e52ddfe980b94",
+   "deps": [
+    "fabric-api",
+    "cloth-config"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "进度界面分页可用",
+   "version_id": "fQnpir9a",
+   "nf_build": "no",
+   "nf_evidence": "paginatedadvancements: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": ">=0.102.0"
+    },
+    {
+     "id": "cloth-config",
+     "slug": "cloth-config",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "15.0.140",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "main-menu-credits",
+   "type": "装饰",
+   "check": "主菜单右下角滚动字幕",
+   "version": "1.2.0",
+   "file": "main-menu-credits-1.2.0.jar",
+   "url": "https://cdn.modrinth.com/data/qJDfP7WN/versions/eUN0SbET/main-menu-credits-1.2.0.jar",
+   "sha1": "37ad23f76336eedbd940a1f99c5e49d969fdee67",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "主菜单右下角出现版本/署名文本",
+   "version_id": "eUN0SbET",
+   "nf_build": "no",
+   "nf_evidence": "main-menu-credits: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "tooltipfix",
+   "type": "优化",
+   "check": "长 tooltip 不超出屏幕",
+   "version": "1.1.1-1.20",
+   "file": "tooltipfix-1.1.1-1.20.jar",
+   "url": "https://cdn.modrinth.com/data/2RKFTmiB/versions/B2L4LeMV/tooltipfix-1.1.1-1.20.jar",
+   "sha1": "de704792c691e3d19316c87c21c9ad2bee6c66c3",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "长提示文本换行而非溢出屏幕",
+   "version_id": "B2L4LeMV",
+   "nf_build": "no",
+   "nf_evidence": "tooltipfix: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "better-ping-display-fabric",
+   "type": "工具",
+   "check": "多人界面 ping 显示正常",
+   "version": "1.1.1",
+   "file": "BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+   "url": "https://cdn.modrinth.com/data/MS1ZMyR7/versions/xCWQ8iLW/BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+   "sha1": "534ba30ec8a7ea23048a507d02a651b6ddcaf523",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "多人服务器中 HUD 显示 ping/延迟条",
+   "version_id": "xCWQ8iLW",
+   "nf_build": "no",
+   "nf_evidence": "better-ping-display-fabric: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "no-resource-pack-warnings",
+   "type": "工具",
+   "check": "无资源包警告弹窗",
+   "version": "1.3.1",
+   "file": "no-resource-pack-warnings-1.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/6xKUDQcB/versions/73nzTFDd/no-resource-pack-warnings-1.3.1.jar",
+   "sha1": "7a21f4604fab946201e2cfc1a9a8f526f5581cdf",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "无 UI / 只压警告：启动日志中不再出现该类警告",
+   "version_id": "73nzTFDd",
+   "nf_build": "no",
+   "nf_evidence": "no-resource-pack-warnings: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "manual_check": null,
+   "deps_detail": [],
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "stendhal",
+   "type": "工具",
+   "check": "书与笔界面出现新功能",
+   "version": "1.4.1-1.21",
+   "file": "stendhal-1.4.1-1.21.jar",
+   "url": "https://cdn.modrinth.com/data/BWloQ9jK/versions/I3a5043B/stendhal-1.4.1-1.21.jar",
+   "sha1": "a653cc8d30a28d600ad6e1b3045564ebf9d67efc",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "打开书本/任务界面、翻页正常",
+   "version_id": "I3a5043B",
+   "nf_build": "no",
+   "nf_evidence": "stendhal: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "forcecloseworldloadingscreen",
+   "type": "工具",
+   "check": "加载世界时关闭界面不崩",
+   "version": "2.2.3",
+   "file": "forcecloseloadingscreen-2.2.3.jar",
+   "url": "https://cdn.modrinth.com/data/blWBX5n1/versions/G95MOUIu/forcecloseloadingscreen-2.2.3.jar",
+   "sha1": "58a3ba92c29cbe914c18cc1e9c336616b7899ded",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "进世界路径：进入世界后加载屏已关闭",
+   "version_id": "G95MOUIu",
+   "nf_build": "no",
+   "nf_evidence": "forcecloseworldloadingscreen: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "manual_check": null,
+   "deps_detail": [],
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "tweakeroo",
+   "type": "工具",
+   "check": "M 打开 Tweakeroo 菜单，开关一项",
+   "version": "0.21.61",
+   "file": "tweakeroo-fabric-1.21-0.21.61.jar",
+   "url": "https://cdn.modrinth.com/data/t5wuYk45/versions/XweKE6fy/tweakeroo-fabric-1.21-0.21.61.jar",
+   "sha1": "0abe7330be5d4d6c55f1a094ab639e64ea4c5816",
+   "deps": [
+    "malilib"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "打开配置界面、任一 tweak 生效",
+   "version_id": "XweKE6fy",
+   "nf_build": "no",
+   "nf_evidence": "tweakeroo: 1.21.1 共 12 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "malilib",
+     "slug": "malilib",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "0.21.10",
+     "spec": ">=0.21.9-"
+    }
+   ]
+  },
+  {
+   "slug": "status-effect-bars",
+   "type": "装饰",
+   "check": "状态效果条显示（吃一瓶药水）",
+   "version": "1.0.6",
+   "file": "status-effect-bars-1.0.6.jar",
+   "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar",
+   "sha1": "c44856cace7ab4ccf37ede190ab1275dd1920af6",
+   "deps": [
+    "cloth-config"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "状态效果 HUD 条显示且位置正确",
+   "version_id": "ramqgou6",
+   "nf_build": "no",
+   "nf_evidence": "status-effect-bars: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "cloth-config2",
+     "slug": "cloth-config",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "15.0.140",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "cave-dust",
+   "type": "装饰",
+   "check": "洞穴内看到尘埃粒子",
+   "version": "3.0.1",
+   "file": "cave_dust-3.0.1.jar",
+   "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/8zG4dQ2R/cave_dust-3.0.1.jar",
+   "sha1": "a9f2b1af1dc26b23c1f07a067b58781280e3274d",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "洞穴尘埃粒子可见",
+   "version_id": "8zG4dQ2R",
+   "nf_build": "no",
+   "nf_evidence": "cave-dust: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "wakes",
+   "type": "装饰",
+   "check": "水面/船尾迹粒子",
+   "version": "0.4.1+1.21.1",
+   "file": "wakes-0.4.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/dlNu0RQY/versions/WuY7eJX9/wakes-0.4.1%2B1.21.1.jar",
+   "sha1": "c4f4d09a4b9362bcc952f370ce8c8b44d662dc42",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "水中尾迹粒子可见",
+   "version_id": "WuY7eJX9",
+   "nf_build": "no",
+   "nf_evidence": "wakes: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "better-selection",
+   "type": "工具",
+   "check": "方块选中框更贴合形状",
+   "version": "1.6.8",
+   "file": "better-selection-1.6.8.jar",
+   "url": "https://cdn.modrinth.com/data/xIpcAYJL/versions/XjB8wIwx/better-selection-1.6.8.jar",
+   "sha1": "b7d49d2bb41fa673ef4b2c07d95193a5b32a0010",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "方块选中框样式改变",
+   "version_id": "XjB8wIwx",
+   "nf_build": "no",
+   "nf_evidence": "better-selection: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "chatpatches",
+   "type": "装饰",
+   "check": "聊天栏复制/时间戳正常",
+   "version": "8.0.0",
+   "file": "chatpatches-8.0.0+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/MOqt4Z5n/versions/lIUP93Uo/chatpatches-8.0.0%2B1.21.1-fabric.jar",
+   "sha1": "2701c37aa71ed3e193243712cd10d06d011a1f0e",
+   "deps": [
+    "fabric-api",
+    "yacl"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "聊天记录持久化、重启后仍在",
+   "version_id": "lIUP93Uo",
+   "nf_build": "no",
+   "nf_evidence": "chatpatches: 1.21.1 共 16 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-networking-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "4.3.1+204211bf19",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-screen-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.0.26+9991ca2f19",
+     "spec": "*"
+    },
+    {
+     "id": "yet_another_config_lib_v3",
+     "slug": "yacl",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "3.8.2+1.21.1-fabric",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "custom-splash-screen",
+   "type": "装饰",
+   "check": "启动时自定义 splash",
+   "version": "2.2.2",
+   "file": "customsplashscreen-2.2.2.jar",
+   "url": "https://cdn.modrinth.com/data/BwFQLeCh/versions/LspxE3dn/customsplashscreen-2.2.2.jar",
+   "sha1": "c5567c7efc6a305eaebfee46ef1a7b63068c5818",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "启动画面 logo/背景被替换",
+   "version_id": "LspxE3dn",
+   "nf_build": "no",
+   "nf_evidence": "custom-splash-screen: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "yes",
+   "deps_detail": [
+    {
+     "id": "midnightlib",
+     "slug": null,
+     "kind": "jij",
+     "loader": "jij",
+     "version": "1.10.0",
+     "spec": ">=1.9.0"
+    }
+   ]
+  },
+  {
+   "slug": "held-item-info",
+   "type": "装饰",
+   "check": "手持物品信息 HUD",
+   "version": "1.7.0",
+   "file": "held-item-info-1.7.0.jar",
+   "url": "https://cdn.modrinth.com/data/tEcWzCZz/versions/EvcC3qTM/held-item-info-1.7.0.jar",
+   "sha1": "32f34e6b481e2d3ca5e0d6205dc699872f2f2315",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "手持物品时 HUD 显示附魔/耐久信息",
+   "version_id": "EvcC3qTM",
+   "nf_build": "no",
+   "nf_evidence": "held-item-info: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": []
+  },
+  {
+   "slug": "hold-my-items",
+   "type": "装饰",
+   "check": "手持物品位置/动画变化",
+   "version": "4.3",
+   "file": "HMI 4.3 - 1.21.(1).jar",
+   "url": "https://cdn.modrinth.com/data/AP8rDDLS/versions/QvoJWaYG/HMI%204.3%20-%201.21.%281%29.jar",
+   "sha1": "19ff289fa00d338092458265f3ed24a92a9ada5f",
+   "deps": [
+    "modmenu",
+    "cloth-config"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "切换物品栏时手持物不消失/位置正确",
+   "version_id": "QvoJWaYG",
+   "nf_build": "no",
+   "nf_evidence": "hold-my-items: 1.21.1 共 12 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "connectiblechains",
+   "type": "装饰",
+   "check": "铁链连接方块正常渲染",
+   "version": "2.5.7+1.21.1",
+   "file": "connectiblechains-2.5.7+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/ykSfIgTw/versions/bix8ndct/connectiblechains-2.5.7%2B1.21.1.jar",
+   "sha1": "ad08f0f3a6c6cc1891dc6fce385c41ac9af4046c",
+   "deps": [
+    "cloth-config",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "链条连接相邻栅栏",
+   "version_id": "bix8ndct",
+   "nf_build": "no",
+   "nf_evidence": "connectiblechains: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "cloth-config",
+     "slug": "cloth-config",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "15.0.140",
+     "spec": ">=15.0.140"
+    }
+   ]
+  },
+  {
+   "slug": "lazy-language-loader",
+   "type": "优化",
+   "check": "切换语言不卡死",
+   "version": "0.3.7",
+   "file": "lazy-language-loader-0.3.7.jar",
+   "url": "https://cdn.modrinth.com/data/Nz0RSWrF/versions/4cZkq7uT/lazy-language-loader-0.3.7.jar",
+   "sha1": "ea6349ba680dc616df1dc9b0d348b9d416bf2025",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "启动期加载：启动到主菜单无卡死/异常",
+   "version_id": "4cZkq7uT",
+   "nf_build": "no",
+   "nf_evidence": "lazy-language-loader: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "manual_check": null,
+   "deps_detail": [],
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "fpsdisplay",
+   "type": "工具",
+   "check": "FPS 显示叠加层",
+   "version": "4.2.1+1.21.1",
+   "file": "fpsdisplay-4.2.1+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/DIlqwRFH/versions/nWbgJNPj/fpsdisplay-4.2.1%2B1.21.1.jar",
+   "sha1": "d91988c71ccf830c14a5594b3038cdced9dfe3fb",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "HUD 显示帧率且数值随场景变化",
+   "version_id": "nWbgJNPj",
+   "nf_build": "no",
+   "nf_evidence": "fpsdisplay: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-key-binding-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-lifecycle-events-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.6.0+e40d8add19",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "reacharound",
+   "type": "工具",
+   "check": "远距离放置方块（reach 扩展）",
+   "version": "1.3.1",
+   "file": "reacharound+1.21-1.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/r3VgI4QN/versions/QbLX7jsn/reacharound%2B1.21-1.3.1.jar",
+   "sha1": "4d56d0a9beac6de9d74dbd6b52291e9da8f5cc00",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "远距离放置方块时手臂伸展",
+   "version_id": "QbLX7jsn",
+   "nf_build": "no",
+   "nf_evidence": "reacharound: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-key-binding-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "inmis",
+   "type": "玩法",
+   "check": "打开背包物品栏",
+   "version": "2.8.2-1.21.1",
+   "file": "inmis-2.8.2-1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/I0UYcPa0/versions/iE11BIfP/inmis-2.8.2-1.21.1.jar",
+   "sha1": "466363e2abf837ed7b0a4543a2c1d5bbe954cffb",
+   "deps": [
+    "cloth-config",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "背包物品栏可用、存取正常",
+   "version_id": "iE11BIfP",
+   "nf_build": "no",
+   "nf_evidence": "inmis: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": ">=0.102.1+1.21.1"
+    }
+   ]
+  },
+  {
+   "slug": "universal-graves",
+   "type": "机制",
+   "check": "死亡后墓碑生成并取回物品",
+   "version": "3.4.4+1.21",
+   "file": "graves-3.4.4+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/yn9u3ypm/versions/Fg64B87Y/graves-3.4.4%2B1.21.jar",
+   "sha1": "e289663f13de87ed871fccb8837c5d69cc3bb2e6",
+   "deps": [
+    "polymer"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "死亡后生成墓碑并可取回物品",
+   "version_id": "Fg64B87Y",
+   "nf_build": "no",
+   "nf_evidence": "universal-graves: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "lenient-death",
+   "type": "机制",
+   "check": "死亡不掉落/惩罚可配置",
+   "version": "1.2.5+1.21.1",
+   "file": "lenientdeath-1.2.5+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/Bfi1KBJV/versions/FUbtsgt9/lenientdeath-1.2.5%2B1.21.1.jar",
+   "sha1": "cca7eb614db1053e9b8f8f413bc7bc82edcd472a",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "死亡惩罚按配置生效（不掉落/保留经验等）",
+   "version_id": "FUbtsgt9",
+   "nf_build": "no",
+   "nf_evidence": "lenient-death: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "yes",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-permissions-api-v0",
+     "slug": null,
+     "kind": "jij",
+     "loader": "jij",
+     "version": "0.2-SNAPSHOT",
+     "spec": "*"
+    },
+    {
+     "id": "jackfredlib-lying",
+     "slug": null,
+     "kind": "jij",
+     "loader": "jij",
+     "version": "0.5.5+1.21",
+     "spec": ">=0.5.0"
+    }
+   ]
+  },
+  {
+   "slug": "totemcounter",
+   "type": "工具",
+   "check": "图腾数量 HUD",
+   "version": "1.6.1+mc1.21",
+   "file": "totemcounter-1.6.1+mc1.21.jar",
+   "url": "https://cdn.modrinth.com/data/T9R7YTnA/versions/IKkXFg8J/totemcounter-1.6.1%2Bmc1.21.jar",
+   "sha1": "fb1d6035bd1d783330bae757d1013c0ad888f6e9",
+   "deps": [
+    "ukulib"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "HUD 显示图腾数量",
+   "version_id": "IKkXFg8J",
+   "nf_build": "no",
+   "nf_evidence": "totemcounter: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-resource-loader-v0",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-key-binding-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.0.47+62cc7ce119",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-command-api-v2",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "2.2.28+36d727be19",
+     "spec": "*"
+    },
+    {
+     "id": "ukulib",
+     "slug": "ukulib",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "1.4.1+1.21",
+     "spec": "^1.2.0"
+    }
+   ]
+  },
+  {
+   "slug": "malilib",
+   "type": "库（C2 独立样本）",
+   "check": "Mods 界面能打开 MaLiLib 配置 GUI；热键注册无异常",
+   "version": "0.21.10",
+   "file": "malilib-fabric-1.21-0.21.10.jar",
+   "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar",
+   "sha1": "e2699ef71618c54fc03c6c8b28e336603596dcef",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "Mods → MaLiLib → Config 能打开其配置 GUI，热键注册无异常",
+   "version_id": "C99LEy6r",
+   "nf_build": "no",
+   "nf_evidence": "malilib: 1.21.1 共 11 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-networking-api-v1",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "4.3.1+204211bf19",
+     "spec": ">=4.2.0"
+    },
+    {
+     "id": "fabric-resource-loader-v0",
+     "slug": null,
+     "kind": "ffapi",
+     "loader": "ffapi(桥接)",
+     "version": "1.3.1+4ea8954419",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "yosbr",
+   "type": "配置默认值",
+   "check": "客户端",
+   "version": "0.1.2",
+   "file": "yosbr-0.1.2.jar",
+   "url": "https://cdn.modrinth.com/data/WwbubTsV/versions/KMOzdYko/yosbr-0.1.2.jar",
+   "sha1": "f0340e9c0bc95d67f3f3e9c1cd79b61054af11f9",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "配置文件产物：首次启动后 options.txt 含其写入的默认值",
+   "version_id": "KMOzdYko",
+   "nf_build": "no",
+   "nf_evidence": "yosbr: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "manual_check": null,
+   "deps_detail": [],
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "stackdeobf",
+   "type": "调试工具",
+   "check": "客户端",
+   "version": "1.4.3+08e71cc",
+   "file": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+   "url": "https://cdn.modrinth.com/data/NusMqsjF/versions/pyiVLk9R/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar",
+   "sha1": "c36982af69e6d9d9dbac52e4d6c43e8a64fc6163",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "启动产物：日志出现 stackdeobf 标记、堆栈可读",
+   "version_id": "pyiVLk9R",
+   "nf_build": "no",
+   "nf_evidence": "stackdeobf: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "manual_check": null,
+   "deps_detail": [],
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "faster-random",
+   "type": "性能",
+   "check": "客户端",
+   "version": "5.1.0",
+   "file": "fasterrandom-5.1.0.jar",
+   "url": "https://cdn.modrinth.com/data/RfFxanNh/versions/BbFqiKvi/fasterrandom-5.1.0.jar",
+   "sha1": "440720daaf51d5ad88a96ed59e1f59c63fad3f73",
+   "deps": [],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "auto",
+   "auto_assert": "无 UI / 随机数加速：进存档 + 无 FATAL/crash + 世界生成不报错",
+   "version_id": "BbFqiKvi",
+   "nf_build": "no",
+   "nf_evidence": "faster-random: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "manual_check": null,
+   "deps_detail": [],
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-124552",
+   "actual_sample_loaded": true
+  },
+  {
+   "slug": "itemscroller",
+   "type": "工具",
+   "check": "滚轮在背包/箱子间移动物品正常",
+   "version": "0.24.60",
+   "file": "[物品滚轮] itemscroller-fabric-1.21-0.24.60.jar",
+   "url": "https://cdn.modrinth.com/data/JygyCSA4/versions/BmE8Lr1a/itemscroller-fabric-1.21-0.24.60.jar",
+   "sha1": "6021424b738c3810b635cf66718daff0486e4a60",
+   "deps": [
+    "malilib",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "client",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "滚轮在背包/箱子间移动物品正常",
+   "provenance": "official",
+   "note": "malilib 家族（同作者 sakura-ryoko），Fabric-only"
+  }
+ ],
+ "infra": [
+  {
+   "slug": "fabric-language-kotlin",
+   "type": "库",
+   "check": "依赖它的 mod（zoomify/optigui）能起来",
+   "version": "1.14.2+kotlin.2.4.21",
+   "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+   "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+   "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0",
+   "deps": [],
+   "error": null,
+   "version_id": "SKW1BTL3",
+   "nf_build": "no",
+   "nf_evidence": "fabric-language-kotlin: 1.21.1 共 22 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "cardinal-components-api",
+   "type": "库",
+   "check": "依赖它的 mod 能起来",
+   "version": "6.1.3",
+   "file": "cardinal-components-api-6.1.3.jar",
+   "url": "https://cdn.modrinth.com/data/K01OU20C/versions/nLsCe2VD/cardinal-components-api-6.1.3.jar",
+   "sha1": "e762f5205c0fd0f9bed1c04432bf9b51ec832882",
+   "deps": [],
+   "error": null,
+   "version_id": "nLsCe2VD",
+   "nf_build": "no",
+   "nf_evidence": "cardinal-components-api: 1.21.1 共 3 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "cloth-config",
+   "type": "库（原生版）",
+   "check": "配置界面能打开",
+   "version": "15.0.140",
+   "file": "cloth-config-15.0.140-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+   "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+   "deps": [],
+   "error": null,
+   "version_id": "HpMb5wGb",
+   "nf_build": "yes",
+   "nf_evidence": "cloth-config 15.0.140+neoforge (2024-09-16, loaders=neoforge)"
+  },
+  {
+   "slug": "yacl",
+   "type": "库（原生版）",
+   "check": "配置界面能打开",
+   "version": "3.8.2+1.21.1-fabric",
+   "file": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+   "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "version_id": "o3cDn8Vp",
+   "nf_build": "yes",
+   "nf_evidence": "yacl 3.8.2+1.21.1-neoforge (2026-01-09, loaders=neoforge)"
+  },
+  {
+   "slug": "resourceful-lib",
+   "type": "库",
+   "check": "依赖它的 mod 能起来",
+   "version": "3.0.12",
+   "file": "resourcefullib-fabric-1.21-3.0.12.jar",
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+   "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "version_id": "Hf91FuVF",
+   "nf_build": "yes",
+   "nf_evidence": "resourceful-lib 3.0.12 (2024-12-08, loaders=neoforge)"
+  },
+  {
+   "slug": "placeholder-api",
+   "type": "库",
+   "check": "modmenu 依赖",
+   "version": "2.4.2+1.21",
+   "file": "placeholder-api-2.4.2+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+   "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
+   "deps": [],
+   "error": null,
+   "version_id": "U5bhVym2",
+   "nf_build": "no",
+   "nf_evidence": "placeholder-api: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  },
+  {
+   "slug": "ukulib",
+   "type": "库",
+   "check": "totemcounter 依赖",
+   "version": "1.4.1+1.21",
+   "file": "ukulib-1.4.1+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/Y8uFrUil/versions/WIHBQHSG/ukulib-1.4.1%2B1.21.jar",
+   "sha1": "069701cb77c775ae2bfa9d59e4b9a18eafbb602d",
+   "deps": [],
+   "error": null,
+   "version_id": "WIHBQHSG",
+   "nf_build": "no",
+   "nf_evidence": "ukulib: 1.21.1 共 2 个版本，无一含 neoforge loader（实测 loader=fabric）"
+  }
+ ],
+ "content_phase2": [
+  {
+   "slug": "farmers-delight-refabricated",
+   "type": "内容",
+   "check": "种植/烹饪一件食物",
+   "version": "1.21.1-3.3.6+refabricated",
+   "file": "FarmersDelight-1.21.1-3.3.6+refabricated.jar",
+   "url": "https://cdn.modrinth.com/data/7vxePowz/versions/wbVXT4Ua/FarmersDelight-1.21.1-3.3.6%2Brefabricated.jar",
+   "sha1": "6d75a472d56c7cf0e9abc7e654861076e8eff389",
+   "deps": [
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "content",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "种植/烹饪一件食物",
+   "version_id": "wbVXT4Ua",
+   "nf_build": "no",
+   "nf_evidence": "farmers-delight-refabricated: 1.21.1 共 46 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "ported",
+   "connector_dep": "no",
+   "provenance_reason": "社区移植（MehVahdJukaar），内容组，本就不进分母",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "betterend",
+   "type": "内容",
+   "check": "创造物品栏出现 BetterEnd 方块",
+   "version": "21.0.11",
+   "file": "better-end-21.0.11.jar",
+   "url": "https://cdn.modrinth.com/data/gc8OEnCC/versions/4qhBEg6J/better-end-21.0.11.jar",
+   "sha1": "625f4340bd9ab67a08130a4167fc6a01777ab075",
+   "deps": [
+    "worldweaver",
+    "bclib",
+    "fabric-api"
+   ],
+   "error": null,
+   "scope": "content",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "创造物品栏出现 BetterEnd 方块",
+   "version_id": "4qhBEg6J",
+   "nf_build": "no",
+   "nf_evidence": "betterend: 1.21.1 共 4 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": ">=0.100.0"
+    },
+    {
+     "id": "bclib",
+     "slug": "bclib",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "21.0.13",
+     "spec": "21.0.x"
+    }
+   ]
+  },
+  {
+   "slug": "betternether",
+   "type": "内容",
+   "check": "进入下界看新群系",
+   "version": "21.0.11",
+   "file": "better-nether-21.0.11.jar",
+   "url": "https://cdn.modrinth.com/data/MpzVLzy5/versions/M1o6hR2m/better-nether-21.0.11.jar",
+   "sha1": "c6dcee6fd46d25d0bf2246549efd3da96ce45769",
+   "deps": [
+    "worldweaver",
+    "fabric-api",
+    "bclib"
+   ],
+   "error": null,
+   "scope": "content",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "进入下界看新群系",
+   "version_id": "M1o6hR2m",
+   "nf_build": "no",
+   "nf_evidence": "betternether: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": ">=0.100.0"
+    },
+    {
+     "id": "bclib",
+     "slug": "bclib",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "21.0.13",
+     "spec": "21.0.x"
+    }
+   ]
+  },
+  {
+   "slug": "the-bumblezone-fabric",
+   "type": "内容",
+   "check": "进入 Bumblezone 维度",
+   "version": "7.17.3+1.21.1-fabric",
+   "file": "the_bumblezone-7.17.3+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/eA8SXqWL/versions/WXjHJFB3/the_bumblezone-7.17.3%2B1.21.1-fabric.jar",
+   "sha1": "9fecf79de2158c90d8dd61c730de1428eb72fd71",
+   "deps": [
+    "fabric-api",
+    "midnightlib",
+    "resourceful-lib"
+   ],
+   "error": null,
+   "scope": "content",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "进入 Bumblezone 维度",
+   "version_id": "WXjHJFB3",
+   "nf_build": "no",
+   "nf_evidence": "the-bumblezone-fabric: 1.21.1 共 76 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "yes",
+   "deps_detail": [
+    {
+     "id": "resourcefullib",
+     "slug": null,
+     "kind": "jij",
+     "loader": "jij",
+     "version": "3.0.12",
+     "spec": ">=3.0.11"
+    },
+    {
+     "id": "midnightlib",
+     "slug": "midnightlib",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "1.10.0",
+     "spec": "*"
+    }
+   ]
+  },
+  {
+   "slug": "repurposed-structures-fabric",
+   "type": "内容",
+   "check": "新世界生成后结构出现",
+   "version": "7.5.22+1.21.1-fabric",
+   "file": "repurposed_structures-7.5.22+1.21.1-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/muf0XoRe/versions/JRMMCb1O/repurposed_structures-7.5.22%2B1.21.1-fabric.jar",
+   "sha1": "5cd080074996fbb0abdf1549bab5669094e73f69",
+   "deps": [
+    "fabric-api",
+    "midnightlib"
+   ],
+   "error": null,
+   "scope": "content",
+   "expected": "pass",
+   "expected_layer": null,
+   "verdict_mode": "manual",
+   "manual_check": "新世界生成后结构出现",
+   "version_id": "JRMMCb1O",
+   "nf_build": "no",
+   "nf_evidence": "repurposed-structures-fabric: 1.21.1 共 17 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "midnightlib",
+     "slug": "midnightlib",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "1.10.0",
+     "spec": ">=1.5.7"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "主样本 = 分母（auto 9 / manual 35）；负例、移植类、infra、内容组都不进分母。",
+  "依赖一律装 Fabric 构建（测 Connector remap 路径）；cloth-config / yacl / resourceful-lib 的原生构建只作参照组，评测台不自动装。",
+  "fabric-api(桥接) 指运行时模组 forgified-fabric-api（44 模块），不是 Modrinth 上的 fabric-api，见 assembly.ffapi。",
+  "坏 jar 会毒化 Connector early remap，必须单样本隔离跑（HANDOFF 决策 28）：隔离粒度是 mods 目录 + 存档，不是整实例复制。",
+  "依赖闭包 61/61 完整；每个 jar 带 version_id + sha1，评测台装完必须校验（compat/deps_closure.json）。",
+  "replaymod 1.21-2.6.28 在 NeoForge 21.1 下必崩（L2 目标迁移 + Connector 错误重定位 @At），不是 mod 自身 bug，也不是 refmap 缺口；详见 compat/replaymod-investigation.md。"
+ ],
+ "excluded_l3_no_native": [
+  "vulkanmod",
+  "exordium",
+  "nvidium",
+  "cull-less-leaves",
+  "indium",
+  "c2me-fabric",
+  "ebe",
+  "animatica",
+  "skyboxify",
+  "flashback",
+  "threadtweak",
+  "bobby",
+  "axiom",
+  "cit-resewn",
+  "particular",
+  "eating-animation",
+  "capes",
+  "gamma-utils"
+ ],
+ "excluded_l3_with_native": [
+  {
+   "slug": "sodium",
+   "evidence": "mc1.21.1-0.8.13-neoforge（2026-08-28，官方构建，已实测进世界通过：决策 29）"
+  },
+  {
+   "slug": "iris",
+   "evidence": "1.8.14-beta.1+1.21.1-neoforge（2026-06-13）"
+  },
+  {
+   "slug": "sodium-extra",
+   "evidence": "mc1.21.1-0.9.5+neoforge（2026-10-25）"
+  }
+ ],
+ "excluded_l3_notes": {
+  "removed": [
+   "distancetransform（Modrinth 上无此 slug，404，删除）"
+  ],
+  "indium_note": "indium 无 NeoForge 构建，且它是 Sodium 的 Fabric 端 FRAPI 实现补丁；NeoForge 上不需要，属“真不做”而非“没得做”"
+ },
+ "scope_declaration": {
+  "v1": "客户端侧（UI/HUD/QoL/性能/库）",
+  "out_of_scope": "服务端/内容层（worldgen、结构、配方、生物）不进 90% 口径",
+  "reason": "内容正确性无法用“进存档 + 无崩溃”判定（要按种子比对地形/结构/掉落），smoke 测试只会给出假数字；仅保留 6 个内容组样本在阶段 2 做“能进世界”的 smoke，单独报告"
+ },
+ "rate_definition": {
+  "auto_n": 9,
+  "manual_n": 32,
+  "fixed": true,
+  "auto": "auto_rate = auto_pass_n / 9",
+  "manual": "manual_rate = manual_pass_n / 32（分母 = main 里 verdict_mode=manual 且未被移出的样本；未核样本不计入分子也不改分母）",
+  "negative": "expected=fail 的样本不进任何分母，只验证判定器判得出失败且层归对",
+  "ported": "provenance=ported 的样本不进任何分母：失败优先归因移植质量，对 Connector 桥接补丁无指导意义",
+  "scope_banner": "覆盖范围：客户端侧（UI/HUD/QoL/性能/库）；内容层与服务端不在 90% 口径内",
+  "auto_scope_note": "auto 子集是按“能否自动断言”挑的（无 UI / 有文件产物 / 有日志标记），不代表主样本集分布；auto_rate 只描述这 9 个样本",
+  "negative_note": "负例：carpet（expected=fail, L2）已实测 fail/L2；mixintrace 的 L4 假设被推翻，移入 hypotheses_falsified。另有两个 jar 级可复现负例控制见 negative_controls。",
+  "note": "分母按 main 实际成员计算（replaymod、minihud 因 L2 上游缺口移出，不进分母）；auto 只用于回归，人工结果以 manual_results 为准。"
+ },
+ "negative": [
+  {
+   "slug": "carpet",
+   "version": "1.4.147+v240613",
+   "file": "fabric-carpet-1.21-1.4.147+v240613.jar",
+   "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/f2mvlGrg/fabric-carpet-1.21-1.4.147%2Bv240613.jar",
+   "sha1": "54f2907d83e67283d165336f26e5219d4bd36037",
+   "version_id": "f2mvlGrg",
+   "nf_build": "no",
+   "nf_evidence": "carpet: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "verdict_mode": "manual",
+   "expected": "fail",
+   "expected_layer": "L2",
+   "manual_check": "/carpet 指令可用、规则生效（预期失败，见 expected）",
+   "check": "/carpet 命令有响应",
+   "type": null,
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [],
+   "expected_reason": "mixin 改 vanilla 活塞/方块更新行为（PistonStructureResolver_customStickyMixin、Level_fillUpdatesMixin），经 Connector 重映射后 apply 失败",
+   "hypothesis_falsified": false,
+   "actual_verdict": "fail",
+   "actual_reason": "fatal_in_log",
+   "actual_layer": "L2",
+   "actual_run": "20261104-125206"
+  }
+ ],
+ "ported_out": [
+  {
+   "slug": "beautify-refabricated",
+   "version": "3.6.5",
+   "file": "beautify-3.6.5-fabric+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/DhSSvaxs/versions/qpzaFKKc/beautify-3.6.5-fabric%2B1.21.1.jar",
+   "sha1": "0842c2a4abc37097d2ac662ba84ce44efdfbe80e",
+   "version_id": "qpzaFKKc",
+   "nf_build": "no",
+   "nf_evidence": "beautify-refabricated: 1.21.1 共 7 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": null,
+   "manual_check": "装饰方块/物品外观生效",
+   "check": "放置一件装饰方块",
+   "type": null,
+   "provenance": "ported",
+   "connector_dep": "no",
+   "deps_detail": [
+    {
+     "id": "cloth-config",
+     "slug": "cloth-config",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "15.0.140",
+     "spec": "*"
+    },
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": ">=0.115.0+1.21.1"
+    }
+   ],
+   "provenance_reason": "社区 refabrication（Suel-ki），非原作者发布"
+  },
+  {
+   "slug": "sophisticated-core-unofficial-fabric-port",
+   "version": "1.21.1-1.2.9.21.168",
+   "file": "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+   "url": "https://cdn.modrinth.com/data/9jxwkYQL/versions/ZLVrtF0Q/sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+   "sha1": "43a95dfa338a2a6ba3ea33a5efa0ac040331e50c",
+   "version_id": "ZLVrtF0Q",
+   "nf_build": "no",
+   "nf_evidence": "sophisticated-core-unofficial-fabric-port: 1.21.1 共 19 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "verdict_mode": "auto",
+   "expected": "pass",
+   "expected_layer": null,
+   "manual_check": null,
+   "check": "客户端",
+   "type": null,
+   "provenance": "ported",
+   "connector_dep": "yes",
+   "deps_detail": [
+    {
+     "id": "fabric-api",
+     "slug": null,
+     "kind": "ffapi-root",
+     "loader": "ffapi(桥接)",
+     "version": "provided-by-forgified",
+     "spec": ">=0.114.0+1.21.1"
+    },
+    {
+     "id": "forgeconfigapiport",
+     "slug": "forge-config-api-port",
+     "kind": "fabric",
+     "loader": "fabric",
+     "version": "21.1.6",
+     "spec": ">=21.1.3"
+    },
+    {
+     "id": "team_reborn_energy",
+     "slug": null,
+     "kind": "jij",
+     "loader": "jij",
+     "version": "4.1.0",
+     "spec": ">=4.1.0"
+    }
+   ],
+   "provenance_reason": "Unofficial Fabric port（Salandora）"
+  }
+ ],
+ "assembly": {
+  "ffapi": "fabric-api(桥接) = SuperLoader 运行时模组 forgified-fabric-api-<ver>+<n>+1.21.1.jar（44 个模块），由 superloader.py 的 MOD_SLUGS 下载到 <mods>/；不是样本依赖，不从 Modrinth 装 fabric-api",
+  "runtime_mods": [
+   "connector-*-full.jar",
+   "forgified-fabric-api-*.jar",
+   "superloader_companion-*.jar"
+  ],
+  "mods_isolation": "每样本独立 mods 目录 instances/1.21.1/mods.compat/<slug>/，经 SL_MODS_DIR 指过去；libraries/versions/assets 只读共享，不复制",
+  "save": "运行前从 logs/compat/save-backup/新的世界 恢复存档（首次运行先备份，17 MB），避免样本间污染",
+  "timeout": "启动后 240 秒内 runtime.json 未更新（mtime 与 generated_at 都不变）→ verdict=fail reason=timeout_no_runtime",
+  "crash_screen": "进程存活但出现新的 crash-reports/*.txt 或日志出现 crash screen 标记 → fail reason=crash_screen（关窗 exit_code=0 不算 pass）",
+  "join_evidence": "companion 的 world_joined 事件尚未实现（P1 待办）。当前用客户端日志的强证据判定：(A) LoggerChunkProgressListener 的 `Time elapsed: <n> ms`（出生点区块加载完成，一次性打印）；(B) `Saving chunks for level`（世界被保存过，只可能发生在进入之后）。弱证据只记录不判定：AdvancementTree 的 `Loaded <n> advancements`、`Preparing spawn area`。同时记录 `level.dat` mtime 是否推进作为旁证。实测 2026-11-04 12:06 原生 Sodium 启动：强证据命中 `Time elapsed: 273 ms`，弱证据命中 `Loaded 1465 advancements`，level.dat 被写。",
+  "isolation": "每样本 mods.compat/<slug>/ → 运行时把实例 mods/ 暂存为 mods.__baseline、复制样本目录到 mods/（FML 只扫 gameDir/mods），跑完立即换回；异常中断用 --restore-mods",
+  "verdict_gate": "pass 还要求 sample_loaded=true：样本自己的 jar 必须出现在本次 ModList 且 loaded 非空，否则 fail(sample_not_loaded)——首轮 12:16 的 9 个 pass 就是没过这道门（游戏读的是实例 mods/）",
+  "fail_order": "fatal_in_log > crash_screen > timeout_no_runtime > sample_not_loaded > no_world_join > pass"
+ },
+ "exceptions": [
+  "fastquit 3.0.0+1.20.6：jar 内 depends.minecraft = \">=1.20.5\"（读自 fabric.mod.json），1.21.1 满足，不会触发 L0；版本号只是旧命名（1.21.1 上无更新构建）。",
+  "tooltipfix 1.1.1-1.20：jar 内 depends 里**没有 minecraft 项**（只有 fabricloader>=0.12.5 与 fabric），FML 不会因 MC 版本拒绝加载；但它是 1.20 编译的，风险落在 L2/L4（映射/方法签名），不在 L0。",
+  "distancetransform / distance-transform 在 Modrinth 均 404，没能确认是改名重发；已从 L3 排除名单删除（项目不存在，不属于“L3 不做”）。",
+  "appleskin 换 NeoForge 版 3.0.9（不内嵌 cloth-config）后，顶层放 NeoForge 版 cloth-config 15.0.140，Fabric 侧 depends cloth-config 的样本（* 与 >=15.0.140）全部解析成功，modmenu 正常，suspects=0。旧结论「Fabric 版 appleskin 内嵌 15.0.127 锁死 cloth-config」仅对 Fabric 版成立。fallingleaves 的 L2（@Invoker 访问 ParticleEngine$MutableSpriteSet 失败）与 cloth-config 无关，已移出。",
+  "fallingleaves 1.17.1+1.21.1：L2 访问失败（@Invoker target ParticleEngine$MutableSpriteSet 是 package-private，而发布包 fabric.mod.json 无 accessWidener 键，jar 内 .aw 是死文件）。不是 Connector 重映射缺口——mapped jar 里 target 已正确映射为 mojang 名；上游 build.gradle 有 loom.accessWidenerPath，发布丢键。核实见 compat/fallingleaves-investigation.md，扫描表 compat/invoker_inner_target_scan.md。",
+  "malilib 家族（malilib/litematica/tweakeroo/minihud）的 mixin config 都不带 refmap（直接用 intermediary 名），Connector 重映射正常；minihud 的 MixinLanguage 在 NeoForge 上失败是因为 NeoForge 把 Language.loadFromJson(InputStream,BiConsumer) 改成转发给 3 参重载、BiConsumer.accept 调用点搬走，@ModifyArgs 扫到 0 条（L2，见 compat/minihud-investigation.md）。",
+  "friends-and-foes 5.0.4+mc1.21.1 在 NeoForge 下崩在枚举 mixin attach：MobCategory 的 7 参构造器是 NeoForge 的保留构造器（RuntimeEnumExtender 消费），Fabric 枚举 mixin 找不到它 → Mixin NPE。不是 mod bug、不是 refmap 缺口，见 compat/friendsandfoes-investigation.md；已移出 mods/。",
+  "language-reload 1.7.6+1.21.1：TranslationStorageMixin 的 separateTranslations 在 Connector 下为 null（构造顺序假设被 Connector 的 Language 补丁打破），开创造物品栏/JEI 多语言搜索时 NPE；已由用户禁用，不修，记录为 L2（见 compat/languagereload-investigation.md）。"
+ ],
+ "negative_controls": [
+  {
+   "slug": "neg_dep_test",
+   "jar": "logs/dep-test/superloader_dep_test-1.0.0.jar",
+   "expected": "fail",
+   "expected_layer": "L0",
+   "observed": {
+    "verdict": "fail",
+    "reason": "fatal_in_log",
+    "fatal": "Error during pre-loading phase: Some of your mods are incompatible ... requires version 99.0.0 or later of fabric_screen_api_v1"
+   },
+   "note": "纯元数据 jar，depends fabric-screen-api-v1 >=99.0.0；证明判定器能抓到初始化阶段依赖失败"
+  },
+  {
+   "slug": "neg_sodium_fabric",
+   "jar": "logs/tmp-mods-backup/[钠] sodium-fabric-0.8.13+mc1.21.1.jar",
+   "expected": "fail",
+   "expected_layer": "L2",
+   "observed": {
+    "verdict": "fail",
+    "reason": "fatal_in_log",
+    "fatal": "Mixin apply for mod sodium failed ... InvalidInjectionException ... Found unexpected argument type float[] at index 2, expected float"
+   },
+   "note": "Fabric 版 Sodium 经 Connector 重映射后 @WrapMethod handler 签名不匹配；证明判定器能抓到 mixin 注解重映射失败"
+  }
+ ],
+ "last_run": {
+  "date": "2026-11-05",
+  "auto_pass": 9,
+  "auto_n": 9,
+  "manual_verified": 31,
+  "manual_pass": 31,
+  "manual_n": 32,
+  "note": "auto 9/9 来自 2026-11-04 auto 批次；manual 为 57 jar 实例（18:57 启动 exit 0 / fatal 0 / suspects 0）人工验收；replaymod 与 minihud 因 L2 上游缺口移出，不算分母。"
+ },
+ "hypotheses_falsified": [
+  {
+   "slug": "mixintrace",
+   "version": "1.1.1+1.17",
+   "file": "mixintrace-1.1.1+1.17.jar",
+   "url": "https://cdn.modrinth.com/data/sGmHWmeL/versions/1.1.1%2B1.17/mixintrace-1.1.1%2B1.17.jar",
+   "sha1": "7fbb0130db0e427ee7180d304dfa65c46f0e3b69",
+   "version_id": "LGYOH4RN",
+   "nf_build": "no",
+   "nf_evidence": "mixintrace: 1.21.1 共 1 个版本，无一含 neoforge loader（实测 loader=fabric）",
+   "verdict_mode": "manual",
+   "expected": "pass",
+   "expected_layer": "none",
+   "manual_check": "mixin 服务正常（预期失败，见 expected）",
+   "check": "客户端",
+   "type": null,
+   "provenance": "official",
+   "connector_dep": "no",
+   "deps_detail": [],
+   "expected_reason": "原假设 L4（钩 MixinService/agent 内部）被真实隔离下的实测推翻：12:52 单样本重跑 pass，loaded=true，进存档",
+   "hypothesis_falsified": true,
+   "actual_verdict": "pass",
+   "actual_reason": "ok",
+   "actual_layer": "none",
+   "actual_run": "20261104-125222"
+  }
+ ],
+ "excluded_upstream_defects": [
+  {
+   "slug": "fallingleaves",
+   "version": "1.17.1",
+   "file": "fallingleaves-1.17.1+1.21.1.jar",
+   "sha1": "5210b4cb359a95c53580b1399f98e51ab0967cc5",
+   "layer": "L2",
+   "cause": "上游缺陷：发布包 fabric.mod.json 丢 accessWidener 键，jar 内 .aw 是死文件；@Invoker target ParticleEngine$MutableSpriteSet 为 package-private → IllegalAccessError",
+   "not_connector": "Connector 的 mapped jar 里 target 已正确映射为 mojang 内部类名，不是 remap 缺口",
+   "action": "已移出实例 mods/，不修、不改 jar；做上游 issue 才是正确修法",
+   "date": "2026-11-05",
+   "evidence": "compat/fallingleaves-investigation.md; compat/invoker_inner_target_scan.md",
+   "reproduce_cmd": "java -cp superloader_companion-0.5.2.jar com.superloader.companion.repair.RefmapRepair --dry-run ..."
+  },
+  {
+   "slug": "replaymod",
+   "version": "1.21-2.6.28",
+   "file": "replaymod-1.21-2.6.28.jar",
+   "layer": "L2",
+   "cause": "NeoForge 21.1 把 GameRenderer.render 里的 Screen;renderWithTooltip 调用换成 ClientHooks.drawScreen，原注入点消失；Connector 把 @At target 重写成 DeltaTracker;getGameTimeDeltaTicks 且丢掉 shift=AFTER，handler 每帧在 overlay 阶段执行，GuiGraphics 为 null 时 VanillaGuiScreen$EventHandler.onGuiRender 的 stack.flush() NPE",
+   "not_mod_bug": "replaymod 的 mixins.jgui.refmap.json 里有该注入点的正确映射（class_437;method_47413），Fabric 上靠 refmap 正常工作；同类的 @ModifyArg 在 mapped jar 里未被改写",
+   "cluster": "165 个 jar 里只有 replaymod 的 MixinGameRenderer 在 GameRenderer.render 里注入被移走的 Screen;renderWithTooltip；其余（chatpatches/cloth-config/JEI/Jade/sodium/midnightlib/lenientdeath）只是调用 GuiGraphics.flush() 或注入 Screen 自己的方法",
+   "action": "不在 companion 写特判；作为 Connector 上游 mixin patch 缺口处理，issue 草稿见 compat/replaymod-investigation.md",
+   "date": "2026-11-05",
+   "evidence": "compat/replaymod-investigation.md; crash-reports/crash-2026-11-05_13.40.40-client.txt"
+  },
+  {
+   "slug": "minihud",
+   "layer": "L2",
+   "cause": "NeoForge 21.1.265 把 Language.loadFromJson(InputStream,BiConsumer) 改成转发给 3 参重载，BiConsumer.accept 的调用点搬走；minihud 的 @ModifyArgs 在 2 参方法体里扫到 0 条 → required mixin 注入失败，启动即崩",
+   "not_mod_bug": true,
+   "cluster": "malilib 家族四个 jar 里只有 minihud 有 Language 的 mixin",
+   "action": "移出 mods/，不修；需要 Connector 上游加 patch 把注入点迁到 3 参重载",
+   "evidence": [
+    "compat/minihud-investigation.md",
+    "crash-2026-11-05_18.41.34-client.txt",
+    "neoforge-21.1.265-client.jar: net/minecraft/locale/Language"
+   ]
+  },
+  {
+   "slug": "the-bumblezone-fabric",
+   "mod_id": "the_bumblezone",
+   "version": "7.17.3+1.21.1",
+   "layer": "L2",
+   "stage": "connector_jar_transform",
+   "cause": "Connector 的 adapter（ResolverSyntheticInstanceof）在 Recipe.getDirtyTarget() 为 null 时直接解引用，转换 the_bumblezone 的 LivingEntityMixin 时 NPE，整个 jar 转换中止",
+   "not_mod_bug": true,
+   "cluster": "只在 the-bumblezone-fabric 7.17.3+1.21.1 上复现；1.21.1 上 Connector 最新 beta.17 仍有此问题，26.x 的 3.x 构建无法用于 1.21.1",
+   "action": "短期移出 mods/；治本给 Sinytra/Connector 提 issue（adapter null 检查）",
+   "evidence": "compat/bumblezone-investigation.md"
+  },
+  {
+   "slug": "friends-and-foes",
+   "name": "Friends & Foes",
+   "version": "5.0.4+mc1.21.1",
+   "layer": "L2",
+   "cause": "NeoForge 枚举扩展机制接管了 MobCategory 的 7 参保留构造器，Fabric 枚举 mixin（AddCustomSpawnGroupMixin）在 attach 阶段找不到该构造器，Mixin 抛 NPE（method is null）",
+   "not_mod_bug": true,
+   "cluster": "enum_mixin_attach_reserved_ctor",
+   "action": "移出 mods/（保留在 logs/removed-mods/）；Modrinth 无 NeoForge 构建；治本需 Connector 支持枚举 mixin → IExtensibleEnum 转换，上游 issue 已起草",
+   "evidence": "compat/friendsandfoes-investigation.md"
+  },
+  {
+   "slug": "language-reload",
+   "version": "1.7.6+1.21.1",
+   "layer": "L2",
+   "stage": "runtime_charTyped",
+   "cause": "TranslationStorageMixin 假设“每次加载语言只构造一次 Language”：onLoad 在 ClientLanguage.loadFrom HEAD 把 separateTranslationsOnLoad 填好，Language.<init> TAIL 消费并置空；Connector 的 Language 补丁把内部 loadFromJson 指向 3 参重载后，构造/加载顺序发生变化，第二个 ClientLanguage 实例拿到 null 的 separateTranslations，languagereload_get 直接 NPE",
+   "not_mod_bug": true,
+   "evidence": [
+    "crash-2026-11-05_20.24.47-client.txt: RemappedThrowable: Cannot invoke \"java.util.Map.get(Object)\" because \"this.separateTranslations\" is null @ ClientLanguage.languagereload_get(ClientLanguage.java:554)",
+    "TranslationStorageMixin.onConstructed: separateTranslations = separateTranslationsOnLoad; separateTranslationsOnLoad = null",
+    "mapped jar 里 onInternalLoad$saveSeparately 的 loadFromJson 调用已被 Connector 改写成 3 参重载",
+    "崩溃报告 Mixins in Stacktrace: ClientLanguage ← jerozgen.languagereload.mixin.TranslationStorageMixin"
+   ],
+   "action": "用户已禁用 language-reload；companion 无法修（要改别人字段的消费逻辑），等上游加 null 兜底或 Connector 调整 Language 补丁顺序",
+   "doc": "compat/languagereload-investigation.md"
+  }
+ ],
+ "next_batch": [
+  {
+   "slug": "replaymod",
+   "file": "replaymod-1.21-2.6.28.jar",
+   "sha1": "528894b52cf3a35aac362e6eaf8e60f6f1364b98",
+   "version": "1.21-2.6.28",
+   "manual_check": "录制开始/停止、回放能加载（预期失败，见 expected）",
+   "deps_note": "非 malilib，可先加；FFAPI 提供: fabric-networking-api-v1,fabric-key-binding-api-v1,fabric-resource-loader-v0"
+  }
+ ],
+ "manual_results": [
+  {
+   "slug": "better-mount-hud",
+   "check": "骑乘时 HUD 显示血量/跳跃条",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "language-reload",
+   "check": "F3+T 重载语言不崩、界面文字正确",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": false,
+   "note": "已禁用（L2：separateTranslations 为 null），不算人工通过项"
+  },
+  {
+   "slug": "morechathistory",
+   "check": "聊天记录条数超出原版上限",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "tooltipfix",
+   "check": "长提示文本换行而非溢出屏幕",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "main-menu-credits",
+   "check": "主菜单右下角出现版本/署名文本",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "fabrishot",
+   "check": "截图快捷键生成本地高清截图文件",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "visuality",
+   "check": "粒子效果按配置出现",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "paginatedadvancements",
+   "check": "进度界面分页可用",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "inmis",
+   "check": "背包物品栏可用、存取正常",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "status-effect-bars",
+   "check": "状态效果 HUD 条显示且位置正确",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "connectiblechains",
+   "check": "链条连接相邻栅栏",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "appleskin",
+   "check": "饱食度/饱和度 HUD 显示（换 NeoForge 3.0.9 后重验）",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": false,
+   "note": "NeoForge 构建，不是 Fabric 样本；只作为整包功能检查，不进 manual_n"
+  },
+  {
+   "slug": "better-ping-display-fabric",
+   "check": "多人服务器中 HUD 显示 ping/延迟条",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "held-item-info",
+   "check": "手持物品时 HUD 显示附魔/耐久信息",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "fpsdisplay",
+   "check": "HUD 显示帧率且数值随场景变化",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "reacharound",
+   "check": "远距离放置方块时手臂伸展",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "cave-dust",
+   "check": "洞穴尘埃粒子可见",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "wakes",
+   "check": "水中尾迹粒子可见",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "better-selection",
+   "check": "方块选中框样式改变",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "chatpatches",
+   "check": "聊天记录持久化、重启后仍在",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-44jar.json",
+   "in_corpus": true
+  },
+  {
+   "slug": "presence-footsteps",
+   "check": "走路/落地音效与粒子正常",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "optigui",
+   "check": "打开箱子/工作台界面正常，无 GUI 错位",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "stendhal",
+   "check": "按 F 打开书本式界面，文本渲染正常",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "custom-splash-screen",
+   "check": "启动画面显示自定义 splash",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "hold-my-items",
+   "check": "移动物品时模型在手中保持",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "universal-graves",
+   "check": "死亡后墓碑生成、可拾取物品",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "lenient-death",
+   "check": "死亡不掉落配置生效",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "totemcounter",
+   "check": "不死图腾计数 HUD 显示",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "malilib",
+   "check": "Mods → MaLiLib → Config 能开 GUI，热键注册无异常",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "litematica",
+   "check": "能打开投影菜单并加载一个 .litematic（无投影可只看菜单）",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "tweakeroo",
+   "check": "能打开 tweakeroo 配置 GUI",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  },
+  {
+   "slug": "itemscroller",
+   "check": "滚轮在背包/箱子间移动物品正常",
+   "result": "pass",
+   "date": "2026-11-05",
+   "baseline": "compat/baseline-57jar.json",
+   "in_corpus": true,
+   "note": "用户在 57 jar 实例（2026-11-05 18:57 启动，exit 0、fatal 0、suspects 0）实测通过"
+  }
+ ],
+ "done_batch_20261105": [
+  {
+   "slug": "better-ping-display-fabric",
+   "result": "pass"
+  },
+  {
+   "slug": "held-item-info",
+   "result": "pass"
+  },
+  {
+   "slug": "fpsdisplay",
+   "result": "pass"
+  },
+  {
+   "slug": "reacharound",
+   "result": "pass"
+  },
+  {
+   "slug": "cave-dust",
+   "result": "pass"
+  },
+  {
+   "slug": "wakes",
+   "result": "pass"
+  },
+  {
+   "slug": "better-selection",
+   "result": "pass"
+  },
+  {
+   "slug": "chatpatches",
+   "result": "pass"
+  }
+ ],
+ "next_batch_2": [
+  {
+   "slug": "minihud",
+   "file": "minihud-fabric-1.21-0.32.60.jar",
+   "sha1": "302a3cf8a3054b59dc1dba75799d01ef48d66aa5",
+   "version": "0.32.60",
+   "manual_check": "打开信息行显示坐标/生物群系等",
+   "deps_note": "malilib 家族，后加；额外 jar: malilib"
+  }
+ ],
+ "issue_collection": "compat/connector-issues.md",
+ "issue_drafts": "compat/issues/"
+}

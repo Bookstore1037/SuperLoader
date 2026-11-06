@@ -1,0 +1,118 @@
+﻿{
+    "recorded_at":  "2026-11-04T21:49:01",
+    "mods_count":  24,
+    "jars":  [
+                 {
+                     "jar":  "[JEI物品管理器] jei-1.21.1-neoforge-19.64.0.455.jar",
+                     "sha1":  "f6d6fc08d54c40752926b570a2220471e8c45c1a"
+                 },
+                 {
+                     "jar":  "[模组菜单] modmenu-11.0.5.jar",
+                     "sha1":  "2321d890a25b5985eba576d7cd8fe9a9c136e33d"
+                 },
+                 {
+                     "jar":  "[苹果皮] appleskin-fabric-mc1.21-3.0.6.jar",
+                     "sha1":  "97452cfadfde1f8f8c67838643019eabafa58fbb"
+                 },
+                 {
+                     "jar":  "[舒适用品] comforts-fabric-9.0.5+1.21.1.jar",
+                     "sha1":  "e47d6c2f0213abed8865dfa51ee05dea86c1baa9"
+                 },
+                 {
+                     "jar":  "[玉 🔍] Jade-1.21.1-NeoForge-15.10.6.jar",
+                     "sha1":  "88ee316e68900080b017f60c12162e2731924cf8"
+                 },
+                 {
+                     "jar":  "connector-2.0.0-beta.17+1.21.1-full.jar",
+                     "sha1":  "15e652d3628b1bcb644b93576fcab154496f770a"
+                 },
+                 {
+                     "jar":  "Debugify-1.21.1+1.1.jar",
+                     "sha1":  "3388ba4c0f973f0a73a68a42048fe902bb2b14ea"
+                 },
+                 {
+                     "jar":  "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+                     "sha1":  "f1d4ab6ecd54d9782521333a87eb50724ecb03e0"
+                 },
+                 {
+                     "jar":  "fasterrandom-5.1.0.jar",
+                     "sha1":  "440720daaf51d5ad88a96ed59e1f59c63fad3f73"
+                 },
+                 {
+                     "jar":  "fastquit-3.0.0+1.20.6.jar",
+                     "sha1":  "9c4bf4fc3292d627fe0eff85a96672a15f27338c"
+                 },
+                 {
+                     "jar":  "forcecloseloadingscreen-2.2.3.jar",
+                     "sha1":  "58a3ba92c29cbe914c18cc1e9c336616b7899ded"
+                 },
+                 {
+                     "jar":  "forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar",
+                     "sha1":  "1fe1ca9f440cd30c86186e42505694b70ececc11"
+                 },
+                 {
+                     "jar":  "JadeAddons-1.21.1-NeoForge-6.1.2.jar",
+                     "sha1":  "479b327078f8f0091e2413675d1236c931f68cf4"
+                 },
+                 {
+                     "jar":  "krypton-0.2.8.jar",
+                     "sha1":  "73e792eb5f120787becda4b87b6ff18b26caea50"
+                 },
+                 {
+                     "jar":  "lazy-language-loader-0.3.7.jar",
+                     "sha1":  "ea6349ba680dc616df1dc9b0d348b9d416bf2025"
+                 },
+                 {
+                     "jar":  "mixintrace-1.1.1+1.17.jar",
+                     "sha1":  "7fbb0130db0e427ee7180d304dfa65c46f0e3b69"
+                 },
+                 {
+                     "jar":  "no-resource-pack-warnings-1.3.1.jar",
+                     "sha1":  "7a21f4604fab946201e2cfc1a9a8f526f5581cdf"
+                 },
+                 {
+                     "jar":  "sodium-neoforge-0.8.13+mc1.21.1.jar",
+                     "sha1":  "1757289be21ed18db5b0d90703fa3db1b2de5693"
+                 },
+                 {
+                     "jar":  "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+                     "sha1":  "c36982af69e6d9d9dbac52e4d6c43e8a64fc6163"
+                 },
+                 {
+                     "jar":  "superloader_companion-0.5.2.jar",
+                     "sha1":  "d0c0e1efb93e2894d7bb5f1b50e5a105ed0b406f"
+                 },
+                 {
+                     "jar":  "trinkets-3.10.0.jar",
+                     "sha1":  "f54756f938c7c273713b9f97d4a987eec551e892"
+                 },
+                 {
+                     "jar":  "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+                     "sha1":  "b5e43905a6b2b491885048b291670d0da689b5d0"
+                 },
+                 {
+                     "jar":  "yosbr-0.1.2.jar",
+                     "sha1":  "f0340e9c0bc95d67f3f3e9c1cd79b61054af11f9"
+                 },
+                 {
+                     "jar":  "zoomify-2.15.2+1.21.1.jar",
+                     "sha1":  "9ec9c47e1d3465ea0cbd595b6d9d12227239c9a6"
+                 }
+             ],
+    "versions":  {
+                     "companion":  "0.5.2",
+                     "connector":  "2.0.0-beta.17",
+                     "ffapi":  "0.116.15+2.3.6+1.21.1"
+                 },
+    "verdict":  {
+                    "launch_exit_code":  0,
+                    "launch_fatal_count":  0,
+                    "stale":  false,
+                    "suspects":  0,
+                    "apis_issues":  1,
+                    "cls_classpath_conflicts":  0
+                },
+    "manual_checks":  [
+
+                      ]
+}

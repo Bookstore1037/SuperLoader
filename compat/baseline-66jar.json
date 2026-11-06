@@ -1,0 +1,480 @@
+{
+  "recorded_at": "2026-11-06T12:07:05",
+  "mods_count": 66,
+  "versions": {
+    "companion": "0.6.3",
+    "connector": "2.0.0-beta.17+1.21.1",
+    "ffapi": "0.116.15+2.3.6+1.21.1"
+  },
+  "jars": [
+    {
+      "jar": "[JEI物品管理器] jei-1.21.1-neoforge-19.64.0.455.jar",
+      "sha1": "f6d6fc08d54c40752926b570a2220471e8c45c1a"
+    },
+    {
+      "jar": "[农夫乐事] FarmersDelight-1.21.1-1.3.4.jar",
+      "sha1": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657"
+    },
+    {
+      "jar": "[分页进度] paginatedadvancements-2.5.1.jar",
+      "sha1": "23a4570fb52d62135d705156079e52ddfe980b94"
+    },
+    {
+      "jar": "[可视性] visuality-0.7.7+1.21.jar",
+      "sha1": "8d239710c1c1983d780ad04686c3c3d0d1b1585e"
+    },
+    {
+      "jar": "[同伴与对手] friendsandfoes-neoforge-5.0.4+mc1.21.1.jar",
+      "sha1": "0bb94ce6451d043fc480188f7e44715b83f351e8"
+    },
+    {
+      "jar": "[模组菜单] modmenu-11.0.5.jar",
+      "sha1": "2321d890a25b5985eba576d7cd8fe9a9c136e33d"
+    },
+    {
+      "jar": "[物品滚轮] itemscroller-fabric-1.21-0.24.60.jar",
+      "sha1": "6021424b738c3810b635cf66718daff0486e4a60"
+    },
+    {
+      "jar": "[玉 🔍] Jade-1.21.1-NeoForge-15.10.6.jar",
+      "sha1": "88ee316e68900080b017f60c12162e2731924cf8"
+    },
+    {
+      "jar": "[舒适用品] comforts-fabric-9.0.5+1.21.1.jar",
+      "sha1": "e47d6c2f0213abed8865dfa51ee05dea86c1baa9"
+    },
+    {
+      "jar": "[苹果皮] appleskin-neoforge-mc1.21-3.0.9.jar",
+      "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246"
+    },
+    {
+      "jar": "bclib-21.0.13.jar",
+      "sha1": "6a46eb6a8fb9cc0adb878b0ad12555834078c2b3"
+    },
+    {
+      "jar": "better-end-21.0.11.jar",
+      "sha1": "625f4340bd9ab67a08130a4167fc6a01777ab075"
+    },
+    {
+      "jar": "better-nether-21.0.11.jar",
+      "sha1": "c6dcee6fd46d25d0bf2246549efd3da96ce45769"
+    },
+    {
+      "jar": "better-selection-1.6.8.jar",
+      "sha1": "b7d49d2bb41fa673ef4b2c07d95193a5b32a0010"
+    },
+    {
+      "jar": "bettermounthud-1.2.4.jar",
+      "sha1": "4df822bd5bd7d2e125eb9c7fdb38bb4b6ee0476e"
+    },
+    {
+      "jar": "BetterPingDisplay-Fabric-1.21.1-1.1.1.jar",
+      "sha1": "534ba30ec8a7ea23048a507d02a651b6ddcaf523"
+    },
+    {
+      "jar": "cave_dust-3.0.1.jar",
+      "sha1": "a9f2b1af1dc26b23c1f07a067b58781280e3274d"
+    },
+    {
+      "jar": "chatpatches-8.0.0+1.21.1-fabric.jar",
+      "sha1": "2701c37aa71ed3e193243712cd10d06d011a1f0e"
+    },
+    {
+      "jar": "cloth-config-15.0.140-neoforge.jar",
+      "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
+    },
+    {
+      "jar": "connectiblechains-2.5.7+1.21.1.jar",
+      "sha1": "ad08f0f3a6c6cc1891dc6fce385c41ac9af4046c"
+    },
+    {
+      "jar": "connector-2.0.0-beta.17+1.21.1-full.jar",
+      "sha1": "15e652d3628b1bcb644b93576fcab154496f770a"
+    },
+    {
+      "jar": "customsplashscreen-2.2.2.jar",
+      "sha1": "c5567c7efc6a305eaebfee46ef1a7b63068c5818"
+    },
+    {
+      "jar": "Debugify-1.21.1+1.1.jar",
+      "sha1": "3388ba4c0f973f0a73a68a42048fe902bb2b14ea"
+    },
+    {
+      "jar": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+      "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0"
+    },
+    {
+      "jar": "fabrishot-1.14.1.jar",
+      "sha1": "c8afc690bb3508df7db793f37e1fe5407dba2f22"
+    },
+    {
+      "jar": "fasterrandom-5.1.0.jar",
+      "sha1": "440720daaf51d5ad88a96ed59e1f59c63fad3f73"
+    },
+    {
+      "jar": "fastquit-3.0.0+1.20.6.jar",
+      "sha1": "9c4bf4fc3292d627fe0eff85a96672a15f27338c"
+    },
+    {
+      "jar": "forcecloseloadingscreen-2.2.3.jar",
+      "sha1": "58a3ba92c29cbe914c18cc1e9c336616b7899ded"
+    },
+    {
+      "jar": "forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar",
+      "sha1": "1fe1ca9f440cd30c86186e42505694b70ececc11"
+    },
+    {
+      "jar": "fpsdisplay-4.2.1+1.21.1.jar",
+      "sha1": "d91988c71ccf830c14a5594b3038cdced9dfe3fb"
+    },
+    {
+      "jar": "graves-3.4.4+1.21.jar",
+      "sha1": "e289663f13de87ed871fccb8837c5d69cc3bb2e6"
+    },
+    {
+      "jar": "held-item-info-1.7.0.jar",
+      "sha1": "32f34e6b481e2d3ca5e0d6205dc699872f2f2315"
+    },
+    {
+      "jar": "HMI 4.3 - 1.21.(1).jar",
+      "sha1": "19ff289fa00d338092458265f3ed24a92a9ada5f"
+    },
+    {
+      "jar": "inmis-2.8.2-1.21.1.jar",
+      "sha1": "466363e2abf837ed7b0a4543a2c1d5bbe954cffb"
+    },
+    {
+      "jar": "JadeAddons-1.21.1-NeoForge-6.1.2.jar",
+      "sha1": "479b327078f8f0091e2413675d1236c931f68cf4"
+    },
+    {
+      "jar": "krypton-0.2.8.jar",
+      "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50"
+    },
+    {
+      "jar": "lazy-language-loader-0.3.7.jar",
+      "sha1": "ea6349ba680dc616df1dc9b0d348b9d416bf2025"
+    },
+    {
+      "jar": "lenientdeath-1.2.5+1.21.1.jar",
+      "sha1": "cca7eb614db1053e9b8f8f413bc7bc82edcd472a"
+    },
+    {
+      "jar": "litematica-fabric-1.21-0.19.61.jar",
+      "sha1": "efce2dd7118b1e61c8aa461bd8cc9902907dd863"
+    },
+    {
+      "jar": "main-menu-credits-1.2.0.jar",
+      "sha1": "c70e6b5d94958c6b3fc668b7c9622e9a4788b806"
+    },
+    {
+      "jar": "malilib-fabric-1.21-0.21.10.jar",
+      "sha1": "e2699ef71618c54fc03c6c8b28e336603596dcef"
+    },
+    {
+      "jar": "midnightlib-fabric-1.10.0+1.21.1.jar",
+      "sha1": "3120b1329ab0d01b4af4e659495259bffee2ddae"
+    },
+    {
+      "jar": "mixintrace-1.1.1+1.17.jar",
+      "sha1": "7fbb0130db0e427ee7180d304dfa65c46f0e3b69"
+    },
+    {
+      "jar": "morechathistory-1.3.1.jar",
+      "sha1": "b4337ef9dc0a6cdf31d8f3df68a6542f64f3625e"
+    },
+    {
+      "jar": "no-resource-pack-warnings-1.3.1.jar",
+      "sha1": "7a21f4604fab946201e2cfc1a9a8f526f5581cdf"
+    },
+    {
+      "jar": "optigui-2.3.0-beta.9+1.21.jar",
+      "sha1": "9f72bd80779118624138cace74da349b5cf31b6f"
+    },
+    {
+      "jar": "PresenceFootsteps-1.11.2+1.21.jar",
+      "sha1": "2e0228905a1e5a2ddecb00d40d764a64a4600a6e"
+    },
+    {
+      "jar": "reacharound+1.21-1.3.1.jar",
+      "sha1": "4d56d0a9beac6de9d74dbd6b52291e9da8f5cc00"
+    },
+    {
+      "jar": "repurposed_structures-7.5.22+1.21.1-fabric.jar",
+      "sha1": "5cd080074996fbb0abdf1549bab5669094e73f69"
+    },
+    {
+      "jar": "resourcefullib-neoforge-1.21-3.0.12.jar",
+      "sha1": "24389c8e48ff0e8594e4686b750c494c66a5f8df"
+    },
+    {
+      "jar": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693"
+    },
+    {
+      "jar": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+      "sha1": "c36982af69e6d9d9dbac52e4d6c43e8a64fc6163"
+    },
+    {
+      "jar": "status-effect-bars-1.0.6.jar",
+      "sha1": "c44856cace7ab4ccf37ede190ab1275dd1920af6"
+    },
+    {
+      "jar": "stendhal-1.4.1-1.21.jar",
+      "sha1": "a653cc8d30a28d600ad6e1b3045564ebf9d67efc"
+    },
+    {
+      "jar": "superloader_companion-0.6.3.jar",
+      "sha1": "afff09bfe7a79ce1ed346cc579a4eeaf7cbc60ca"
+    },
+    {
+      "jar": "tooltipfix-1.1.1-1.20.jar",
+      "sha1": "de704792c691e3d19316c87c21c9ad2bee6c66c3"
+    },
+    {
+      "jar": "totemcounter-1.6.1+mc1.21.jar",
+      "sha1": "fb1d6035bd1d783330bae757d1013c0ad888f6e9"
+    },
+    {
+      "jar": "trinkets-3.10.0.jar",
+      "sha1": "f54756f938c7c273713b9f97d4a987eec551e892"
+    },
+    {
+      "jar": "tweakeroo-fabric-1.21-0.21.61.jar",
+      "sha1": "0abe7330be5d4d6c55f1a094ab639e64ea4c5816"
+    },
+    {
+      "jar": "ukulib-1.4.1+1.21.jar",
+      "sha1": "069701cb77c775ae2bfa9d59e4b9a18eafbb602d"
+    },
+    {
+      "jar": "wakes-0.4.1+1.21.1.jar",
+      "sha1": "c4f4d09a4b9362bcc952f370ce8c8b44d662dc42"
+    },
+    {
+      "jar": "worldweaver-21.0.13.jar",
+      "sha1": "01e7196395386bbddc3ff7d47fe37869a850cecd"
+    },
+    {
+      "jar": "wunderlib-21.0.8.jar",
+      "sha1": "ad8c66609db363765855983f0e7f3b655ed0cc64"
+    },
+    {
+      "jar": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+      "sha1": "b5e43905a6b2b491885048b291670d0da689b5d0"
+    },
+    {
+      "jar": "yosbr-0.1.2.jar",
+      "sha1": "f0340e9c0bc95d67f3f3e9c1cd79b61054af11f9"
+    },
+    {
+      "jar": "zoomify-2.15.2+1.21.1.jar",
+      "sha1": "9ec9c47e1d3465ea0cbd595b6d9d12227239c9a6"
+    }
+  ],
+  "verdict": {
+    "launch_exit_code": 0,
+    "launch_fatal_count": 0,
+    "stale": false,
+    "suspects": 0,
+    "apis_issues": 0,
+    "cls_classpath_conflicts": 0,
+    "launch_finished_at": "2026-11-06T12:04:59+08:00",
+    "covers_current_mods": true
+  },
+  "manual_checks": [
+    {
+      "mod": null,
+      "check": "骑乘时 HUD 显示血量/跳跃条",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "F3+T 重载语言不崩、界面文字正确",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "聊天记录条数超出原版上限",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "长提示文本换行而非溢出屏幕",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "主菜单右下角出现版本/署名文本",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "截图快捷键生成本地高清截图文件",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "粒子效果按配置出现",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "进度界面分页可用",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "背包物品栏可用、存取正常",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "状态效果 HUD 条显示且位置正确",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "链条连接相邻栅栏",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "饱食度/饱和度 HUD 显示（换 NeoForge 3.0.9 后重验）",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "多人服务器中 HUD 显示 ping/延迟条",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "手持物品时 HUD 显示附魔/耐久信息",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "HUD 显示帧率且数值随场景变化",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "远距离放置方块时手臂伸展",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "洞穴尘埃粒子可见",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "水中尾迹粒子可见",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "方块选中框样式改变",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "聊天记录持久化、重启后仍在",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "走路/落地音效与粒子正常",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "打开箱子/工作台界面正常，无 GUI 错位",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "按 F 打开书本式界面，文本渲染正常",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "启动画面显示自定义 splash",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "移动物品时模型在手中保持",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "死亡后墓碑生成、可拾取物品",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "死亡不掉落配置生效",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "不死图腾计数 HUD 显示",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "Mods → MaLiLib → Config 能开 GUI，热键注册无异常",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "能打开投影菜单并加载一个 .litematic（无投影可只看菜单）",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "能打开 tweakeroo 配置 GUI",
+      "result": "pass",
+      "date": "2026-11-05"
+    },
+    {
+      "mod": null,
+      "check": "滚轮在背包/箱子间移动物品正常",
+      "result": "pass",
+      "date": "2026-11-05"
+    }
+  ],
+  "note": "65 jar instance, 2026-11-06 12:03 launch, companion 0.6.3"
+}
